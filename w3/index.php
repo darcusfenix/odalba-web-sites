@@ -17,15 +17,83 @@
     }
 
     body.front .affix-top {
-        background: rgba(255, 255, 255, 0.55);;
+        background: rgba(39, 95, 198, 0.55);
     }
     .affix {
-        background-color: #FFFFFF;
+        background-color: #478CFF;
         padding-top: 60px;
         padding-bottom: 10px;
     }
-</style>
 
+    #copyright .bottomLine {                
+        background-color: #1E4284;;
+        color: white;
+    }
+    // #DF2A2F
+
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 50%;
+        left: 15%;
+        z-index: 10;
+        padding-top: 57px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    }
+    .carousel-caption h3{
+        font-size: 80pt;
+    }
+    .carousel-caption p {
+        color: #050A30;
+        text-shadow: 2px 2px 7px #000;
+        font-size: 25pt;
+        font-weight: 500;
+    }
+    div#about {
+        background-color: rgba(240, 248, 255, 0);
+    }
+
+
+    #owl-demo .item{
+        margin: 3px;
+    }
+    #owl-demo .item img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar-nav.navbar-right:last-child {
+       // margin-right: 30%;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: rgb(255, 255, 255);
+    }
+/*
+    .navbar-nav.navbar-right:last-child {
+        left: 50%;
+        position: absolute;
+        top: 100%;
+        margin-top: -25px;
+        background-color: #3668A7;
+        margin-left: -200px;
+    }
+    */
+   .navbar-nav.navbar-right {
+    left: 50%;
+    position: absolute;
+    top: 100%;
+    margin-top: -40px;
+    background-color: #3668A7;
+    margin-left: -200px;  
+    border-bottom: #143061;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+}
+</style>
 <header>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="0">
         <div class="container-fluid">
@@ -42,8 +110,8 @@
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
-                <ul class="nav navbar-nav">
+            <div class="collapse navbar-collapse " id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
                     <li  class="first leaf"><a href="#" title=""> <span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
                     <li  class="leaf"><a href="#" title="">Inicio</a></li>                    
                     <li  class="leaf"><a href="#" title="">Servicios</a></li>
@@ -109,38 +177,12 @@
                                         <!-- Wrapper for slides -->
                                         <div class="carousel-inner" role="listbox">
 
-                                            <style type="text/css">
-                                                .carousel-caption {
-                                                    position: absolute;
-                                                    right: 15%;
-                                                    bottom: 50%;
-                                                    left: 15%;
-                                                    z-index: 10;
-                                                    padding-top: 57px;
-                                                    padding-bottom: 20px;
-                                                    color: #fff;
-                                                    text-align: center;
-                                                    text-shadow: 0 1px 2px rgba(0,0,0,.6);
-                                                }
-                                                .carousel-caption h3{
-                                                    font-size: 80pt;
-                                                }
-                                                .carousel-caption p {
-                                                    color: #050A30;
-                                                    text-shadow: 2px 2px 7px #000;
-                                                    font-size: 25pt;
-                                                    font-weight: 500;
-                                                }
-                                                div#about {
-                                                    background-color: rgba(240, 248, 255, 0);
-                                                }
 
-                                            </style>
 
                                             <div class="item active">
                                                 <img src="img/1.jpg" width="100%">
                                                 <div class="carousel-caption">
-                                                    <h3>Obnibus de Cancun</h3>
+                                                    <h3>Obnibus de Merida</h3>
                                                     <p> La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.   </p>
                                                 </div>
                                             </div>
@@ -148,7 +190,7 @@
                                             <div class="item">
                                                 <img src="img/1.jpg" width="100%" >
                                                 <div class="carousel-caption">
-                                                    <h3>Obnibus de Cancun</h3>
+                                                    <h3>Obnibus de Merida</h3>
                                                     <p> La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.   </p>
                                                 </div>
                                             </div>
@@ -156,7 +198,7 @@
                                             <div class="item">
                                                 <img src="img/1.jpg" width="100%" >
                                                 <div class="carousel-caption">
-                                                    <h3>Obnibus de Cancun</h3>
+                                                    <h3>Obnibus de Merida</h3>
                                                     <p> La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.   </p>
                                                 </div>
                                             </div>
@@ -164,7 +206,7 @@
                                             <div class="item">
                                                 <img src="img/1.jpg" width="100%">
                                                 <div class="carousel-caption">
-                                                    <h3>Obnibus de Cancun</h3>
+                                                    <h3>Obnibus de Merida</h3>
                                                     <p> La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.   </p>
                                                 </div>
                                             </div>
@@ -196,7 +238,7 @@
                                             <div class="mdpb-subrow sub-row-4211">
                                                 <div class="spb-column spb-column-42111 col-xs-12 col-lg-8 col-md-8 col-sm-10 col-md-offset-2 text-center">
                                                     <img src="img/icono_estrella.png" alt="Logo" />
-                                                    <h2>Grupo obnibus de cancun</h2>
+                                                    <h2>Grupo obnibus de merida</h2>
                                                     <div class="spb-custom-phoenix-paragraph">
                                                         <div style="text-align: center;" class="">
                                                             <p style="color:rgb(76, 76, 76)"  data-scroll-reveal="enter bottom move 10px over 1s after 0.2s" >Más de 45 años “haciendo camino”, nos han perfeccionado para poder ofrecer el servicio de autotransporte turístico más especializado y de vanguardia dentro de nuestro país.</p>
@@ -345,17 +387,7 @@
 
                         <div id="about" class="md-section spb-section-4">
                             <div class="container">
-                                <style>
-                                    #owl-demo .item{
-                                        margin: 3px;
-                                    }
-                                    #owl-demo .item img{
-                                        display: block;
-                                        width: 100%;
-                                        height: auto;
-                                    }
 
-                                </style>
                                 <div class="row spb-row-42">
                                     <div class="spb-column spb-column-421 col-lg-12 col-md-12 col-sm-12 col-xs-12 sectionIntro">
                                         <div class="sublayout-column">
@@ -472,13 +504,7 @@
             </div>
 
         </section>
-        <style type="text/css">
-            #copyright .bottomLine {                
-                background-color: #DF2A2F;
-                color: white;
-            }
-            #DF2A2F
-        </style>
+
         <section id="copyright" class="dark">
 
             <div class="bottomLine">
