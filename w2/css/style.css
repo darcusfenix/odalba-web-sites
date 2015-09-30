@@ -1,0 +1,138 @@
+@font-face {
+    font-family: futura-light;
+    src: url('../fonts/FuturaLight.ttf');
+}
+
+.text-theme{
+    color: #e7287e;
+}
+.navbar-nav i{
+    font-size: 22px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #FFFFFF;
+}
+body.front .affix-top{
+    width: 100% !important;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+body.front .affix-top .container-fluid{
+    margin-top: 60px;
+    background-color: rgba(10,10,88,.5);
+}
+body.front .affix-top .bg-text-theme{
+    margin-top: 60px;
+    background-color: rgba(118,138,250,.1);
+    border-top: 1px solid rgba(148,148,250,1);
+    border-bottom: 1px solid rgba(148,148,250,1);
+}
+.navbar-brand img{
+    margin-top: -100px;
+    opacity: 1;
+}
+.text-white{
+    color: #FFFFFF;
+}
+.text-black{
+    color: #000000;
+}
+.navbar-default .navbar-nav > li > a.text-black{
+    color: #000000;
+}
+.navbar-default .navbar-nav > li > a.active{
+    color: #b42a47;
+}
+.ma-top-10{
+    margin-top: 20px;
+}
+.header-info-contacto{
+    font-size: 16px;
+}
+#intro .valign hr{
+    border: 2px solid white;
+}
+.intro-container{
+    width: 50%;
+    margin: 0px auto;
+    padding: 15px;
+}
+#intro p{
+    font-size: 20px;
+}
+#intro .black-hover{
+    background-color: rgba(0,0,0,0.6);
+}
+
+/*
+    SECCIÓN PRESENTACIÓN
+*/
+
+.spb-custom-phoenix-section-header h2{
+    letter-spacing: 1px;
+    font-size: 45px;
+}
+.spb-custom-phoenix-paragraph hr{
+    border: 1px solid #b42a47;
+    width: 200px;
+}
+#text-separator{
+    background-color: #FFFFFF;
+    margin-top: -170px;
+}
+.ours-history > div{
+    height: auto;
+}
+.ours-history img{
+    width: auto;
+    height: 100%;
+}
+.history-text h2, .history-text p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #000000 !important;
+}
+.history-text p{
+    text-align: justify;
+}
+.affix .navbar-nav > li > a.text-black{
+    color: white;
+}
+.parallax-window{
+    height: 500px;
+    background-color: transparent;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.parallax-window h2{
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px auto;
+    width: 570px;
+    letter-spacing: 1px;
+    margin-top: 190px;
+}
+.btn-info-parallax{
+    background-color: #e7287e;
+    padding: 5px;
+    font-size: 26px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 200;
+    -webkit-box-shadow: 3px 3px 13px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    3px 3px 13px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         3px 3px 13px 0px rgba(50, 50, 50, 0.75);
+}
+.btn-info-parallax:link, 
+.btn-info-parallax:visited,
+.btn-info-parallax:hover,
+.btn-info-parallax:active {
+    color: #FFFFFF;
+}
