@@ -1,5 +1,10 @@
-<?php include_once '../w1/sources/header.php'; ?>
+<?php include_once './sources/header.php'; ?>
 <style type="text/css">
+    body{
+        font-family: 'Dosis', sans-serif !important;
+        font-weight: 400 !important; 
+        
+    }
     .black-overlay{
         background: none;
     }
@@ -511,12 +516,15 @@
                 <strong data-scroll-reveal="enter left move 10px over 1s after 0.2s">Todos los derechos reservados. </strong>Aviso de privacidad
             </div>
         </section>
-    </div></div>    <script>
-        $.backstretch('img/fondo.jpg');
+    </div></div>    
+	<script>
+	
+
+        $(document).ready(function () {
+			        $.backstretch('img/fondo.jpg');
         $("#compromiso-banner").backstretch('./img/compromiso.jpg');
         $("#profesionalismo-banner").backstretch('./img/profesionalismo.jpg');
 
-        $(document).ready(function () {
 
             $("#owl-demo").owlCarousel({
                 autoPlay: 3000, //Set AutoPlay to 3 seconds
@@ -531,4 +539,4 @@
 
 </script>
 
-<?php include_once '../w1/sources/footer.php'; ?>
+<?php include_once './sources/footer.php'; ?>
