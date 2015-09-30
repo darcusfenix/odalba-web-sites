@@ -45,6 +45,7 @@
             @import url("http://grupobecm.com/odalba/sites/all/modules/fontello/css/fontello.fix.css?nnfn1j");
             @import url("http://grupobecm.com/odalba/sites/default/files/icon/fontello/font_awesome/css/animation.css?nnfn1j");
         </style>
+		 <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 
         <!--[if IE 7]>
         <style type="text/css" media="all">
@@ -60,12 +61,12 @@
             @import url("http://grupobecm.com/odalba/sites/all/themes/md_phoenix/css/front/responsive.css?nnfn1j");
             @import url("http://grupobecm.com/odalba/sites/all/themes/md_phoenix/css/front/custom-phoenix-overlay-css.css?nnfn1j");
         </style>
-        <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,900%7CMontserrat:400,700" media="all" />
+      
     
         <!--[if lte IE 7]>
         <link type="text/css" rel="stylesheet" href="http://grupobecm.com/odalba/sites/all/themes/md_phoenix/css/ie7.css?nnfn1j" media="all" />
         <![endif]-->
-        <script type="text/javascript" src="http://grupobecm.com/odalba/sites/all/modules/jquery_update/replace/jquery/1.9/jquery.min.js?v=1.9.1"></script>
+       
         <script type="text/javascript" src="http://grupobecm.com/odalba/sites/default/files/languages/es_0-m4YBrfBRTA_SMQeY86a-zVA5gm13dSx5ESOsrK12E.js?nnfn1j"></script>
         <script type="text/javascript" src="http://grupobecm.com/odalba/sites/all/modules/simplr_page_builder/js/jquery.wow.min.js?nnfn1j"></script>
         <script type="text/javascript" src="https://www.youtube.com/player_api"></script>
@@ -110,5 +111,6 @@
           <script src="js/respond.min.js"></script>
         <![endif]-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Dosis:200' rel='stylesheet' type='text/css'>
     </head>
     <body class="html front not-logged-in no-sidebars page-node page-node- page-node-65 page-type-page-builder spb-enabled i18n-es"  id="bigWrapper" data-spy="scroll" data-target=".navbar-default" data-offset="100">
