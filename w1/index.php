@@ -15,7 +15,18 @@
     .logo-individual-home:hover, .black-overlay-logos:hover{
 
     }
-
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 15%;
+        left: 15%;
+        z-index: 10;
+        padding-top: 57px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+        /* text-shadow: 0 1px 2px rgba(0,0,0,.6); */
+    }
     body.front .affix-top {
         background: rgba(255, 255, 255, 0.55);;
     }
@@ -23,6 +34,19 @@
         background-color: #FFFFFF;
         padding-top: 60px;
         padding-bottom: 10px;
+    }
+    .color-white{
+        color:white;
+    }
+    .clip-circle {
+        clip-path: circle(60px at center);
+    }
+    img.clip-circle {
+        border-radius: 50%;
+    }
+
+    .section_item {
+        margin-top: 25% !important; 
     }
 </style>
 
@@ -44,12 +68,13 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li  class="first leaf"><a href="#" title=""> <span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
-                    <li  class="leaf"><a href="#" title="">Inicio</a></li>                    
+
+                    <li  class="leaf"><a href="#" title=""><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Principal</a></li>                    
+                    <li  class="leaf"><a href="#" title=""><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Inicio</a></li>                    
                     <li  class="leaf"><a href="#" title="">Servicios</a></li>
                     <li  class="leaf"><a href="#" title="">Equipo</a></li>                    
                     <li  class="leaf"><a href="#">Contacto</a></li>
-                    <li  class="last leaf"><a href="#" title=""> <span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
+
                 </ul>      </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
@@ -113,21 +138,21 @@
                                                 .carousel-caption {
                                                     position: absolute;
                                                     right: 15%;
-                                                    bottom: 50%;
+                                                    bottom: 15%;
                                                     left: 15%;
                                                     z-index: 10;
                                                     padding-top: 57px;
                                                     padding-bottom: 20px;
                                                     color: #fff;
                                                     text-align: center;
-                                                    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+                                                    /* text-shadow: 0 1px 2px rgba(0,0,0,.6); */
                                                 }
                                                 .carousel-caption h3{
                                                     font-size: 80pt;
                                                 }
                                                 .carousel-caption p {
                                                     color: #050A30;
-                                                    text-shadow: 2px 2px 7px #000;
+                                                   /* text-shadow: 2px 2px 7px #000; */
                                                     font-size: 25pt;
                                                     font-weight: 500;
                                                 }
@@ -218,7 +243,7 @@
                                     <div class="spb-column spb-column-111 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
                                         <div class="content">
-                                            <div id="block-phoenix-config-phoenix-banner" class="block block-phoenix-config" style="min-height: 600pt">
+                                            <div id="block-phoenix-config-phoenix-banner" class="block block-phoenix-config" style="min-height: 450pt">
                                                 <style>
                                                     .section_item{
                                                         margin-top: 20%;
@@ -229,22 +254,57 @@
                                                 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
                                                 <!--/* Intro  */-->
                                                 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-                                                <section id="intro">
+                                                <section sid="intro">
 
                                                     <div class="container section_item" >
                                                         <div class="row ">
 
-                                                            <div class="col-md-12 text-center">
-                                                                <h1>Compromiso</h1>
-                                                            </div>
-                                                            <div class="col-md-6 col-md-offset-3 text-center">
-                                                                <p>
-                                                                    La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.                
-                                                                </p>
+                                                            <div class="col-md-4" data-scroll-reveal="enter top move 10px over 1s after 0.2s">
+
+                                                                <div class="col-md-12 text-center">
+                                                                    <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg" class="clip-circle" width="100px" height="100px"/>
+                                                                    <h3 class="color-white">COMPROMISO</h3>
+                                                                </div>
+                                                                <div class="col-md-6 col-md-offset-3 text-center">
+                                                                    <p class="color-white">
+                                                                        La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.                
+                                                                    </p>
+                                                                </div>
+
+
+
                                                             </div>
 
-                                                            <div class="col-md-6 col-md-offset-3 text-center">
-                                                                <a class="btn btn-default">presentacion</a>
+                                                            <div class="col-md-4" data-scroll-reveal="enter top move 10px over 1s after 0.4s">
+
+                                                                <div class="col-md-12 text-center" >
+                                                                    <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg" class="clip-circle" width="100px" height="100px"/>
+                                                                    <h3 class="color-white">ESPECIALIZACIÓN</h3>
+                                                                </div>
+                                                                <div class="col-md-6 col-md-offset-3 text-center">
+                                                                    <p class="color-white">
+                                                                        La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.                
+                                                                    </p>
+                                                                </div>
+
+
+
+                                                            </div>
+
+                                                            <div class="col-md-4" data-scroll-reveal="enter top move 10px over 1s after 0.6s">
+
+                                                                <div class="col-md-12 text-center">
+                                                                    <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg" class="clip-circle" width="100px" height="100px"/>
+                                                                    <h3 class="color-white">PROFESIONALISMO</h3>
+                                                                </div>
+                                                                <div class="col-md-6 col-md-offset-3 text-center">
+                                                                    <p class="color-white">
+                                                                        La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.                
+                                                                    </p>
+                                                                </div>
+
+
+
                                                             </div>
 
                                                         </div>
@@ -265,82 +325,7 @@
                         </div>
                         <!-- fin tercera seccion-->
 
-                        <div id="about" class="md-section spb-section-4">
-                            <div class="container">
 
-                                <div class="row spb-row-42">
-                                    <div class="spb-column spb-column-421 col-lg-12 col-md-12 col-sm-12 col-xs-12 sectionIntro">
-                                        <div class="sublayout-column">
-                                            <div class="mdpb-subrow sub-row-4211">
-                                                <div class="spb-column spb-column-42111 col-xs-12 col-lg-8 col-md-8 col-sm-10 col-md-offset-2 text-center">
-                                                    <img src="img/icono_pista.png" alt="Logo" />
-                                                    <h2>Especialización</h2>
-                                                    <div class="spb-custom-phoenix-paragraph">
-                                                        <div style="text-align: center;" class="">
-                                                            <p style="color:rgb(76, 76, 76)"  data-scroll-reveal="enter bottom move 10px over 1s after 0.2s" >Más de 45 años “haciendo camino”, nos han perfeccionado para poder ofrecer el servicio de autotransporte turístico más especializado y de vanguardia dentro de nuestro país.</p>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>                                                                               
-                            </div>
-                        </div>
-                        <!-- fin cuarta seccion -->
-
-                        <div id="profesionalismo-banner" class="md-section spb-section-1">
-                            <div class="container-fluid">
-                                <div class="row spb-row-11">
-                                    <div class="spb-column spb-column-111 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-
-                                        <div class="content">
-                                            <div id="block-phoenix-config-phoenix-banner" class="block block-phoenix-config" style="min-height: 600pt">
-                                                <style>
-                                                    .section_item{
-                                                        margin-top: 25%;
-                                                    }
-                                                </style>
-
-
-                                                <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-                                                <!--/* Intro  */-->
-                                                <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-                                                <section id="intro">
-
-                                                    <div class="container section_item" >
-                                                        <div class="row ">
-
-                                                            <div class="col-md-12 text-center">
-                                                                <h1>Profesionalismo</h1>
-                                                            </div>
-                                                            <div class="col-md-6 col-md-offset-3 text-center">
-                                                                <p>
-                                                                    La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.                
-                                                                </p>
-                                                            </div>
-
-                                                            <div class="col-md-6 col-md-offset-3 text-center">
-                                                                <a class="btn btn-default">presentacion</a>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                </section>
-                                                <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-                                                <!--/* END Intro  */-->
-                                                <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->       
-
-
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
                         <!-- fin quinta seccion-->
 
                         <div id="about" class="md-section spb-section-4">
@@ -401,8 +386,8 @@
                                     <div class="col-md-4">
                                         <div class="contact-icon">
                                             <h4 data-scroll-reveal="enter left move 10px over 1s after 0.2s" style="    margin-top: 30px;">Contacto</h4>   
-                                            <p><i class="glyphicon glyphicon-home"></i> Telefono : +52-00-00-00-00</p>
-                                            <p><i class="glyphicon glyphicon-home"></i> email : <a href="">odalba@mail.com</a></p>
+                                            <p><i class="glyphicon glyphicon-phone"></i> Telefono : +52-00-00-00-00</p>
+                                            <p><i class="glyphicon glyphicon-envelope"></i> email : <a href="">odalba@mail.com</a></p>
                                             <p><i class="glyphicon glyphicon-home"></i> Direcci&oacute;n : </p>
 
                                         </div>
