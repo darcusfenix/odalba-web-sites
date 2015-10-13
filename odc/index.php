@@ -1,4 +1,4 @@
-<?php include_once '../w1/sources/header.php'; ?>
+<?php include_once '../odc/sources/header.php'; ?>
 <style type="text/css">
     .black-overlay{
         background: none;
@@ -44,7 +44,11 @@
     img.clip-circle {
         border-radius: 50%;
     }
-
+    
+    .color-red{
+        color: #DF2A2F;
+    }
+    
     .section_item {
         margin-top: 25% !important; 
     }
@@ -262,7 +266,7 @@
                                                             <div class="col-md-4" data-scroll-reveal="enter top move 10px over 1s after 0.2s">
 
                                                                 <div class="col-md-12 text-center">
-                                                                    <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg" class="clip-circle" width="100px" height="100px"/>
+                                                                    <img src="./img/compromiso.jpg" class="clip-circle" width="100px" height="100px"/>
                                                                     <h3 class="color-white">COMPROMISO</h3>
                                                                 </div>
                                                                 <div class="col-md-6 col-md-offset-3 text-center">
@@ -278,7 +282,7 @@
                                                             <div class="col-md-4" data-scroll-reveal="enter top move 10px over 1s after 0.4s">
 
                                                                 <div class="col-md-12 text-center" >
-                                                                    <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg" class="clip-circle" width="100px" height="100px"/>
+                                                                    <img src="img/especializacion.jpg" class="clip-circle" width="100px" height="100px"/>
                                                                     <h3 class="color-white">ESPECIALIZACIÓN</h3>
                                                                 </div>
                                                                 <div class="col-md-6 col-md-offset-3 text-center">
@@ -294,7 +298,7 @@
                                                             <div class="col-md-4" data-scroll-reveal="enter top move 10px over 1s after 0.6s">
 
                                                                 <div class="col-md-12 text-center">
-                                                                    <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg" class="clip-circle" width="100px" height="100px"/>
+                                                                    <img src="img/profesionalismo.jpg" class="clip-circle" width="100px" height="100px"/>
                                                                     <h3 class="color-white">PROFESIONALISMO</h3>
                                                                 </div>
                                                                 <div class="col-md-6 col-md-offset-3 text-center">
@@ -348,12 +352,12 @@
                                                 <div class="spb-column spb-column-42111 col-xs-12 col-lg-10 col-md-8 col-sm-10 col-md-offset-2 text-center">
                                                     <div id="owl-demo">
 
-                                                        <div class="item"><img src="img/2.jpg" alt="Owl Image"></div>
-                                                        <div class="item"><img src="img/3.jpg" alt="Owl Image"></div>
-                                                        <div class="item"><img src="img/4.jpg" alt="Owl Image"></div>
-                                                        <div class="item"><img src="img/5.jpg" alt="Owl Image"></div>
-                                                        <div class="item"><img src="img/6.jpg" alt="Owl Image"></div>
-                                                        <div class="item"><img src="img/7.jpg" alt="Owl Image"></div>
+                                                        <div class="item"><img src="img/2.png" alt="Owl Image"></div>
+                                                        <div class="item"><img src="img/3.png" alt="Owl Image"></div>
+                                                        <div class="item"><img src="img/4.png" alt="Owl Image"></div>
+                                                        <div class="item"><img src="img/5.png" alt="Owl Image"></div>
+                                                        <div class="item"><img src="img/6.png" alt="Owl Image"></div>
+                                                        <div class="item"><img src="img/7.png" alt="Owl Image"></div>
 
 
                                                     </div>
@@ -386,9 +390,9 @@
                                     <div class="col-md-4">
                                         <div class="contact-icon">
                                             <h4 data-scroll-reveal="enter left move 10px over 1s after 0.2s" style="    margin-top: 30px;">Contacto</h4>   
-                                            <p><i class="glyphicon glyphicon-phone"></i> Telefono : +52-00-00-00-00</p>
-                                            <p><i class="glyphicon glyphicon-envelope"></i> email : <a href="">odalba@mail.com</a></p>
-                                            <p><i class="glyphicon glyphicon-home"></i> Direcci&oacute;n : </p>
+                                            <p><i class="glyphicon glyphicon-phone color-red"></i> Telefono : +52-00-00-00-00</p>
+                                            <p><i class="glyphicon glyphicon-envelope color-red"></i> email : <a href="">odalba@mail.com</a></p>
+                                            <p><i class="glyphicon glyphicon-home color-red"></i> Direcci&oacute;n : </p>
 
                                         </div>
                                     </div>
@@ -471,8 +475,8 @@
             </div>
         </section>
     </div></div>    <script>
-        $.backstretch('img/fondo.jpg');
-        $("#compromiso-banner").backstretch('./img/compromiso.jpg');
+        $.backstretch('img/fondo.png');
+        $("#compromiso-banner").backstretch('./img/compromiso.png');
         $("#profesionalismo-banner").backstretch('./img/profesionalismo.jpg');
 
         $(document).ready(function () {
@@ -490,4 +494,4 @@
 
 </script>
 
-<?php include_once '../w1/sources/footer.php'; ?>
+<?php include_once '../odc/sources/footer.php'; ?>

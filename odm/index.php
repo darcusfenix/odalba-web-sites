@@ -3,7 +3,7 @@
     body{
         font-family: 'Dosis', sans-serif !important;
         font-weight: 400 !important; 
-        
+
     }
     .black-overlay{
         background: none;
@@ -72,60 +72,62 @@
     }
 
     .navbar-nav.navbar-right:last-child {
-       // margin-right: 30%;
+        // margin-right: 30%;
     }
     .navbar-default .navbar-nav>li>a {
         color: rgb(255, 255, 255);
     }
-/*
-    .navbar-nav.navbar-right:last-child {
+    /*
+        .navbar-nav.navbar-right:last-child {
+            left: 50%;
+            position: absolute;
+            top: 100%;
+            margin-top: -25px;
+            background-color: #3668A7;
+            margin-left: -200px;
+        }
+     
+       .navbar-nav.navbar-right {
         left: 50%;
         position: absolute;
         top: 100%;
-        margin-top: -25px;
+        margin-top: -40px;
         background-color: #3668A7;
-        margin-left: -200px;
+        margin-left: -200px;  
+        border-bottom: #143061;
+        border-bottom-style: solid;
+        border-bottom-width: 5px;
     }
- 
-   .navbar-nav.navbar-right {
-    left: 50%;
-    position: absolute;
-    top: 100%;
-    margin-top: -40px;
-    background-color: #3668A7;
-    margin-left: -200px;  
-    border-bottom: #143061;
-    border-bottom-style: solid;
-    border-bottom-width: 5px;
-}
-*/
-.ip-header {
-    position: fixed;
-    top: 0;
-    z-index: 1050;
-    min-height: 480px;
-    width: 100%;
-    height: 100%;
-    background: #3A5077;
-}
+    */
+    .ip-header {
+        position: fixed;
+        top: 0;
+        z-index: 1050;
+        min-height: 480px;
+        width: 100%;
+        height: 100%;
+        background: #3A5077;
+    }
 
- .navbar-default .navbar-nav>li>a:hover {
-    color: rgb(113, 133, 166);
-    background-color: transparent;
-}
+    .navbar-default .navbar-nav>li>a:hover {
+        color: rgb(113, 133, 166);
+        background-color: transparent;
+    }
 
-.color-white{
+    .color-white{
         color:white;
     }
     .clip-circle {
         clip-path: circle(60px at center);
     }
     img.clip-circle {
-    border-radius: 50%;
+        border-radius: 50%;
     }
-    
+    .color-blue {
+        color: #1E4283;
+    }
     .section_item {
-     margin-top: 10% !important; 
+        margin-top: 10% !important; 
     }
 </style>
 <header>
@@ -151,7 +153,7 @@
                     <li  class="leaf"><a href="#" title="">Servicios</a></li>
                     <li  class="leaf"><a href="#" title="">Equipo</a></li>                    
                     <li  class="leaf"><a href="#">Contacto</a></li>
-                    
+
                 </ul>      </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
@@ -314,7 +316,7 @@
                                                             <div class="col-md-4">
 
                                                                 <div class="col-md-12 text-center">
-                                                                    <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg" class="clip-circle" width="100px" height="100px"/>
+                                                                    <img src="./img/_compromiso.jpg" class="clip-circle" width="100px" height="100px"/>
                                                                     <h3 class="color-white">COMPROMISO</h3>
                                                                 </div>
                                                                 <div class="col-md-6 col-md-offset-3 text-center">
@@ -330,7 +332,7 @@
                                                             <div class="col-md-4">
 
                                                                 <div class="col-md-12 text-center" >
-                                                                    <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg" class="clip-circle" width="100px" height="100px"/>
+                                                                    <img src="img/especializacion.jpg" class="clip-circle" width="100px" height="100px"/>
                                                                     <h3 class="color-white">ESPECIALIZACIÓN</h3>
                                                                 </div>
                                                                 <div class="col-md-6 col-md-offset-3 text-center">
@@ -346,7 +348,7 @@
                                                             <div class="col-md-4">
 
                                                                 <div class="col-md-12 text-center">
-                                                                    <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg" class="clip-circle" width="100px" height="100px"/>
+                                                                    <img src="img/profesionalismo.jpg" class="clip-circle" width="100px" height="100px"/>
                                                                     <h3 class="color-white">PROFESIONALISMO</h3>
                                                                 </div>
                                                                 <div class="col-md-6 col-md-offset-3 text-center">
@@ -386,12 +388,12 @@
                                                 <div class="spb-column spb-column-42111 col-xs-12 col-lg-10 col-md-8 col-sm-10 col-md-offset-2 text-center">
                                                     <div id="owl-demo">
 
-                                                        <div class="item"><img src="img/2.jpg" alt="Owl Image"></div>
-                                                        <div class="item"><img src="img/3.jpg" alt="Owl Image"></div>
-                                                        <div class="item"><img src="img/4.jpg" alt="Owl Image"></div>
-                                                        <div class="item"><img src="img/5.jpg" alt="Owl Image"></div>
-                                                        <div class="item"><img src="img/6.jpg" alt="Owl Image"></div>
-                                                        <div class="item"><img src="img/7.jpg" alt="Owl Image"></div>
+                                                        <div class="item"><img src="img/2.png" alt="Owl Image"></div>
+                                                        <div class="item"><img src="img/3.png" alt="Owl Image"></div>
+                                                        <div class="item"><img src="img/4.png" alt="Owl Image"></div>
+                                                        <div class="item"><img src="img/5.png" alt="Owl Image"></div>
+                                                        <div class="item"><img src="img/6.png" alt="Owl Image"></div>
+                                                        <div class="item"><img src="img/7.png" alt="Owl Image"></div>
 
 
                                                     </div>
@@ -424,9 +426,9 @@
                                     <div class="col-md-4">
                                         <div class="contact-icon">
                                             <h4 data-scroll-reveal="enter left move 10px over 1s after 0.2s" style="    margin-top: 30px;">Contacto</h4>   
-                                            <p><i class="glyphicon glyphicon-phone"></i> Telefono : +52-00-00-00-00</p>
-                                            <p><i class="glyphicon glyphicon-envelope"></i> email : <a href="">odalba@mail.com</a></p>
-                                            <p><i class="glyphicon glyphicon-home"></i> Direcci&oacute;n : </p>
+                                            <p><i class="glyphicon glyphicon-phone color-blue"></i> Telefono : +52-00-00-00-00</p>
+                                            <p><i class="glyphicon glyphicon-envelope color-blue"></i> email : <a href="">odalba@mail.com</a></p>
+                                            <p><i class="glyphicon glyphicon-home color-blue"></i> Direcci&oacute;n : </p>
 
                                         </div>
                                     </div>
@@ -476,7 +478,7 @@
                                             <p>
                                             </p>
                                             <p>
-                                                <img src="img/odm_blanco.png"/>    
+                                                <img src="img/logo_footer.png"/>    
                                             </p>
                                             <p>
                                                 fundados en 1968, somos pioneros en la transportaci&oacute;n
@@ -503,25 +505,25 @@
             </div>
         </section>
     </div></div>    
-	<script>
-	
+<script>
 
-        $(document).ready(function () {
-			        $.backstretch('img/fondo.jpg');
+
+    $(document).ready(function () {
+        $.backstretch('img/fondo.png');
         $("#compromiso-banner").backstretch('./img/compromiso.jpg');
         $("#profesionalismo-banner").backstretch('./img/profesionalismo.jpg');
 
 
-            $("#owl-demo").owlCarousel({
-                autoPlay: 3000, //Set AutoPlay to 3 seconds
-                responsive: true,
-                items: 3,
-                itemsDesktop: [1199, 3],
-                itemsDesktopSmall: [979, 3]
-
-            });
+        $("#owl-demo").owlCarousel({
+            autoPlay: 3000, //Set AutoPlay to 3 seconds
+            responsive: true,
+            items: 3,
+            itemsDesktop: [1199, 3],
+            itemsDesktopSmall: [979, 3]
 
         });
+
+    });
 
 </script>
 
