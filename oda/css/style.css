@@ -4,7 +4,7 @@
 }
 
 .text-theme{
-    color: #e7287e;
+    color: #b53348;
 }
 .navbar-nav i{
     font-size: 22px;
@@ -120,7 +120,7 @@ body.front .affix-top .bg-text-theme{
     margin-top: 190px;
 }
 .btn-info-parallax{
-    background-color: #e7287e;
+    background-color: #b53348;
     padding: 5px;
     font-size: 26px;
     color: #FFFFFF;
@@ -136,3 +136,105 @@ body.front .affix-top .bg-text-theme{
 .btn-info-parallax:active {
     color: #FFFFFF;
 }
+#copyright .bottomLine{
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #b53348;
+}
+.container  i{
+    display: block;
+}
+.infoContact li{
+    list-style: none;
+}
+.infoContact i, .infoContact span{
+    display: inline-block;
+}
+
+/*
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- RECUADROS SERVICIOS  -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+*/
+#servicios{
+    width: 80%;
+    margin: 0px auto;
+}
+.recuadro-servicio{
+    margin-bottom: 15px;
+}
+.recuadro-servicio .hover-bg{
+    height: 246px;
+    width:  279px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hover-bg .hover-text {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.66);
+    padding: 25% 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.hover-bg .hover-text>h4{
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    transition: all 0.3s;
+    letter-spacing: 3px;
+}
+.hover-bg:hover .hover-text>h4{
+    opacity: 1;
+    -webkit-backface-visibility:hidden;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+.hover-bg .hover-text>i{
+    opacity: 0;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    transition: all 0.3s;
+}
+.hover-bg:hover .hover-text>i{
+    opacity: 1;
+    -webkit-backface-visibility:hidden;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+}
+.hover-bg:hover .hover-text{
+    opacity: 1;
+}
+.intro-servicios{
+    background: rgba(0, 0, 0, 0.66);
+}
+bt-25{
+    margin-bottom: 25px;
+}
+/*
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- END RECUADROS SERVICIOS  -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+*/
+
+
+/*
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- SECTION FLOTA  -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+*/
+.recuadros-flota h3,.recuadros-flota p{
+    background-color: gray;
+    color: #000000;
+}
+
+/*
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- EBD SECTION FLOTA  -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+*/
