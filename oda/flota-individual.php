@@ -1,4 +1,4 @@
-<?php $lugar_actual = "index"; ?>
+<?php $lugar_actual = "flota|"; ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>
 <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -52,24 +52,6 @@
 
 
                                                                 </div>
-                                                                <div>
-                                                                    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-                                                                    <!--/* Intro  */-->
-                                                                    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-                                                                    <section id="intro">
-                                                                        <div class="container valign">
-                                                                            <div class="row intro-container text-center">
-                                                                                <div class="col-md-12 text-center">
-                                                                                    <h1>TECNOLOGÍA <span class="text-theme">ATENCIÓN</span> COMODIDAD</h1>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </section>
-                                                                    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-                                                                    <!--/* END Intro  */-->
-                                                                    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-                                                                </div>
-
 
                                                             </div>
                                                         </div>
@@ -84,91 +66,73 @@
                                                     <div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 sectionIntro">
                                                         <div class="sublayout-column">
                                                             <div class="mdpb-subrow sub-row-4211">
-                                                                <div class="spb-column spb-column-42111 col-xs-12 col-lg-8 col-md-8 col-sm-10 col-md-offset-2 text-center">
-                                                                    <div class="spb-custom-phoenix-section-header">
-                                                                        <h2 class=""
-                                                                            data-scroll-reveal="enter top move 10px over 1s after 0.2s"
-                                                                            style="color : rgb(40, 40, 40); width: 100%; text-align: center;">
-                                                                            AUTOBUSES <b class="text-theme">INTEGRALES</b>
-                                                                        </h2>
-                                                                    </div>
-                                                                    <div class="spb-custom-phoenix-paragraph">
-                                                                        <hr class="text-theme">
-                                                                    </div>
-                                                                    <div class="spb-custom-phoenix-paragraph">
-                                                                        <p>
-                                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                                                        </p>
-                                                                    </div>
+
+
+                                                                <div class="col-md-6 img-flota-ind">
+                                                                    <img src="http://lorempixel.com/400/500/">
                                                                 </div>
+                                                                <div class="col-md-6 info-flota-ind text-center" >
+                                                                    <h1>Viaggio <span class="text-theme">900</span></h1>
+                                                                    <hr class="text-theme">
+                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                                    <h3 class="text-theme">Características</h3>
+                                                                    <ul>
+                                                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
+                                                                        <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                                                                        <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</li>
+                                                                        <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                                                                    </ul>
+                                                                </div>
+
+
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                        <div  class="md-section spb-section-2">
+                                            <div class="row parallax-window text-center" data-parallax="scroll" data-image-src="img/flota-ind-sloga.jpg" style="height: 300px;">
+                                                <div class="container-fluid ours-history">
+                                                    <div class="col-md-8 col-md-offset-2" style="margin-top: -70px;">
+                                                        <div class="slider multiple-items text-center">
+                                                            <div>
+                                                                <img data-lazy="http://lorempixel.com/200/200/"/>
+                                                            </div>
 
-                                        <div id="text-separator" class="md-section spb-section-2">
-                                            <div class="container-fluid ours-history">
-                                                <div class="col-md-10 col-md-offset-1 recuadros-flota">
-                                                    <div class="col-md-3" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
-                                                        <h3>Boxer</h3>
-                                                        <img src="http://lorempixel.com/250/250/transport">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                            <div>
+                                                                <img data-lazy="http://lorempixel.com/200/201/"/>
+                                                            </div>
+
+                                                            <div>
+                                                                <img data-lazy="http://lorempixel.com/200/202/"/>
+                                                            </div>
+
+                                                            <div>
+                                                                <img data-lazy="http://lorempixel.com/200/203/"/>
+                                                            </div>
+
+                                                            <div>
+                                                                <img data-lazy="http://lorempixel.com/200/204/"/>
+                                                            </div>
+
+                                                            <div>
+                                                                <img data-lazy="http://lorempixel.com/202/200/"/>
+                                                            </div>
+
+                                                            <div>
+                                                                <img data-lazy="http://lorempixel.com/201/200/"/>
+                                                            </div>
+
+                                                            <div>
+                                                                <img data-lazy="http://lorempixel.com/204/200/"/>
+                                                            </div>
+
+                                                        </div>
                                                     </div>
-                                                    
-                                                    <div class="col-md-3" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
-                                                        <h3>Boxer</h3>
-                                                        <img src="http://lorempixel.com/250/250/transport">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                    </div>
-                                                    
-                                                    <div class="col-md-3" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
-                                                        <h3>Boxer</h3>
-                                                        <img src="http://lorempixel.com/250/250/transport">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                    </div>
-                                                    
-                                                    <div class="col-md-3" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
-                                                        <h3>Boxer</h3>
-                                                        <img src="http://lorempixel.com/250/250/transport">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                    </div>
-                                                    
+
+
                                                 </div>
-                                                <div class="col-md-10 col-md-offset-1 recuadros-flota">
-                                                    <div class="col-md-3" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
-                                                        <h3>Boxer</h3>
-                                                        <img src="http://lorempixel.com/250/250/transport">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                    </div>
-                                                    
-                                                    <div class="col-md-3" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
-                                                        <h3>Boxer</h3>
-                                                        <img src="http://lorempixel.com/250/250/transport">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                    </div>
-                                                    
-                                                    <div class="col-md-3" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
-                                                        <h3>Boxer</h3>
-                                                        <img src="http://lorempixel.com/250/250/transport">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                    </div>
-                                                    
-                                                    <div class="col-md-3" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
-                                                        <h3>Boxer</h3>
-                                                        <img src="http://lorempixel.com/250/250/transport">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                    </div>
-                                                    
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div id="parallax">
-                                            <div class="row parallax-window text-center" data-parallax="scroll" data-image-src="img/parallax.jpg" >
-                                                <h2 class="text-white" data-scroll-reveal="enter up move 10px over 1s after 0.2s">Somos una empresa definida en valores</h2>
-                                                <br><br>
-                                                <a href="#" class="btn-info-parallax" ><b>Servicios</b></a>
                                             </div>
                                         </div>
 
@@ -185,6 +149,16 @@
             </div>
         </div>
         <?php include './scripts.php'; ?>
+        <script type="text/javascript">
+            $('.multiple-items').slick({
+                lazyLoad: 'ondemand',
+                slidesToShow: 4,
+                infinite: true,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000
+            });
+        </script>
     </body>
 </html>
 <script>

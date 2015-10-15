@@ -232,9 +232,132 @@ bt-25{
     background-color: gray;
     color: #000000;
 }
+.recuadros-flota > div{
+    margin-bottom: 10px;
+}
+.recuadros-flota .hover-bg-flota{
+    height: 250px;
+    width:  250px;
+    overflow: hidden;
+    position: relative;
+}
 
+.hover-bg-flota .hover-text-flota {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    color: #ffffff;
+    //background: rgba(0, 0, 0, 0.66);
+    //padding: 25% 0;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.hover-bg-flota .hover-text-flota > h4{
+    opacity: 0;
+    //-webkit-transform: translateY(100%);
+    //transform: translateY(100%);
+    background-color: #bcbdc0;
+    color: #000000;
+    font-weight: 400;
+    top: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: left;
+    transition: all 0.3s;
+    letter-spacing: 3px;
+}
+.hover-bg-flota .hover-text-flota > p{
+    background-color: #6a72a9;
+    color: white;
+    font-weight: 400;
+    margin-top: 170PX;
+    padding: 5px;
+    text-align: justify;
+    transition: all 0.3s;
+}
+.hover-bg-flota:hover .hover-text-flota > h4{
+    opacity: 1;
+    -webkit-backface-visibility:hidden;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.hover-bg-flota:hover .hover-text-flota{
+    opacity: 1;
+}
 /*
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-- EBD SECTION FLOTA  -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+*/
+
+
+
+/*
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- SECTION FLOTA-INDIVIDUAL  -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+*/
+
+.img-flota-ind img{
+    text-align: center;
+    margin: 0px auto;
+}
+.img-flota-ind{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.info-flota-ind h1{
+    letter-spacing: 1px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.info-flota-ind hr{
+    border: 1px solid #b53348;
+    width: 200px
+    
+}
+.info-flota-ind p{
+    text-align: justify;
+}
+.info-flota-ind h3{
+    text-align: left;
+    text-transform: uppercase;
+}
+.info-flota-ind ul{
+    padding-left: 0px;
+    margin-left: 0px; 
+}
+.info-flota-ind li{
+    text-align: left;
+    list-style: circle;
+}
+.slick-prev{
+    background-image: url('../img/arrow-prev.jpg');
+}
+.slick-next{
+    left: 100%;
+    margin-left: -45px;
+    background-image: url('../img/arrow-next.jpg');
+}
+.slick-arrow{
+    position: absolute;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    width: 44px;
+    height: 87px;
+    z-index: 99;
+    top: 50%;
+    margin-top: -44px;
+    text-indent: -9999px;
+    white-space: nowrap;
+    content: ' ';
+}
+/*
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- EBD SECTION FLOTA-INDIVIDUAL  -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 */
