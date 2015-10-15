@@ -40,8 +40,6 @@
                                                                  class="block block-phoenix-config">
 
                                                                 <div class="container  animaper anim ">
-
-
                                                                 </div>
                                                                 <div>
                                                                     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -182,7 +180,11 @@
     </body>
 </html>
 <script>
+
     $.backstretch([
-        "img/bg-01.jpg"
+        "img/bg-01.jpg",
+        "img/bg-02.jpg",
+        "img/bg-03.jpg"
     ], {duration: 3000, fade: 750});
+
 </script>
