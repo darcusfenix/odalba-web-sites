@@ -150,7 +150,10 @@ body.front .affix-top .bg-text-theme{
 .infoContact i, .infoContact span{
     display: inline-block;
 }
-
+.navbar-brand img{
+    width: 250px;
+    height: auto;
+}
 /*
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-- RECUADROS SERVICIOS  -->
@@ -232,9 +235,224 @@ bt-25{
     background-color: gray;
     color: #000000;
 }
+.recuadros-flota > div{
+    margin-bottom: 10px;
+}
+.recuadros-flota .hover-bg-flota{
+    height: 250px;
+    width:  250px;
+    overflow: hidden;
+    position: relative;
+}
 
+.hover-bg-flota .hover-text-flota {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    color: #ffffff;
+    //background: rgba(0, 0, 0, 0.66);
+    //padding: 25% 0;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.hover-bg-flota .hover-text-flota > h4{
+    opacity: 0;
+    //-webkit-transform: translateY(100%);
+    //transform: translateY(100%);
+    background-color: #bcbdc0;
+    color: #000000;
+    font-weight: 400;
+    top: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: left;
+    transition: all 0.3s;
+    letter-spacing: 3px;
+}
+.hover-bg-flota .hover-text-flota > p{
+    background-color: #6a72a9;
+    color: white;
+    font-weight: 400;
+    margin-top: 170PX;
+    padding: 5px;
+    text-align: justify;
+    transition: all 0.3s;
+}
+.hover-bg-flota:hover .hover-text-flota > h4{
+    opacity: 1;
+    -webkit-backface-visibility:hidden;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.hover-bg-flota:hover .hover-text-flota{
+    opacity: 1;
+}
 /*
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-- EBD SECTION FLOTA  -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+*/
+
+
+
+/*
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- SECTION FLOTA-INDIVIDUAL  -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+*/
+
+.img-flota-ind img{
+    text-align: center;
+    margin: 0px auto;
+}
+.img-flota-ind{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.info-flota-ind h1{
+    letter-spacing: 1px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.info-flota-ind hr{
+    border: 1px solid #b53348;
+    width: 200px
+
+}
+.info-flota-ind p{
+    text-align: justify;
+}
+.info-flota-ind h3{
+    text-align: left;
+    text-transform: uppercase;
+}
+.info-flota-ind ul{
+    padding-left: 0px;
+    margin-left: 0px; 
+}
+.info-flota-ind li{
+    text-align: left;
+    list-style: circle;
+}
+.slick-prev{
+    background-image: url('../img/arrow-prev.jpg');
+}
+.slick-next{
+    left: 100%;
+    margin-left: -45px;
+    background-image: url('../img/arrow-next.jpg');
+}
+.slick-arrow{
+    position: absolute;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    width: 44px;
+    height: 87px;
+    z-index: 99;
+    top: 50%;
+    margin-top: -44px;
+    text-indent: -9999px;
+    white-space: nowrap;
+    content: ' ';
+}
+/*
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- EBD SECTION FLOTA-INDIVIDUAL  -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+*/
+#home-section {
+    position: relative;
+    overflow: hidden !important;
+    width: 100%;
+    margin-top: -50px;
+}
+.flexslider {
+    /*top: 50%;
+    margin-top: -50%;*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.flexslider  img {
+/*    min-width: 100%;
+    max-height: 100%;*/
+    /*display: none;*/
+}
+.flex-direction-nav{
+    z-index: 999;
+}
+/*
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- SECTION CONTACTO  -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+*/
+.container-contact{
+    background-color: #FFFFFF;
+    min-height: 600px; 
+    margin-top: 170px;
+    margin-bottom: 170px;
+    padding-bottom: 50px;
+}
+.container-contact h2{
+    letter-spacing: 1px;
+}
+.form-control{
+    border: none;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.form-control input, .form-control label{
+    padding-top: 5px;
+    margin-top: 5px;
+}
+.form-control input, .form-control label{
+    vertical-align: middle;
+}
+.form-control input, .form-control textarea{
+    font-size: 18px;
+    -webkit-appearance: textfield;
+    padding: 1px;
+    background-color: white;
+    border: 1px inset;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+    margin: 0em;
+    font: 13.3333px Arial;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    height: 25px;
+}
+.form-control textarea{
+    height: 100px;
+}
+.form-control input:focus {
+    border: 1px inset;
+}
+.btn-enviar{
+   color: #FFFFFF;
+   background-color: #b53348;
+   width: 200px;
+}
+/*
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- SECTION CONTACTO  -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 */

@@ -107,68 +107,116 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div id="parallax" class="md-section spb-section-2">
+                                            <div class="row parallax-window text-center" data-parallax="scroll" data-image-src="img/flota-sloga.jpg" >
+                                                <div class="container-fluid ours-history" style="margin-top: -150px;">
+                                                    <div class="col-md-10 col-md-offset-1 recuadros-flota">
+                                                        <div class="col-md-3 text-center" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
+                                                            <div class="hover-bg-flota">
+                                                                <a href="flota-individual.php">
+                                                                    <div class="hover-text-flota">
+                                                                        <h4>Boxer</h4>
+                                                                        <p>Rentable, durable, económico y excelente desenpeño.</p>
+                                                                        <div class="clearfix"></div>
+                                                                    </div>
+                                                                    <img src="http://lorempixel.com/250/250/transport/Dummy-Text/" class="img-responsive" alt="...">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-3 text-center" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
+                                                            <div class="hover-bg-flota">
+                                                                <a href="flota-individual.php">
+                                                                    <div class="hover-text-flota">
+                                                                        <h4>Boxer</h4>
+                                                                        <p>Rentable, durable, económico y excelente desenpeño.</p>
+                                                                        <div class="clearfix"></div>
+                                                                    </div>
+                                                                    <img src="http://lorempixel.com/250/251/transport/Dummy-Text/" class="img-responsive" alt="...">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-3 text-center" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
+                                                            <div class="hover-bg-flota">
+                                                                <a href="flota-individual.php">
+                                                                    <div class="hover-text-flota">
+                                                                        <h4>Boxer</h4>
+                                                                        <p>Rentable, durable, económico y excelente desenpeño.</p>
+                                                                        <div class="clearfix"></div>
+                                                                    </div>
+                                                                    <img src="http://lorempixel.com/250/252/transport/Dummy-Text/" class="img-responsive" alt="...">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-3 text-center" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
+                                                            <div class="hover-bg-flota">
+                                                                <a href="flota-individual.php">
+                                                                    <div class="hover-text-flota">
+                                                                        <h4>Boxer</h4>
+                                                                        <p>Rentable, durable, económico y excelente desenpeño.</p>
+                                                                        <div class="clearfix"></div>
+                                                                    </div>
+                                                                    <img src="http://lorempixel.com/251/250/transport/Dummy-Text/" class="img-responsive" alt="...">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
 
-                                        <div id="text-separator" class="md-section spb-section-2">
-                                            <div class="container-fluid ours-history">
-                                                <div class="col-md-10 col-md-offset-1 recuadros-flota">
-                                                    <div class="col-md-3" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
-                                                        <h3>Boxer</h3>
-                                                        <img src="http://lorempixel.com/250/250/transport">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                    <div class="col-md-10 col-md-offset-1 recuadros-flota">
+
+                                                        <div class="col-md-3" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
+                                                            <div class="hover-bg-flota">
+                                                                <a href="flota-individual.php">
+                                                                    <div class="hover-text-flota">
+                                                                        <h4>Boxer</h4>
+                                                                        <p>Rentable, durable, económico y excelente desenpeño.</p>
+                                                                        <div class="clearfix"></div>
+                                                                    </div>
+                                                                    <img src="http://lorempixel.com/252/250/transport/Dummy-Text/" class="img-responsive" alt="...">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-3" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
+                                                            <div class="hover-bg-flota">
+                                                                <a href="flota-individual.php">
+                                                                    <div class="hover-text-flota">
+                                                                        <h4>Boxer</h4>
+                                                                        <p>Rentable, durable, económico y excelente desenpeño.</p>
+                                                                        <div class="clearfix"></div>
+                                                                    </div>
+                                                                    <img src="http://lorempixel.com/250/250/transport/Dummy-Text/" class="img-responsive" alt="...">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-3" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
+                                                            <div class="hover-bg-flota">
+                                                                <a href="flota-individual.php">
+                                                                    <div class="hover-text-flota">
+                                                                        <h4>Boxer</h4>
+                                                                        <p>Rentable, durable, económico y excelente desenpeño.</p>
+                                                                        <div class="clearfix"></div>
+                                                                    </div>
+                                                                    <img src="http://lorempixel.com/250/250/transport/Dummy-Text/" class="img-responsive" alt="...">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-3" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
+                                                            <div class="hover-bg-flota">
+                                                                <a href="flota-individual.php">
+                                                                    <div class="hover-text-flota">
+                                                                        <h4>Boxer</h4>
+                                                                        <p>Rentable, durable, económico y excelente desenpeño.</p>
+                                                                        <div class="clearfix"></div>
+                                                                    </div>
+                                                                    <img src="http://lorempixel.com/250/250/transport/Dummy-Text/" class="img-responsive" alt="...">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
-                                                    
-                                                    <div class="col-md-3" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
-                                                        <h3>Boxer</h3>
-                                                        <img src="http://lorempixel.com/250/250/transport">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                    </div>
-                                                    
-                                                    <div class="col-md-3" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
-                                                        <h3>Boxer</h3>
-                                                        <img src="http://lorempixel.com/250/250/transport">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                    </div>
-                                                    
-                                                    <div class="col-md-3" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
-                                                        <h3>Boxer</h3>
-                                                        <img src="http://lorempixel.com/250/250/transport">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                    </div>
-                                                    
                                                 </div>
-                                                <div class="col-md-10 col-md-offset-1 recuadros-flota">
-                                                    <div class="col-md-3" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
-                                                        <h3>Boxer</h3>
-                                                        <img src="http://lorempixel.com/250/250/transport">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                    </div>
-                                                    
-                                                    <div class="col-md-3" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
-                                                        <h3>Boxer</h3>
-                                                        <img src="http://lorempixel.com/250/250/transport">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                    </div>
-                                                    
-                                                    <div class="col-md-3" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
-                                                        <h3>Boxer</h3>
-                                                        <img src="http://lorempixel.com/250/250/transport">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                    </div>
-                                                    
-                                                    <div class="col-md-3" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
-                                                        <h3>Boxer</h3>
-                                                        <img src="http://lorempixel.com/250/250/transport">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                    </div>
-                                                    
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div id="parallax">
-                                            <div class="row parallax-window text-center" data-parallax="scroll" data-image-src="img/parallax.jpg" >
-                                                <h2 class="text-white" data-scroll-reveal="enter up move 10px over 1s after 0.2s">Somos una empresa definida en valores</h2>
-                                                <br><br>
-                                                <a href="#" class="btn-info-parallax" ><b>Servicios</b></a>
                                             </div>
                                         </div>
 
