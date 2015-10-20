@@ -110,5 +110,6 @@
           <script src="js/respond.min.js"></script>
         <![endif]-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/main.css">
     </head>
     <body class="html front not-logged-in no-sidebars page-node page-node- page-node-65 page-type-page-builder spb-enabled i18n-es"  id="bigWrapper" data-spy="scroll" data-target=".navbar-default" data-offset="100">

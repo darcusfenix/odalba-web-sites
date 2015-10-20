@@ -1,59 +1,7 @@
 <?php include_once '../odc/sources/header.php'; ?>
-<style type="text/css">
-    .black-overlay{
-        background: none;
-    }
-    .black-overlay-logos{
-        text-align: center;
-        top: 100%;
-        padding-top: -100px;
-        margin-bottom: 20px;
-        width: 100%;
-        height: 100%;
-        z-index: 0;
-    }
-    .logo-individual-home:hover, .black-overlay-logos:hover{
-
-    }
-    .carousel-caption {
-        position: absolute;
-        right: 15%;
-        bottom: 15%;
-        left: 15%;
-        z-index: 10;
-        padding-top: 57px;
-        padding-bottom: 20px;
-        color: #fff;
-        text-align: center;
-        /* text-shadow: 0 1px 2px rgba(0,0,0,.6); */
-    }
-    body.front .affix-top {
-        background: rgba(255, 255, 255, 0.55);;
-    }
-    .affix {
-        background-color: #FFFFFF;
-        padding-top: 60px;
-        padding-bottom: 10px;
-    }
-    .color-white{
-        color:white;
-    }
-    .clip-circle {
-        clip-path: circle(60px at center);
-    }
-    img.clip-circle {
-        border-radius: 50%;
-    }
-    
-    .color-red{
-        color: #DF2A2F;
-    }
-    
-    .section_item {
-        margin-top: 25% !important; 
-    }
-</style>
 <?php include_once '../odc/sources/nav.php'; ?>
+
+
 
 <!--preloader-->
 <div class="ip-header">
@@ -93,7 +41,7 @@
                 <div id="mdpb-live-content">
                     <div class="md-section-wrapper desktop">
                         <!-- primera carta -->
-                        <div id="header-banner" class="md-section spb-section-1">
+                        <div id="header-banner" class="md-section spb-section-1" style="display: none;">
                             <div class="container-fluid">
                                 <div class="row spb-row-11">
 
@@ -188,18 +136,21 @@
                         </div>
                         <!-- fin primera carta-->                               
                         <div id="about" class="md-section spb-section-4">
-                            <div class="container">
+                            <div class="row" style="padding-top: 200px">
 
-                                <div class="row spb-row-42">
-                                    <div class="spb-column spb-column-421 col-lg-12 col-md-12 col-sm-12 col-xs-12 sectionIntro">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sectionIntro">
                                         <div class="sublayout-column">
                                             <div class="mdpb-subrow sub-row-4211">
                                                 <div class="spb-column spb-column-42111 col-xs-12 col-lg-8 col-md-8 col-sm-10 col-md-offset-2 text-center">
                                                     <img src="img/icono_estrella.png" alt="Logo" />
-                                                    <h2>Grupo obnibus de cancun</h2>
+                                                    <h2>UNIDADES</h2>
                                                     <div class="spb-custom-phoenix-paragraph">
                                                         <div style="text-align: center;" class="">
-                                                            <p style="color:rgb(76, 76, 76)"  data-scroll-reveal="enter bottom move 10px over 1s after 0.2s" >Más de 45 años “haciendo camino”, nos han perfeccionado para poder ofrecer el servicio de autotransporte turístico más especializado y de vanguardia dentro de nuestro país.</p>
+                                                            <p style="color:rgb(76, 76, 76)"  data-scroll-reveal="enter bottom move 10px over 1s after 0.2s" >
+                                                                Nuestra amplia flotilla de veh&iacute;culos lo llevar&aacute; a cualquier punto de nuestro pa&iacute;s cubriendo los requerimientos de viaje
+                                                                para hacer  del camino una experiencia segura y memorable.
+                                                            </p>
                                                         </div>
                                                     </div>
 
@@ -218,10 +169,10 @@
                                     <div class="spb-column spb-column-111 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
                                         <div class="content">
-                                            <div id="block-phoenix-config-phoenix-banner" class="block block-phoenix-config" style="min-height: 450pt">
+                                            <div id="block-phoenix-config-phoenix-banner" class="block block-phoenix-config" style="min-height: 700pt">
                                                 <style>
                                                     .section_item{
-                                                        margin-top: 20%;
+                                                      //  margin-top: 20%;
                                                     }
                                                 </style>
 
@@ -229,61 +180,31 @@
                                                 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
                                                 <!--/* Intro  */-->
                                                 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                                                <style type="text/css">
+                                                    .hover-bg > h1 {
+                                                        position: absolute;
+                                                        color: white;
+                                                          margin-top: -75px; 
+                                                         text-align: left;
+                                                         background: rgba(0, 187, 172, 0.31);
+                                                    }
+                                                    .recuadro-servicio {
+                                                        margin: 0px !important;
+                                                        padding: 3px !important;
+                                                    }
+                                                </style>
                                                 <section sid="intro">
 
-                                                    <div class="container section_item" >
-                                                        <div class="row ">
-
-                                                            <div class="col-md-4" data-scroll-reveal="enter top move 10px over 1s after 0.2s">
-
-                                                                <div class="col-md-12 text-center">
-                                                                    <img src="./img/compromiso.jpg" class="clip-circle" width="100px" height="100px"/>
-                                                                    <h3 class="color-white">COMPROMISO</h3>
-                                                                </div>
-                                                                <div class="col-md-6 col-md-offset-3 text-center">
-                                                                    <p class="color-white">
-                                                                        La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.                
-                                                                    </p>
-                                                                </div>
-
-
-
+                                                    <div class="container-fluid section_item" >
+                                                        <div class="row" id="cards-equipo">
+<!--
+                                                          
+ -->
                                                             </div>
 
-                                                            <div class="col-md-4" data-scroll-reveal="enter top move 10px over 1s after 0.4s">
-
-                                                                <div class="col-md-12 text-center" >
-                                                                    <img src="img/especializacion.jpg" class="clip-circle" width="100px" height="100px"/>
-                                                                    <h3 class="color-white">ESPECIALIZACIÓN</h3>
-                                                                </div>
-                                                                <div class="col-md-6 col-md-offset-3 text-center">
-                                                                    <p class="color-white">
-                                                                        La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.                
-                                                                    </p>
-                                                                </div>
-
-
-
-                                                            </div>
-
-                                                            <div class="col-md-4" data-scroll-reveal="enter top move 10px over 1s after 0.6s">
-
-                                                                <div class="col-md-12 text-center">
-                                                                    <img src="img/profesionalismo.jpg" class="clip-circle" width="100px" height="100px"/>
-                                                                    <h3 class="color-white">PROFESIONALISMO</h3>
-                                                                </div>
-                                                                <div class="col-md-6 col-md-offset-3 text-center">
-                                                                    <p class="color-white">
-                                                                        La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.                
-                                                                    </p>
-                                                                </div>
-
-
-
-                                                            </div>
-
-                                                        </div>
+                                                            
                                                     </div>
+                                                    <div style="height: 70pt;"></div>
                                                 </section>
                                                 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
                                                 <!--/* END Intro  */-->
@@ -303,7 +224,7 @@
 
                         <!-- fin quinta seccion-->
 
-                        <div id="about" class="md-section spb-section-4">
+                        <div id="about" class="md-section spb-section-4" style="display: none;">
                             <div class="container">
                                 <style>
                                     #owl-demo .item{
@@ -316,11 +237,11 @@
                                     }
 
                                 </style>
-                                <div class="row spb-row-42">
+                                <div class="row spb-row-42" >
                                     <div class="spb-column spb-column-421 col-lg-12 col-md-12 col-sm-12 col-xs-12 sectionIntro">
                                         <div class="sublayout-column">
                                             <div class="mdpb-subrow sub-row-4211">
-                                                <div class="spb-column spb-column-42111 col-xs-12 col-lg-10 col-md-8 col-sm-10 col-md-offset-2 text-center">
+                                                <div class="spb-column spb-column-42111 col-xs-12 col-lg-10 col-md-8 col-sm-10 col-md-offset-2 text-center" style="display: none;">
                                                     <div id="owl-demo">
 
                                                         <div class="item"><img src="img/2.png" alt="Owl Image"></div>
@@ -374,32 +295,32 @@
                                             <h4 data-scroll-reveal="enter left move 10px over 1s after 0.2s" style="    margin-top: 30px;">Equipo</h4>   
                                             <div class="row">
                                                 <div class="col-xs-4">
-                                                    <a href="#" class="thumbnail">
+                                                    <a class="thumbnail">
                                                         <img src="http://placehold.it/350x150" class="img-responsive">
                                                     </a>
                                                 </div>
                                                 <div class="col-xs-4">
-                                                    <a href="#" class="thumbnail">
+                                                    <a class="thumbnail">
                                                         <img src="http://placehold.it/350x150" class="img-responsive">
                                                     </a>
                                                 </div>
                                                 <div class="col-xs-4">
-                                                    <a href="#" class="thumbnail">
+                                                    <a class="thumbnail">
                                                         <img src="http://placehold.it/350x150" class="img-responsive">
                                                     </a>
                                                 </div>
                                                 <div class="col-xs-4">
-                                                    <a href="#" class="thumbnail">
+                                                    <a class="thumbnail">
                                                         <img src="http://placehold.it/350x150" class="img-responsive">
                                                     </a>
                                                 </div>
                                                 <div class="col-xs-4">
-                                                    <a href="#" class="thumbnail">
+                                                    <a class="thumbnail">
                                                         <img src="http://placehold.it/350x150" class="img-responsive">
                                                     </a>
                                                 </div>
                                                 <div class="col-xs-4">
-                                                    <a href="#" class="thumbnail">
+                                                    <a class="thumbnail">
                                                         <img src="http://placehold.it/350x150" class="img-responsive">
                                                     </a>
                                                 </div>
@@ -445,10 +366,12 @@
                 <strong data-scroll-reveal="enter left move 10px over 1s after 0.2s">Todos los derechos reservados. </strong>Aviso de privacidad
             </div>
         </section>
-    </div></div>    <script>
+    </div></div>  
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.0/mustache.min.js"></script>
+    <script>
         $.backstretch('img/fondo.png');
-        $("#compromiso-banner").backstretch('./img/compromiso.png');
-        $("#profesionalismo-banner").backstretch('./img/profesionalismo.jpg');
+     //   $("#compromiso-banner").backstretch('./img/compromiso.png');
+     //   $("#profesionalismo-banner").backstretch('./img/profesionalismo.jpg');
 
         $(document).ready(function () {
 
@@ -460,6 +383,33 @@
                 itemsDesktopSmall: [979, 3]
 
             });
+            
+            
+            
+var items = {items:[
+    {encabezado:"hola mundo ",imagen:"http://lorempixel.com/g/800/600/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:""},    
+    {encabezado:"hola mundo ",imagen:"http://lorempixel.com/g/800/600/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:""},
+    ]};
+
+var template = '{{#items}}'
++'<div class="col-md-4 recuadro-servicio">'
++''
++'    <div class="hover-bg">'
++'        '
++'        <a >'
++'           '
++'            <div class="hover-text">'
++'                <h4>{{encabezado_descripcion}}</h4>'
++'                <small>{{descripcion}}</small>'
++'                <div class="clearfix"></div>'
++'            </div>'
++'            <img src="{{imagen}}" class="img-responsive" alt="...">'
++'        </a>'
++'    </div>   '
++''
++'</div> {{/items}}';
+var rendered = Mustache.render(template,items);
+$("#cards-equipo").html(rendered);
 
         });
 

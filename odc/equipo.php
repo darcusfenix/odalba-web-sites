@@ -1,59 +1,7 @@
 <?php include_once '../odc/sources/header.php'; ?>
-<style type="text/css">
-    .black-overlay{
-        background: none;
-    }
-    .black-overlay-logos{
-        text-align: center;
-        top: 100%;
-        padding-top: -100px;
-        margin-bottom: 20px;
-        width: 100%;
-        height: 100%;
-        z-index: 0;
-    }
-    .logo-individual-home:hover, .black-overlay-logos:hover{
-
-    }
-    .carousel-caption {
-        position: absolute;
-        right: 15%;
-        bottom: 15%;
-        left: 15%;
-        z-index: 10;
-        padding-top: 57px;
-        padding-bottom: 20px;
-        color: #fff;
-        text-align: center;
-        /* text-shadow: 0 1px 2px rgba(0,0,0,.6); */
-    }
-    body.front .affix-top {
-        background: rgba(255, 255, 255, 0.55);;
-    }
-    .affix {
-        background-color: #FFFFFF;
-        padding-top: 60px;
-        padding-bottom: 10px;
-    }
-    .color-white{
-        color:white;
-    }
-    .clip-circle {
-        clip-path: circle(60px at center);
-    }
-    img.clip-circle {
-        border-radius: 50%;
-    }
-    
-    .color-red{
-        color: #DF2A2F;
-    }
-    
-    .section_item {
-        margin-top: 25% !important; 
-    }
-</style>
 <?php include_once '../odc/sources/nav.php'; ?>
+
+
 
 <!--preloader-->
 <div class="ip-header">
@@ -93,7 +41,7 @@
                 <div id="mdpb-live-content">
                     <div class="md-section-wrapper desktop">
                         <!-- primera carta -->
-                        <div id="header-banner" class="md-section spb-section-1">
+                        <div id="header-banner" class="md-section spb-section-1" style="display: none;">
                             <div class="container-fluid">
                                 <div class="row spb-row-11">
 
@@ -190,16 +138,19 @@
                         <div id="about" class="md-section spb-section-4">
                             <div class="container">
 
-                                <div class="row spb-row-42">
-                                    <div class="spb-column spb-column-421 col-lg-12 col-md-12 col-sm-12 col-xs-12 sectionIntro">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sectionIntro">
                                         <div class="sublayout-column">
                                             <div class="mdpb-subrow sub-row-4211">
                                                 <div class="spb-column spb-column-42111 col-xs-12 col-lg-8 col-md-8 col-sm-10 col-md-offset-2 text-center">
                                                     <img src="img/icono_estrella.png" alt="Logo" />
-                                                    <h2>Grupo obnibus de cancun</h2>
+                                                    <h2>UNIDADES</h2>
                                                     <div class="spb-custom-phoenix-paragraph">
                                                         <div style="text-align: center;" class="">
-                                                            <p style="color:rgb(76, 76, 76)"  data-scroll-reveal="enter bottom move 10px over 1s after 0.2s" >Más de 45 años “haciendo camino”, nos han perfeccionado para poder ofrecer el servicio de autotransporte turístico más especializado y de vanguardia dentro de nuestro país.</p>
+                                                            <p style="color:rgb(76, 76, 76)"  data-scroll-reveal="enter bottom move 10px over 1s after 0.2s" >
+                                                                Nuestra amplia flotilla de veh&iacute;culos lo llevar&aacute; a cualquier punto de nuestro pa&iacute;s cubriendo los requerimientos de viaje
+                                                                para hacer  del camino una experiencia segura y memorable.
+                                                            </p>
                                                         </div>
                                                     </div>
 
@@ -218,10 +169,10 @@
                                     <div class="spb-column spb-column-111 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
                                         <div class="content">
-                                            <div id="block-phoenix-config-phoenix-banner" class="block block-phoenix-config" style="min-height: 450pt">
+                                            <div id="block-phoenix-config-phoenix-banner" class="block block-phoenix-config" style="min-height: 700pt">
                                                 <style>
                                                     .section_item{
-                                                        margin-top: 20%;
+                                                      //  margin-top: 20%;
                                                     }
                                                 </style>
 
@@ -229,61 +180,53 @@
                                                 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
                                                 <!--/* Intro  */-->
                                                 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                                                <style type="text/css">
+                                                    .hover-bg > h1 {
+                                                        position: absolute;
+                                                        color: white;
+                                                          margin-top: -75px; 
+                                                         text-align: left;
+                                                         background: rgba(0, 187, 172, 0.31);
+                                                    }
+                                                    .z-max{
+                                                            z-index: 9999;
+                                                    }
+                                                </style>
                                                 <section sid="intro">
 
                                                     <div class="container section_item" >
-                                                        <div class="row ">
+                                                       
+                                                        <a class="left carousel-control z-max" id="carousel-control" role="button" data-slide="prev">
+                                                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                                            <span class="sr-only">Previous</span>
+                                                        </a>
+                                                        <a class="right carousel-control z-max" id="carousel-control"  role="button" data-slide="next">
+                                                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                                            <span class="sr-only">Next</span>
+                                                        </a>
+                                                        <div class="row" id="cards-equipo">
+<!--
+                                                            <div class="col-md-4 recuadro-servicio">
 
-                                                            <div class="col-md-4" data-scroll-reveal="enter top move 10px over 1s after 0.2s">
-
-                                                                <div class="col-md-12 text-center">
-                                                                    <img src="./img/compromiso.jpg" class="clip-circle" width="100px" height="100px"/>
-                                                                    <h3 class="color-white">COMPROMISO</h3>
-                                                                </div>
-                                                                <div class="col-md-6 col-md-offset-3 text-center">
-                                                                    <p class="color-white">
-                                                                        La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.                
-                                                                    </p>
-                                                                </div>
-
-
-
+                                                                <div class="hover-bg">
+                                                                    
+                                                                    <a href="#">
+                                                                       
+                                                                        <div class="hover-text">
+                                                                            <h4>Grupos Turísticos</h4>
+                                                                            <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small>
+                                                                            <div class="clearfix"></div>
+                                                                        </div>
+                                                                        <img src="http://lorempixel.com/g/400/400/" class="img-responsive" alt="...">
+                                                                    </a>
+                                                                     <h1>hola mundo </h1>
+                                                                </div>   
+ -->
                                                             </div>
 
-                                                            <div class="col-md-4" data-scroll-reveal="enter top move 10px over 1s after 0.4s">
-
-                                                                <div class="col-md-12 text-center" >
-                                                                    <img src="img/especializacion.jpg" class="clip-circle" width="100px" height="100px"/>
-                                                                    <h3 class="color-white">ESPECIALIZACIÓN</h3>
-                                                                </div>
-                                                                <div class="col-md-6 col-md-offset-3 text-center">
-                                                                    <p class="color-white">
-                                                                        La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.                
-                                                                    </p>
-                                                                </div>
-
-
-
-                                                            </div>
-
-                                                            <div class="col-md-4" data-scroll-reveal="enter top move 10px over 1s after 0.6s">
-
-                                                                <div class="col-md-12 text-center">
-                                                                    <img src="img/profesionalismo.jpg" class="clip-circle" width="100px" height="100px"/>
-                                                                    <h3 class="color-white">PROFESIONALISMO</h3>
-                                                                </div>
-                                                                <div class="col-md-6 col-md-offset-3 text-center">
-                                                                    <p class="color-white">
-                                                                        La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.                
-                                                                    </p>
-                                                                </div>
-
-
-
-                                                            </div>
-
-                                                        </div>
+                                                            
                                                     </div>
+                                                    <div style="height: 70pt;"></div>
                                                 </section>
                                                 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
                                                 <!--/* END Intro  */-->
@@ -320,7 +263,7 @@
                                     <div class="spb-column spb-column-421 col-lg-12 col-md-12 col-sm-12 col-xs-12 sectionIntro">
                                         <div class="sublayout-column">
                                             <div class="mdpb-subrow sub-row-4211">
-                                                <div class="spb-column spb-column-42111 col-xs-12 col-lg-10 col-md-8 col-sm-10 col-md-offset-2 text-center">
+                                                <div class="spb-column spb-column-42111 col-xs-12 col-lg-10 col-md-8 col-sm-10 col-md-offset-2 text-center" style="display: none;">
                                                     <div id="owl-demo">
 
                                                         <div class="item"><img src="img/2.png" alt="Owl Image"></div>
@@ -445,11 +388,17 @@
                 <strong data-scroll-reveal="enter left move 10px over 1s after 0.2s">Todos los derechos reservados. </strong>Aviso de privacidad
             </div>
         </section>
-    </div></div>    <script>
+    </div></div>  
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.0/mustache.min.js"></script>
+    <script>
         $.backstretch('img/fondo.png');
         $("#compromiso-banner").backstretch('./img/compromiso.png');
         $("#profesionalismo-banner").backstretch('./img/profesionalismo.jpg');
-
+var items = [];
+var item = [];
+var i = 0;
+var max = 0;
+var template;
         $(document).ready(function () {
 
             $("#owl-demo").owlCarousel({
@@ -460,9 +409,80 @@
                 itemsDesktopSmall: [979, 3]
 
             });
+            
+            
+            
+ items = {items:[
+    {encabezado:"hola mundo 1",galery:"1",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
+    {encabezado:"hola mundo2 ",galery:"1",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
+    {encabezado:"hola mundo 3",galery:"1",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
+    {encabezado:"hola mundo 4",galery:"1",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
+    {encabezado:"hola mundo5 ",galery:"1",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
+    {encabezado:"hola mundo6 ",galery:"1",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
+    {encabezado:"hola mundo 7",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
+    {encabezado:"hola mundo8 ",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
+    {encabezado:"hola mundo9 ",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
+    {encabezado:"hola mundo0 ",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
+    {encabezado:"hola mundo1 ",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
+    {encabezado:"hola mundo2 ",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},        
+    {encabezado:"hola mundo 3",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},        
+    {encabezado:"hola mundo4 ",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},        
+    {encabezado:"hola mundo5 ",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},        
+    ]};
 
+ template = '{{#items}}'
++'<div class="col-md-4 recuadro-servicio">'
++''
++'    <div class="hover-bg">'
++'            <div class="hover-text">'
++'                <h4>{{encabezado_descripcion}}</h4>'
++'                <a  href="{{modelo_url}}" class="btn btn-default">mostrar</a>'
++'                <div class="clearfix"></div>'
++'            </div>'
++'            <img src="{{imagen}}" class="img-responsive" alt="...">'
++'         <h1>{{encabezado}} </h1>'
++'    </div>   '
++''
++'</div> {{/items}}';
+
+ i = 1;
+render_gallery(i,items,template);
         });
+function render_gallery(i,items,template){
+    
+item= {items:items.items.slice((i*6),((i*6)+6))};
+max = Math.ceil(items.items.length/6);
+console.log("max",max);
+var rendered = Mustache.render(template,item);
+$("#cards-equipo").html(rendered);
+console.log(item);
+    return rendered;
+}
 
+ $(document).on("click","#carousel-control",function(e){
+   
+     if($(this).attr("data-slide") =="prev"){
+         if(i <= 0) {
+           i=0;  
+         }else{
+            i--; 
+         }  
+     }
+     console.log("validacion",i < max);
+      if($(this).attr("data-slide") =="next"){
+          
+           if(i < (max-1)) {
+              i++ 
+         }else{
+             i=i;
+         }
+         
+     }
+     console.log("i",i);
+     render_gallery(i,items,template);
+     
+      e.preventDefault();
+ });
 </script>
 
 <?php include_once '../odc/sources/footer.php'; ?>

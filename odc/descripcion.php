@@ -1,59 +1,7 @@
 <?php include_once '../odc/sources/header.php'; ?>
-<style type="text/css">
-    .black-overlay{
-        background: none;
-    }
-    .black-overlay-logos{
-        text-align: center;
-        top: 100%;
-        padding-top: -100px;
-        margin-bottom: 20px;
-        width: 100%;
-        height: 100%;
-        z-index: 0;
-    }
-    .logo-individual-home:hover, .black-overlay-logos:hover{
-
-    }
-    .carousel-caption {
-        position: absolute;
-        right: 15%;
-        bottom: 15%;
-        left: 15%;
-        z-index: 10;
-        padding-top: 57px;
-        padding-bottom: 20px;
-        color: #fff;
-        text-align: center;
-        /* text-shadow: 0 1px 2px rgba(0,0,0,.6); */
-    }
-    body.front .affix-top {
-        background: rgba(255, 255, 255, 0.55);;
-    }
-    .affix {
-        background-color: #FFFFFF;
-        padding-top: 60px;
-        padding-bottom: 10px;
-    }
-    .color-white{
-        color:white;
-    }
-    .clip-circle {
-        clip-path: circle(60px at center);
-    }
-    img.clip-circle {
-        border-radius: 50%;
-    }
-    
-    .color-red{
-        color: #DF2A2F;
-    }
-    
-    .section_item {
-        margin-top: 25% !important; 
-    }
-</style>
 <?php include_once '../odc/sources/nav.php'; ?>
+
+
 
 <!--preloader-->
 <div class="ip-header">
@@ -93,7 +41,7 @@
                 <div id="mdpb-live-content">
                     <div class="md-section-wrapper desktop">
                         <!-- primera carta -->
-                        <div id="header-banner" class="md-section spb-section-1">
+                        <div id="header-banner" class="md-section spb-section-1" style="display: none;">
                             <div class="container-fluid">
                                 <div class="row spb-row-11">
 
@@ -127,7 +75,7 @@
                                                 }
                                                 .carousel-caption p {
                                                     color: #050A30;
-                                                   /* text-shadow: 2px 2px 7px #000; */
+                                                    /* text-shadow: 2px 2px 7px #000; */
                                                     font-size: 25pt;
                                                     font-weight: 500;
                                                 }
@@ -187,19 +135,22 @@
                             </div>
                         </div>
                         <!-- fin primera carta-->                               
-                        <div id="about" class="md-section spb-section-4">
+                        <div id="about" class="md-section spb-section-4" style="display: none;">
                             <div class="container">
 
-                                <div class="row spb-row-42">
-                                    <div class="spb-column spb-column-421 col-lg-12 col-md-12 col-sm-12 col-xs-12 sectionIntro">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sectionIntro">
                                         <div class="sublayout-column">
                                             <div class="mdpb-subrow sub-row-4211">
                                                 <div class="spb-column spb-column-42111 col-xs-12 col-lg-8 col-md-8 col-sm-10 col-md-offset-2 text-center">
                                                     <img src="img/icono_estrella.png" alt="Logo" />
-                                                    <h2>Grupo obnibus de cancun</h2>
+                                                    <h2>UNIDADES</h2>
                                                     <div class="spb-custom-phoenix-paragraph">
                                                         <div style="text-align: center;" class="">
-                                                            <p style="color:rgb(76, 76, 76)"  data-scroll-reveal="enter bottom move 10px over 1s after 0.2s" >Más de 45 años “haciendo camino”, nos han perfeccionado para poder ofrecer el servicio de autotransporte turístico más especializado y de vanguardia dentro de nuestro país.</p>
+                                                            <p style="color:rgb(76, 76, 76)"  data-scroll-reveal="enter bottom move 10px over 1s after 0.2s" >
+                                                                Nuestra amplia flotilla de veh&iacute;culos lo llevar&aacute; a cualquier punto de nuestro pa&iacute;s cubriendo los requerimientos de viaje
+                                                                para hacer  del camino una experiencia segura y memorable.
+                                                            </p>
                                                         </div>
                                                     </div>
 
@@ -218,10 +169,10 @@
                                     <div class="spb-column spb-column-111 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
                                         <div class="content">
-                                            <div id="block-phoenix-config-phoenix-banner" class="block block-phoenix-config" style="min-height: 450pt">
+                                            <div id="block-phoenix-config-phoenix-banner" class="block block-phoenix-config" style="min-height: 700pt">
                                                 <style>
                                                     .section_item{
-                                                        margin-top: 20%;
+                                                        //  margin-top: 20%;
                                                     }
                                                 </style>
 
@@ -229,61 +180,60 @@
                                                 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
                                                 <!--/* Intro  */-->
                                                 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                                                <style type="text/css">
+                                                    .hover-bg > h1 {
+                                                        position: absolute;
+                                                        color: white;
+                                                        margin-top: -75px; 
+                                                        text-align: left;
+                                                        background: rgba(0, 187, 172, 0.31);
+                                                    }
+                                                    .bg-blue {
+                                                        background: #1D3F84;
+                                                    }
+                                                    .color-red {
+                                                        color: #CD182C;
+                                                    }
+                                                </style>
                                                 <section sid="intro">
 
                                                     <div class="container section_item" >
-                                                        <div class="row ">
+                                                        <div class="row" id="cards-equipo">
 
-                                                            <div class="col-md-4" data-scroll-reveal="enter top move 10px over 1s after 0.2s">
-
-                                                                <div class="col-md-12 text-center">
-                                                                    <img src="./img/compromiso.jpg" class="clip-circle" width="100px" height="100px"/>
-                                                                    <h3 class="color-white">COMPROMISO</h3>
+                                                            <div class="col-md-5 col-sm-12 bg-blue" style="min-height: 753px">
+                                                                <div></div>
+                                                                <div><h2 class="color-red">hello</h2></div>
+                                                                <div class="color-white"><h4 ><i class="glyphicon glyphicon-phone"></i>  lorem ipsum</h4>hello</div>
+                                                                <div class="color-white"><h4 class="color-white"> <i class="glyphicon glyphicon-phone"></i> lorem ipsum</h4> <span>hello</span></div>
+                                                                <div class="color-white"><a class="btn btn-default btn-bg-white">show</a></div>
+                                                            </div>
+                                                            <div class="col-md-7  col-sm-12"  style="min-height: 753px">
+                                                                <div class="row">
+                                                                    <img src="http://lorempixel.com/g/1200/1024/" class="img-responsive" id="image-bigger"/>
                                                                 </div>
-                                                                <div class="col-md-6 col-md-offset-3 text-center">
-                                                                    <p class="color-white">
-                                                                        La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.                
-                                                                    </p>
+                                                                <div class="row">
+                                                                    <div id="owl-demo">
+
+                                                                        <div class="item" src="http://lorempixel.com/g/400/400/"><img src="http://lorempixel.com/g/400/400/" alt="Owl Image"></div>
+                                                                        <div class="item" src="http://lorempixel.com/g/500/400/"><img src="http://lorempixel.com/g/500/500/" alt="Owl Image"></div>
+                                                                        <div class="item" src="http://lorempixel.com/g/600/400/"><img src="http://lorempixel.com/g/600/600/" alt="Owl Image"></div>
+                                                                        <div class="item" src="http://lorempixel.com/g/700/400/"><img src="http://lorempixel.com/g/700/700/" alt="Owl Image"></div>
+                                                                        <div class="item" src="http://lorempixel.com/g/1200/1024/"><img src="http://lorempixel.com/g/1200/1024/" alt="Owl Image"></div>
+                                                                        <div class="item" src="http://lorempixel.com/g/1024/800/"><img src="http://lorempixel.com/g/1024/800/" alt="Owl Image"></div>
+                                                                        <div class="item" src="http://lorempixel.com/g/800/600/"><img src="http://lorempixel.com/g/800/600/" alt="Owl Image"></div>
+                                                                        
+                                                                        
+
+                                                                    </div>
                                                                 </div>
 
 
 
                                                             </div>
 
-                                                            <div class="col-md-4" data-scroll-reveal="enter top move 10px over 1s after 0.4s">
-
-                                                                <div class="col-md-12 text-center" >
-                                                                    <img src="img/especializacion.jpg" class="clip-circle" width="100px" height="100px"/>
-                                                                    <h3 class="color-white">ESPECIALIZACIÓN</h3>
-                                                                </div>
-                                                                <div class="col-md-6 col-md-offset-3 text-center">
-                                                                    <p class="color-white">
-                                                                        La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.                
-                                                                    </p>
-                                                                </div>
-
-
-
-                                                            </div>
-
-                                                            <div class="col-md-4" data-scroll-reveal="enter top move 10px over 1s after 0.6s">
-
-                                                                <div class="col-md-12 text-center">
-                                                                    <img src="img/profesionalismo.jpg" class="clip-circle" width="100px" height="100px"/>
-                                                                    <h3 class="color-white">PROFESIONALISMO</h3>
-                                                                </div>
-                                                                <div class="col-md-6 col-md-offset-3 text-center">
-                                                                    <p class="color-white">
-                                                                        La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.                
-                                                                    </p>
-                                                                </div>
-
-
-
-                                                            </div>
 
                                                         </div>
-                                                    </div>
+                                                        <div style="height: 70pt;"></div>
                                                 </section>
                                                 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
                                                 <!--/* END Intro  */-->
@@ -303,7 +253,7 @@
 
                         <!-- fin quinta seccion-->
 
-                        <div id="about" class="md-section spb-section-4">
+                        <div id="about" class="md-section spb-section-4" style="display: none;">
                             <div class="container">
                                 <style>
                                     #owl-demo .item{
@@ -320,8 +270,8 @@
                                     <div class="spb-column spb-column-421 col-lg-12 col-md-12 col-sm-12 col-xs-12 sectionIntro">
                                         <div class="sublayout-column">
                                             <div class="mdpb-subrow sub-row-4211">
-                                                <div class="spb-column spb-column-42111 col-xs-12 col-lg-10 col-md-8 col-sm-10 col-md-offset-2 text-center">
-                                                    <div id="owl-demo">
+                                                <div class="spb-column spb-column-42111 col-xs-12 col-lg-10 col-md-8 col-sm-10 col-md-offset-2 text-center" style="display: none;">
+                                                    <!--<div id="owl-demo">
 
                                                         <div class="item"><img src="img/2.png" alt="Owl Image"></div>
                                                         <div class="item"><img src="img/3.png" alt="Owl Image"></div>
@@ -331,7 +281,7 @@
                                                         <div class="item"><img src="img/7.png" alt="Owl Image"></div>
 
 
-                                                    </div>
+                                                    </div>-->
                                                 </div>
                                             </div>
                                         </div>
@@ -445,23 +395,57 @@
                 <strong data-scroll-reveal="enter left move 10px over 1s after 0.2s">Todos los derechos reservados. </strong>Aviso de privacidad
             </div>
         </section>
-    </div></div>    <script>
-        $.backstretch('img/fondo.png');
-        $("#compromiso-banner").backstretch('./img/compromiso.png');
-        $("#profesionalismo-banner").backstretch('./img/profesionalismo.jpg');
+    </div></div>  
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.0/mustache.min.js"></script>
+<script>
+    $.backstretch('img/fondo.png');
+    //  $("#compromiso-banner").backstretch('./img/compromiso.png');
+    // $("#profesionalismo-banner").backstretch('./img/profesionalismo.jpg');
 
-        $(document).ready(function () {
+    $(document).ready(function () {
 
-            $("#owl-demo").owlCarousel({
-                autoPlay: 3000, //Set AutoPlay to 3 seconds
-                responsive: true,
-                items: 3,
-                itemsDesktop: [1199, 3],
-                itemsDesktopSmall: [979, 3]
-
-            });
+        $("#owl-demo").owlCarousel({
+            autoPlay: 3000, //Set AutoPlay to 3 seconds
+            responsive: true,
+            items: 4,
+            itemsDesktop: [1199, 3],
+            itemsDesktopSmall: [979, 3]
 
         });
+
+
+
+        var items = {items: [
+                {encabezado: "hola mundo ", imagen: "http://lorempixel.com/g/400/400/", descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", encabezado_descripcion: "Grupos Turísticos", modelo_url: "servicios.php?1"},               
+                {encabezado: "hola mundo ", imagen: "http://lorempixel.com/g/400/400/", descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", encabezado_descripcion: "Grupos Turísticos", modelo_url: "servicios.php?1"},               
+                {encabezado: "hola mundo ", imagen: "http://lorempixel.com/g/400/400/", descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", encabezado_descripcion: "Grupos Turísticos", modelo_url: "servicios.php?1"},               
+                {encabezado: "hola mundo ", imagen: "http://lorempixel.com/g/400/400/", descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", encabezado_descripcion: "Grupos Turísticos", modelo_url: "servicios.php?1"},               
+                {encabezado: "hola mundo ", imagen: "http://lorempixel.com/g/400/400/", descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", encabezado_descripcion: "Grupos Turísticos", modelo_url: "servicios.php?1"},               
+        ]};
+        var template = '{{#items}}'
+                + '<div class="col-md-4 recuadro-servicio">'
+                + ''
+                + '    <div class="hover-bg">'
+                + '            <div class="hover-text">'
+                + '                <h4>{{encabezado_descripcion}}</h4>'
+                + '                <a  attr="{{modelo_url}}" href="{{modelo_url}}" class="btn btn-default">mostrar</a>'
+                + '                <div class="clearfix"></div>'
+                + '            </div>'
+                + '            <img src="{{imagen}}" class="img-responsive" alt="...">'
+                + '         <h1>{{encabezado}} </h1>'
+                + '    </div>   '
+                + ''
+                + '</div> {{/items}}';
+      //  var rendered = Mustache.render(template, items);
+//$("#cards-equipo").html(rendered);
+
+    });
+    
+    $(document).on("click",".item",function(e){
+        console.log($(this).attr("src"));
+        
+        $("#image-bigger").attr("src",$(this).attr("src"));
+    });
 
 </script>
 
