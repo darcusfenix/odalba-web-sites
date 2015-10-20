@@ -150,7 +150,10 @@ body.front .affix-top .bg-text-theme{
 .infoContact i, .infoContact span{
     display: inline-block;
 }
-
+.navbar-brand img{
+    width: 250px;
+    height: auto;
+}
 /*
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-- RECUADROS SERVICIOS  -->
@@ -318,7 +321,7 @@ bt-25{
 .info-flota-ind hr{
     border: 1px solid #b53348;
     width: 200px
-    
+
 }
 .info-flota-ind p{
     text-align: justify;
@@ -359,5 +362,76 @@ bt-25{
 /*
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-- EBD SECTION FLOTA-INDIVIDUAL  -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+*/
+
+/*
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- SECTION CONTACTO  -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+*/
+.container-contact{
+    background-color: #FFFFFF;
+    min-height: 600px; 
+    margin-top: 170px;
+    margin-bottom: 170px;
+    padding-bottom: 50px;
+}
+.container-contact h2{
+    letter-spacing: 1px;
+}
+.form-control{
+    border: none;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.form-control input, .form-control label{
+    padding-top: 5px;
+    margin-top: 5px;
+}
+.form-control input, .form-control label{
+    vertical-align: middle;
+}
+.form-control input, .form-control textarea{
+    font-size: 18px;
+    -webkit-appearance: textfield;
+    padding: 1px;
+    background-color: white;
+    border: 1px inset;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+    margin: 0em;
+    font: 13.3333px Arial;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    height: 25px;
+}
+.form-control textarea{
+    height: 100px;
+}
+.form-control input:focus {
+    border: 1px inset;
+}
+.btn-enviar{
+   color: #FFFFFF;
+   background-color: #b53348;
+   width: 200px;
+}
+/*
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- SECTION CONTACTO  -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 */

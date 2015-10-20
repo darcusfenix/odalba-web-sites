@@ -21,7 +21,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">
-                    <img src="../img/logos-index/oda.png" alt="Logo" style="margin-top: -29px;"/>
+                    <img src="../img/logos-index/oda.png" alt="Logo" style="margin-top: -29px; width: 150px; height: auto;"/>
                 </a>
             </div>
 
@@ -33,7 +33,7 @@
                     </li>
                     <li class=" <?php echo($lugar_actual = "servicios" ? 'active' : '' ); ?>"><a href="servicios.php" title="">Servicios</a></li>
                     <li class=" <?php echo($lugar_actual = "flota" ? 'active' : '' ); ?>"><a href="flota.php">Flota</a></li>
-                    <li class="last  <?php echo($lugar_actual = "contacto" ? 'active' : '' ); ?>"><a href="#">Contacto</a></li>
+                    <li class="last  <?php echo($lugar_actual = "contacto" ? 'active' : '' ); ?>"><a href="contacto.php">Contacto</a></li>
                 </ul>
             </div>
 
