@@ -127,11 +127,8 @@
                                                             <div>
                                                                 <img data-lazy="http://lorempixel.com/204/200/"/>
                                                             </div>
-
                                                         </div>
                                                     </div>
-
-
                                                 </div>
                                             </div>
                                         </div>

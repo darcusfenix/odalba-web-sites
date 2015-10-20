@@ -41,6 +41,7 @@ src="http://grupobecm.com/odalba/sites/all/modules/simplr_page_builder/plugins/c
 
 <script type="text/javascript" src="js/libs/parallax.js-1.3.1/parallax.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+<script type="text/javascript" src="lib/flexslider/jquery.flexslider-min.js"></script>
 				
 
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->

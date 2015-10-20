@@ -39,15 +39,23 @@
                                                             <div id="block-phoenix-config-phoenix-banner"
                                                                  class="block block-phoenix-config">
 
-                                                                <div class="container  animaper anim ">
-                                                                </div>
-                                                                <div>
+                                                                <div id="home-section">
+                                                                    <div class="flexslider">
+                                                                        <ul class="slides"  id="slider-home">
+
+                                                                            <li><img alt="" src="img/slider-index/1.jpg"></li>
+                                                                            <li><img alt="" src="img/slider-index/2.jpg"></li>
+                                                                            <li><img alt="" src="img/slider-index/3.jpg"></li>
+                                                                            <li><img alt="" src="img/slider-index/4.jpg"></li>
+
+                                                                        </ul>
+                                                                    </div>
                                                                     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
                                                                     <!--/* Intro  */-->
                                                                     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-                                                                    <section id="intro">
+                                                                    <section id="intro" style="position: absolute; z-index: 5; top: 15%; margin-top: -350px; min-height: 1000px;">
                                                                         <div class="container valign">
-                                                                            <div class="row intro-container text-center black-hover">
+                                                                            <div class="row intro-container text-center black-hover" style="width: 80%">
                                                                                 <div class="col-md-12 text-center">
                                                                                     <h1>Charter Buses</h1>
                                                                                 </div>
@@ -60,14 +68,15 @@
                                                                                         "charter" con mayor prestigio y
                                                                                         trayectoria en México. </p>
                                                                                 </div>
-
                                                                             </div>
                                                                         </div>
                                                                     </section>
                                                                     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
                                                                     <!--/* END Intro  */-->
                                                                     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                                                                    
                                                                 </div>
+<img src="img/bus.png" style="position: absolute; z-index: 20; margin-top: -430px;">
 
 
                                                             </div>
@@ -180,11 +189,31 @@
     </body>
 </html>
 <script>
+    /*
+     $.backstretch([
+     "img/bg-01.jpg",
+     "img/bg-02.jpg",
+     "img/bg-03.jpg"
+     ], {duration: 3000, fade: 750});
+     */
+</script>
+<script type="text/javascript">
+    /*
+     $('.multiple-items').slick({
+     lazyLoad: 'ondemand',
+     slidesToShow: 1,
+     infinite: true,
+     slidesToScroll: 1,
+     autoplay: true,
+     autoplaySpeed: 2000
+     });
+     */
+    var SliderPost = $('.flexslider');
 
-    $.backstretch([
-        "img/bg-01.jpg",
-        "img/bg-02.jpg",
-        "img/bg-03.jpg"
-    ], {duration: 3000, fade: 750});
+    SliderPost.flexslider({
+        animation: "slide",
+        pauseOnAction: true,
+        slideshowSpeed: 7000
+    });
 
 </script>
