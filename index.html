@@ -129,7 +129,12 @@
             .img-servicio img{
                 width: 100%;
                 height: 100%;
-            }    </style>
+            }    
+            body:after {
+                content: url(img/bg-index/1.jpg) url(img/bg-index/2.jpg) url(img/bg-index/3.jpg) url(img/bg-index/4.jpg);
+                display: none;
+            }
+        </style>
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
           <script src="js/html5shiv.js"></script>
@@ -158,7 +163,7 @@
                                 <ul class="nav navbar-nav">
                                     <li  class="first leaf"><a href="/odalba/" title="" class="active">Inicio</a></li>
                                     <li  class="leaf"><a href="presentacion.html" title="">Presentación</a></li>
-                                    
+
                                     <li  class="leaf">
                                         <a href="#">Venta de autobús</a>
                                     </li>
@@ -299,18 +304,17 @@
                                                             </style>
                                                             <div class="container row black-overlay-logos text-center">
                                                                 <div class="col-xs-12 col-sm-6 col-md-4"  >
-
-                                                                    <a href="oda/">
+                                                                    <a href="oda/" class="img-logo" id="logo-1">
                                                                         <div id="oda-logo" class="btn-img-logo"></div>
                                                                     </a>   
                                                                 </div>
                                                                 <div class="col-xs-12 col-sm-6 col-md-4">
-                                                                    <a href="odc/">
+                                                                    <a href="odc/" class="img-logo" id="logo-2">
                                                                         <div id="odc-logo" class="btn-img-logo"></div>
                                                                     </a>    
                                                                 </div>
                                                                 <div class="col-xs-12 col-sm-6 col-md-4">
-                                                                    <a href="odm">
+                                                                    <a href="odm" class="img-logo" id="logo-3">
                                                                         <div id="odm-logo" class="btn-img-logo"></div>
                                                                     </a>    
                                                                 </div>
@@ -478,7 +482,24 @@
             </div>
         </div>    
         <script>
-            $.backstretch('http://grupobecm.com/odalba/sites/default/files/Inicio1_A.jpg');
+            $.backstretch('img/bg-index/1.jpg');
+            $(".img-logo").hover(function (e) {
+                e.preventDefault();
+                var logo = $(this).attr("id");
+                switch (logo) {
+                    case "logo-1":
+                        $.backstretch('img/bg-index/4.jpg');
+                        break;
+
+                    case "logo-2":
+                        $.backstretch('img/bg-index/2.jpg');
+                        break;
+
+                    case "logo-3":
+                        $.backstretch('img/bg-index/3.jpg');
+                        break;
+                }
+            });
         </script>
     </body>
 </html>
