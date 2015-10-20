@@ -165,8 +165,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div id="parallax">
-                                            <div class="row parallax-window text-center" data-parallax="scroll" data-image-src="img/parallax.jpg" >
+                                        <div id="parallax" style="height: 700px;">
+                                            <div  style="height: 700px;" class="row parallax-window text-center" data-parallax="scroll" data-image-src="img/parallax.jpg" >
                                                 <h2 class="text-white" data-scroll-reveal="enter up move 10px over 1s after 0.2s">Somos una empresa definida en valores</h2>
                                                 <br><br>
                                                 <a href="#" class="btn-info-parallax" ><b>Servicios</b></a>
