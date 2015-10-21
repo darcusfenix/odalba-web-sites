@@ -483,22 +483,28 @@
         </div>    
         <script>
             $.backstretch('img/bg-index/1.jpg');
-            $(".img-logo").hover(function (e) {
+            $(".img-logo").mouseenter(function (e) {
                 e.preventDefault();
                 var logo = $(this).attr("id");
+                var imgRuta;
                 switch (logo) {
                     case "logo-1":
-                        $.backstretch('img/bg-index/4.jpg');
+                        imgRuta = "img/bg-index/4.jpg";
                         break;
 
                     case "logo-2":
-                        $.backstretch('img/bg-index/2.jpg');
+                        imgRuta = "img/bg-index/2.jpg";
                         break;
 
                     case "logo-3":
-                        $.backstretch('img/bg-index/3.jpg');
+                        imgRuta = "img/bg-index/3.jpg";
                         break;
                 }
+                $.backstretch(imgRuta,{duration: 2000, fade: 750});
+            });
+            $(".img-logo").mouseleave(function (e) {
+                e.preventDefault();
+                $.backstretch('img/bg-index/1.jpg',{duration: 3000, fade: 750});
             });
         </script>
     </body>
