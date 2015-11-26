@@ -120,7 +120,7 @@
                                             </div>
                                         </div>
 
-                                        <div id="text-separator" class="md-section spb-section-2">
+                                        <div id="text-separator" class="md-section spb-section-2" style="margin-top: 300px; z-index: 9999;">
                                             <div class="container-fluid ours-history">
                                                 <div class="col-md-10 col-md-offset-1 contenedor-recuadros">
                                                     <div class="col-md-4" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
@@ -131,7 +131,7 @@
                                                             <div class="col-md-12 text-center history-text">
                                                                 <h2>COMPROMISO</h2>
                                                                 <p>
-                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                                    Nuestra meta es “superar las expectativas de nuestros clientes”, comprometiéndonos a ofrecer un servicio de calidad con altos estándares.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -144,7 +144,7 @@
                                                             <div class="col-md-12 text-center history-text">
                                                                 <h2>ESPECIALIZACIÓN</h2>
                                                                 <p>
-                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                                    Más de 45 años “haciendo camino”, nos han perfeccionado para poder ofrecer el servicio de autotransporte turístico más especializado y de vanguardia dentro de nuestro país.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -157,7 +157,7 @@
                                                             <div class="col-md-12 text-center history-text">
                                                                 <h2>PROFESIONALISMO</h2>
                                                                 <p>
-                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                                    Nuestro equipo de operadores, altamente calificado, brinda un trato eficiente, atento y cordial, garantizando el confort, la buena atención y seguridad de nuestros pasajeros.
                                                                 </p>
                                                             </div>
                                                         </div>

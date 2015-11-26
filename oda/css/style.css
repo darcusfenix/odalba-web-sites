@@ -2,6 +2,30 @@
     font-family: futura-light;
     src: url('../fonts/FuturaLight.ttf');
 }
+@font-face {
+    font-family: EchinosParkScript_PERSONAL_USE_ONLY;
+    src: url('../fonts/EchinosParkScript_PERSONAL_USE_ONLY.ttf');
+}
+@font-face {
+    font-family: Futura_Book_BT;
+    src: url('../fonts/Futura_Book_BT.ttf');
+}
+@font-face {
+    font-family: futura-light;
+    src: url('../fonts/FuturaExtended.ttf');
+}
+@font-face {
+    font-family: Futura_Oblique;
+    src: url('../fonts/Futura_Oblique.ttf');
+}
+@font-face {
+    font-family: FuturaBT_Book_OpenType;
+    src: url('../fonts/FuturaBT_Book_OpenType.otf');
+}
+@font-face {
+    font-family: Futura-condensed;
+    src: url('../fonts/ufonts.com_futura-condensed-medium.ttf');
+}
 
 .text-theme{
     color: #b53348;
@@ -178,37 +202,51 @@ body.front .affix-top .bg-text-theme{
     text-align: center;
     margin: 0 auto;
     color: #ffffff;
-    background: rgba(0, 0, 0, 0.66);
-    padding: 25% 0;
+    background: rgba(0, 0, 0, 0.60);
     height: 100%;
     width: 100%;
-    opacity: 0;
+    top: 100%;
+    margin-top: -28px;
+    opacity:1;
+
     transition: all 0.5s;
 }
-.hover-bg .hover-text>h4{
-    opacity: 0;
+.hover-bg:hover  .hover-text {
+    -webkit-backface-visibility:hidden;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    top: 40%;
+    margin-top: 0px;
+    transition: all 0.5s;
+}
+.hover-bg .hover-text > h4{
+    opacity: 1;
+    text-transform: none;
+    margin-top: 0px;
+    background: gray;
+    padding: 3px;
+    text-align: left;
+    padding-left: 10px;
+    background: rgba(0, 0, 0, 0.60);
+    font-family: Futura-condensed;
+    font-weight: normal;
+    /*
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     transition: all 0.3s;
-    letter-spacing: 3px;
+    */
+    letter-spacing: normal;
 }
 .hover-bg:hover .hover-text>h4{
     opacity: 1;
-    -webkit-backface-visibility:hidden;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
 }
-.hover-bg .hover-text>i{
-    opacity: 0;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    transition: all 0.3s;
-}
-.hover-bg:hover .hover-text>i{
-    opacity: 1;
-    -webkit-backface-visibility:hidden;
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%);
+.hover-bg:hover .hover-text>small{
+    top: 20px;
+    font-family: Futura_Oblique;
+    padding-left: 3px;
+    padding-right: 3px;
+    line-height: 4px;
+    font-size: 12px;
 }
 .hover-bg:hover .hover-text{
     opacity: 1;
@@ -216,7 +254,7 @@ body.front .affix-top .bg-text-theme{
 .intro-servicios{
     background: rgba(0, 0, 0, 0.66);
 }
-bt-25{
+.bt-25{
     margin-bottom: 25px;
 }
 /*
