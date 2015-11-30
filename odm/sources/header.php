@@ -61,6 +61,8 @@
             @import url("http://grupobecm.com/odalba/sites/all/themes/md_phoenix/css/front/responsive.css?nnfn1j");
             @import url("http://grupobecm.com/odalba/sites/all/themes/md_phoenix/css/front/custom-phoenix-overlay-css.css?nnfn1j");
         </style>
+        
+        <link type="text/css" href="style.css" />
       
     
         <!--[if lte IE 7]>
