@@ -29,83 +29,24 @@
                                             <div class="container-fluid">
                                                 <div class="row spb-row-11">
                                                     <div class="spb-column spb-column-111 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-
                                                         <div class="content">
                                                             <div id="block-phoenix-config-phoenix-banner"
                                                                  class="block block-phoenix-config">
-
                                                                 <div id="home-section">
                                                                     <div class="flexslider">
                                                                         <ul class="slides"  id="slider-home">
                                                                             <li style="position: relative">
-                                                                                <img alt="" src="img/slider-index/1.jpg">
-                                                                                <div class="intro text-center" style="position: absolute; margin-top: -800px;">
-                                                                                    <div class="container valign" style="width 90%;">
-                                                                                        <div class="row intro-container text-center black-hover" style="width 90%;">
-                                                                                            <div class="col-md-12 text-center">
-                                                                                                <h1 style="color: #FFFFFF; letter-spacing: normal;">Charter Buses</h1>
-                                                                                            </div>
-                                                                                            <div class="col-md-12 text-center">
-                                                                                                <hr>
-                                                                                            </div>
-                                                                                            <div class="col-md-12 text-center">
-                                                                                                <p style="color: #FFFFFF">
-                                                                                                    La empresa de transportación tipo
-                                                                                                    "charter" con mayor prestigio y
-                                                                                                    trayectoria en México. </p>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
+                                                                                <img alt="" src="img/slider-index/1.jpg">      
                                                                             </li>
                                                                             <li style="position: relative">
                                                                                 <img alt="" src="img/slider-index/2.jpg">
-                                                                                <div class="intro text-center" style="margin-top: -800px;">
-                                                                                    <div class="container valign" style="width 90%;">
-                                                                                        <div class="row intro-container text-center black-hover" style="width 90%;">
-                                                                                            <div class="col-md-12 text-center">
-                                                                                                <h1 style="color: #FFFFFF; letter-spacing: normal;">Compromiso</h1>
-                                                                                            </div>
-                                                                                            <div class="col-md-12 text-center">
-                                                                                                <hr>
-                                                                                            </div>
-                                                                                            <div class="col-md-12 text-center">
-                                                                                                <p style="color: #FFFFFF">
-                                                                                                    Nuestra meta, siempre superar las expectativas
-                                                                                                    de nuestros clientes.
-                                                                                                </p>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
                                                                             </li>
                                                                             <li style="position: relative">
                                                                                 <img alt="" src="img/slider-index/3.jpg">
-                                                                                <div class="intro text-center" style="margin-top: -800px;">
-                                                                                    <div class="container valign" style="width 90%;">
-                                                                                        <div class="row intro-container text-center black-hover" style="width 100%;">
-                                                                                            <div class="col-md-12 text-center">
-                                                                                                <h1 style="color: #FFFFFF; letter-spacing: normal;">Especialización</h1>
-                                                                                            </div>
-                                                                                            <div class="col-md-12 text-center">
-                                                                                                <hr>
-                                                                                            </div>
-                                                                                            <div class="col-md-12 text-center">
-                                                                                                <p style="color: #FFFFFF">
-                                                                                                    Más de 45 años "haciendo camino", nos han perfeccionado
-                                                                                                    para poder ofrecer el mejor servicio.
-                                                                                                </p>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
                                                                             </li>
                                                                         </ul>
                                                                     </div>
-
-
                                                                 </div>
-                                                                <img src="img/bus.png" style="margin-left: 40%;position: absolute; z-index: 20; margin-top: -480px; height: 350px !important; height: auto">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -138,7 +79,7 @@
                                             </div>
                                         </div>
 
-                                        <div id="text-separator" class="md-section spb-section-2" style="margin-top: 300px; z-index: 9999;">
+                                        <div id="text-separator" class="md-section spb-section-2" style=" z-index: 9999;">
                                             <div class="container-fluid ours-history">
                                                 <div class="col-md-10 col-md-offset-1 contenedor-recuadros">
                                                     <div class="col-md-4" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
@@ -206,33 +147,16 @@
         <?php include './scripts.php'; ?>
     </body>
 </html>
-<script>
-    /*
-     $.backstretch([
-     "img/bg-01.jpg",
-     "img/bg-02.jpg",
-     "img/bg-03.jpg"
-     ], {duration: 3000, fade: 750});
-     */
-</script>
 <script type="text/javascript">
-    /*
-     $('.multiple-items').slick({
-     lazyLoad: 'ondemand',
-     slidesToShow: 1,
-     infinite: true,
-     slidesToScroll: 1,
-     autoplay: true,
-     autoplaySpeed: 2000
-     });
-     */
     var SliderPost = $('.flexslider');
 
     SliderPost.flexslider({
-        animation: "slide",
+        animation: "fade",
         pauseOnAction: true,
-        slideshowSpeed: 7000,
-        controlNav: false
+        slideshowSpeed: 5000,
+        controlNav: false,
+        prevText: '<i class="fa fa-chevron-left"></i>',
+        nextText: '<i class="fa fa-chevron-right"></i>'
     });
 
 </script>

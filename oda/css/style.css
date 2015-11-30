@@ -487,3 +487,20 @@ body.front .affix-top .bg-text-theme{
 <!-- SECTION CONTACTO  -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 */
+.flex-next, .flex-prev{
+    background-color: #b42a47 !important;
+    color: #FFFFFF !important;
+    font-size: 28px;
+    padding-top: 8px;
+}
+.flex-next{
+    padding-right: 8px;
+}
+.flex-prev{
+    padding-left: 8px;
+}
+
+.flex-next:before, .flex-prev:before{
+    content: none !important;
+    width: 30px !important;
+}
