@@ -75,7 +75,7 @@ body.front .affix-top .bg-text-theme{
 .header-info-contacto{
     font-size: 16px;
 }
-#intro .valign hr{
+.intro .valign hr{
     border: 2px solid white;
 }
 .intro-container{
@@ -83,10 +83,10 @@ body.front .affix-top .bg-text-theme{
     margin: 0px auto;
     padding: 15px;
 }
-#intro p{
+.intro p{
     font-size: 20px;
 }
-#intro .black-hover{
+.intro .black-hover{
     background-color: rgba(0,0,0,0.6);
 }
 
@@ -269,8 +269,8 @@ body.front .affix-top .bg-text-theme{
 <!-- SECTION FLOTA  -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 */
-.recuadros-flota h3,.recuadros-flota p{
-    background-color: gray;
+.recuadros-flota h4,.recuadros-flota p{
+    background-color: #D8D8D8;
     color: #000000;
 }
 .recuadros-flota > div{
@@ -288,46 +288,39 @@ body.front .affix-top .bg-text-theme{
     text-align: center;
     margin: 0 auto;
     color: #ffffff;
-    //background: rgba(0, 0, 0, 0.66);
-    //padding: 25% 0;
     top: 0px;
     height: 100%;
     width: 100%;
-    opacity: 0;
-    transition: all 0.5s;
+    
 }
-.hover-bg-flota .hover-text-flota > h4{
-    opacity: 0;
-    //-webkit-transform: translateY(100%);
-    //transform: translateY(100%);
-    background-color: #bcbdc0;
+.hover-bg-flota .hover-text-flota  h4{
+ 
     color: #000000;
     font-weight: 400;
     top: 0px;
-    padding-top: 0px;
+    padding: 4px;
     margin-top: 0px;
     text-align: left;
     transition: all 0.3s;
     letter-spacing: 3px;
+    opacity: 1;
 }
-.hover-bg-flota .hover-text-flota > p{
-    background-color: #6a72a9;
+.hover-bg-flota .hover-text-flota  p{
+   
     color: white;
     font-weight: 400;
     margin-top: 170PX;
+    background: #5882FA ;
     padding: 5px;
     text-align: justify;
+    opacity: 0;
     transition: all 0.3s;
 }
-.hover-bg-flota:hover .hover-text-flota > h4{
+.hover-bg-flota:hover .hover-text-flota p{
     opacity: 1;
     -webkit-backface-visibility:hidden;
     -webkit-transform: translateY(0);
     transform: translateY(0);
-}
-
-.hover-bg-flota:hover .hover-text-flota{
-    opacity: 1;
 }
 /*
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->

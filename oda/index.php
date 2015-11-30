@@ -8,14 +8,9 @@
 <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html class="no-js"> <!--<![endif]-->
-
     <head>
-
         <title>Inicio | Grupo Omnibus de Alba</title>
         <?php include './head.php'; ?>
-
-
-
     </head>
     <body class="html front not-logged-in no-sidebars page-node page-node- page-node-65 page-type-page-builder spb-enabled i18n-es"
           id="bigWrapper" data-spy="scroll" data-target=".navbar-default" data-offset="100">
@@ -42,43 +37,75 @@
                                                                 <div id="home-section">
                                                                     <div class="flexslider">
                                                                         <ul class="slides"  id="slider-home">
-
-                                                                            <li><img alt="" src="img/slider-index/1.jpg"></li>
-                                                                            <li><img alt="" src="img/slider-index/2.jpg"></li>
-                                                                            <li><img alt="" src="img/slider-index/3.jpg"></li>
-                                                                            <li><img alt="" src="img/slider-index/4.jpg"></li>
-
+                                                                            <li style="position: relative">
+                                                                                <img alt="" src="img/slider-index/1.jpg">
+                                                                                <div class="intro text-center" style="position: absolute; margin-top: -800px;">
+                                                                                    <div class="container valign" style="width 90%;">
+                                                                                        <div class="row intro-container text-center black-hover" style="width 90%;">
+                                                                                            <div class="col-md-12 text-center">
+                                                                                                <h1 style="color: #FFFFFF; letter-spacing: normal;">Charter Buses</h1>
+                                                                                            </div>
+                                                                                            <div class="col-md-12 text-center">
+                                                                                                <hr>
+                                                                                            </div>
+                                                                                            <div class="col-md-12 text-center">
+                                                                                                <p style="color: #FFFFFF">
+                                                                                                    La empresa de transportación tipo
+                                                                                                    "charter" con mayor prestigio y
+                                                                                                    trayectoria en México. </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li style="position: relative">
+                                                                                <img alt="" src="img/slider-index/2.jpg">
+                                                                                <div class="intro text-center" style="margin-top: -800px;">
+                                                                                    <div class="container valign" style="width 90%;">
+                                                                                        <div class="row intro-container text-center black-hover" style="width 90%;">
+                                                                                            <div class="col-md-12 text-center">
+                                                                                                <h1 style="color: #FFFFFF; letter-spacing: normal;">Compromiso</h1>
+                                                                                            </div>
+                                                                                            <div class="col-md-12 text-center">
+                                                                                                <hr>
+                                                                                            </div>
+                                                                                            <div class="col-md-12 text-center">
+                                                                                                <p style="color: #FFFFFF">
+                                                                                                    Nuestra meta, siempre superar las expectativas
+                                                                                                    de nuestros clientes.
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li style="position: relative">
+                                                                                <img alt="" src="img/slider-index/3.jpg">
+                                                                                <div class="intro text-center" style="margin-top: -800px;">
+                                                                                    <div class="container valign" style="width 90%;">
+                                                                                        <div class="row intro-container text-center black-hover" style="width 100%;">
+                                                                                            <div class="col-md-12 text-center">
+                                                                                                <h1 style="color: #FFFFFF; letter-spacing: normal;">Especialización</h1>
+                                                                                            </div>
+                                                                                            <div class="col-md-12 text-center">
+                                                                                                <hr>
+                                                                                            </div>
+                                                                                            <div class="col-md-12 text-center">
+                                                                                                <p style="color: #FFFFFF">
+                                                                                                    Más de 45 años "haciendo camino", nos han perfeccionado
+                                                                                                    para poder ofrecer el mejor servicio.
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
                                                                         </ul>
                                                                     </div>
-                                                                    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-                                                                    <!--/* Intro  */-->
-                                                                    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-                                                                    <section id="intro" style="position: absolute; z-index: 5; top: 15%; margin-top: -350px; min-height: 1000px;">
-                                                                        <div class="container valign">
-                                                                            <div class="row intro-container text-center black-hover" style="width: 80%">
-                                                                                <div class="col-md-12 text-center">
-                                                                                    <h1>Charter Buses</h1>
-                                                                                </div>
-                                                                                <div class="col-md-12 text-center">
-                                                                                    <hr>
-                                                                                </div>
-                                                                                <div class="col-md-12 text-center">
-                                                                                    <p>
-                                                                                        La empresa de transportación tipo
-                                                                                        "charter" con mayor prestigio y
-                                                                                        trayectoria en México. </p>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </section>
-                                                                    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-                                                                    <!--/* END Intro  */-->
-                                                                    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-                                                                    
+
+
                                                                 </div>
-<img src="img/bus.png" style="position: absolute; z-index: 20; margin-top: -430px;">
-
-
+                                                                <img src="img/bus.png" style="margin-left: 40%;position: absolute; z-index: 20; margin-top: -480px; height: 350px !important; height: auto">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -86,16 +113,10 @@
                                             </div>
                                         </div>
 
-                                        <div id="about" class="md-section spb-section-4" style="background-image: url('img/midle.jpg')">
+                                        <div id="about" class="md-section spb-section-4">
                                             <div class="container">
-                                                <div class="row spb-row-41">
-                                                    <div class="spb-column spb-column-411 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                                    </div>
-                                                </div>
-                                                <div class="row spb-row-42">
-                                                    <div class="spb-column spb-column-421 col-lg-12 col-md-12 col-sm-12 col-xs-12 sectionIntro">
-                                                        <div class="sublayout-column">
-                                                            <div class="mdpb-subrow sub-row-4211">
+                                                
+                                               
                                                                 <div class="spb-column spb-column-42111 col-xs-12 col-lg-8 col-md-8 col-sm-10 col-md-offset-2 text-center">
                                                                     <div class="spb-custom-phoenix-section-header">
                                                                         <h2 class=""
@@ -113,10 +134,7 @@
                                                                         </p>
                                                                     </div>
                                                                 </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                           
                                             </div>
                                         </div>
 
@@ -213,7 +231,8 @@
     SliderPost.flexslider({
         animation: "slide",
         pauseOnAction: true,
-        slideshowSpeed: 7000
+        slideshowSpeed: 7000,
+        controlNav: false
     });
 
 </script>
