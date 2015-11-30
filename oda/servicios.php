@@ -64,7 +64,8 @@
                                                                             </div>
                                                                             <div class="col-md-12 text-center">
                                                                                 <p>
-                                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                                                    Nuestra amplia flotilla de vehículos lo llevará a cualquier punto de nuestro país cubriendo los requerimientos de viaje para hacer del camino una experiencia segura y memorable.
+                                                                                </p>
                                                                             </div>
 
                                                                         </div>
@@ -80,13 +81,14 @@
                                                                     <div class="container">
                                                                         <div class="row text-center mg-bt-25">
                                                                             <div class="col-md-4 text-center recuadro-servicio">
-
                                                                                 <div class="hover-bg">
                                                                                     <a href="#">
                                                                                         <div class="hover-text">
                                                                                             <h4>Grupos Turísticos</h4>
-                                                                                            <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small>
-                                                                                            <div class="clearfix"></div>
+                                                                                            <small>
+                                                                                                Nos hemos especializado en atender necesidades específicas para los grupos de personas que viajan turísticamente, haciendo de su viaje una experiencia altamente memorable y placentera.
+                                                                                            </small>
+
                                                                                         </div>
                                                                                         <img src="img/servicios/1.jpg" class="img-responsive" alt="...">
                                                                                     </a>
@@ -97,8 +99,8 @@
                                                                                     <a href="#">
                                                                                         <div class="hover-text">
                                                                                             <h4>Grupos de Incentivos</h4>
-                                                                                            <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small>
-                                                                                            <div class="clearfix"></div>
+                                                                                            <small>Nos complace atender a personas que viajan en grupos de incentivos, porque hacen del traslado en nuestros vehículos un momento rico en convivencia. Viajes que nos motivan a ofrecerles un servicio de alta calidad en modo individual y personalizado.</small>
+
                                                                                         </div>
                                                                                         <img src="img/servicios/2.jpg" class="img-responsive" alt="...">
                                                                                     </a>
@@ -109,8 +111,9 @@
                                                                                     <a href="#">
                                                                                         <div class="hover-text">
                                                                                             <h4>Circuitos</h4>
-                                                                                            <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small>
-                                                                                            <div class="clearfix"></div>
+                                                                                            <small>
+                                                                                                En esta especialización de viajes, tenemos una amplia experiencia, sobre todo en el tema de conocimiento de mejores rutas así como la logística de viaje que son fundamentales para alcanzar el éxito.</small>
+
                                                                                         </div>
                                                                                         <img src="img/servicios/3.jpg" class="img-responsive" alt="...">
                                                                                     </a>
@@ -121,8 +124,10 @@
                                                                                     <a href="#">
                                                                                         <div class="hover-text">
                                                                                             <h4>Convenciones</h4>
-                                                                                            <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small>
-                                                                                            <div class="clearfix"></div>
+                                                                                            <small>
+                                                                                                Asistir a una convención requiere de un momento de viaje envuelto en el profesionalismo y puntualidad. Valores de alta calidad que nos caracterizan.
+                                                                                            </small>
+
                                                                                         </div>
                                                                                         <img src="img/servicios/4.jpg" class="img-responsive" alt="...">
                                                                                     </a>
@@ -133,8 +138,10 @@
                                                                                     <a href="#">
                                                                                         <div class="hover-text">
                                                                                             <h4>Recorridos Especiales</h4>
-                                                                                            <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small>
-                                                                                            <div class="clearfix"></div>
+                                                                                            <small>
+                                                                                                Una de las cualidades de nuestra empresa, es la capacidad que tenemos para personalizar un viaje. Nos apasiona ofrecer recorridos a la medida exacta de las necesidades de nuestros clientes.
+                                                                                            </small>
+
                                                                                         </div>
                                                                                         <img src="img/servicios/5.jpg" class="img-responsive" alt="...">
                                                                                     </a>
@@ -145,8 +152,10 @@
                                                                                     <a href="#">
                                                                                         <div class="hover-text">
                                                                                             <h4>Excursiones</h4>
-                                                                                            <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small>
-                                                                                            <div class="clearfix"></div>
+                                                                                            <small>
+                                                                                                Nos esforzamos siempre por hacer de los recorridos tipo excursión, una experiencia muy dinámica, puntual, favoreciendo el descanso, relajación y frescura en los momentos de traslado.
+                                                                                            </small>
+
                                                                                         </div>
                                                                                         <img src="img/servicios/6.jpg" class="img-responsive" alt="...">
                                                                                     </a>

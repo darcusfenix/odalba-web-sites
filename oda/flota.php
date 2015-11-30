@@ -60,7 +60,7 @@
                                                                         <div class="container valign">
                                                                             <div class="row intro-container text-center">
                                                                                 <div class="col-md-12 text-center">
-                                                                                    <h1>TECNOLOGÍA <span class="text-theme">ATENCIÓN</span> COMODIDAD</h1>
+                                                                                    <h2>TECNOLOGÍA <span class="text-theme">ATENCIÓN</span> COMODIDAD</h2>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -97,7 +97,7 @@
                                                                     </div>
                                                                     <div class="spb-custom-phoenix-paragraph">
                                                                         <p>
-                                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                                            Tecnología notable y amigable con el medio ambiente. Opciones ideales para viajes de mediana y larga distancia con máxima capacidad 
                                                                         </p>
                                                                     </div>
                                                                 </div>
