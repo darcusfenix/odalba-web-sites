@@ -1,5 +1,5 @@
-<?php include_once '../odc/sources/header.php'; ?>
-<?php include_once '../odc/sources/nav.php'; ?>
+<?php include_once './sources/header.php'; ?>
+<?php include_once './sources/nav.php'; ?>
 
 
 
@@ -341,7 +341,7 @@
         </section>
         <style type="text/css">
             #copyright .bottomLine {                
-                background-color: #DF2A2F;
+                background-color: #1E4284;
                 color: white;
             }
             #DF2A2F

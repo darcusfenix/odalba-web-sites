@@ -1,6 +1,5 @@
-<?php include_once '../odc/sources/header.php'; ?>
-<?php include_once '../odc/sources/nav.php'; ?>
-
+<?php include_once './sources/header.php'; ?>
+<?php include_once './sources/nav.php'; ?>
 
 
 <!--OVERLAY FOR THE PORTFOLIO MENU // DONT' DELETE IF YOU PLAN TO USE THIS OPTION-->
@@ -122,7 +121,7 @@
                         </div>
                         <!-- fin primera carta-->                               
                         <div id="about" class="md-section spb-section-4">
-                            <div class="row" style="padding-top: 200px">
+                            <div class="container">
 
                                 <div class="row">
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sectionIntro">
@@ -174,17 +173,39 @@
                                                          text-align: left;
                                                          background: rgba(0, 187, 172, 0.31);
                                                     }
-                                                    .recuadro-servicio {
-                                                        margin: 0px !important;
-                                                        padding: 3px !important;
+                                                    .z-max{
+                                                            z-index: 9999;
                                                     }
                                                 </style>
                                                 <section sid="intro">
 
-                                                    <div class="container-fluid section_item" >
+                                                    <div class="container section_item" >
+                                                       
+                                                        <a class="left carousel-control z-max" id="carousel-control" role="button" data-slide="prev">
+                                                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                                            <span class="sr-only">Previous</span>
+                                                        </a>
+                                                        <a class="right carousel-control z-max" id="carousel-control"  role="button" data-slide="next">
+                                                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                                            <span class="sr-only">Next</span>
+                                                        </a>
                                                         <div class="row" id="cards-equipo">
 <!--
-                                                          
+                                                            <div class="col-md-4 recuadro-servicio">
+
+                                                                <div class="hover-bg">
+                                                                    
+                                                                    <a href="#">
+                                                                       
+                                                                        <div class="hover-text">
+                                                                            <h4>Grupos Turísticos</h4>
+                                                                            <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small>
+                                                                            <div class="clearfix"></div>
+                                                                        </div>
+                                                                        <img src="http://lorempixel.com/g/400/400/" class="img-responsive" alt="...">
+                                                                    </a>
+                                                                     <h1>hola mundo </h1>
+                                                                </div>   
  -->
                                                             </div>
 
@@ -210,7 +231,7 @@
 
                         <!-- fin quinta seccion-->
 
-                        <div id="about" class="md-section spb-section-4" style="display: none;">
+                        <div id="about" class="md-section spb-section-4">
                             <div class="container">
                                 <style>
                                     #owl-demo .item{
@@ -223,7 +244,7 @@
                                     }
 
                                 </style>
-                                <div class="row spb-row-42" >
+                                <div class="row spb-row-42">
                                     <div class="spb-column spb-column-421 col-lg-12 col-md-12 col-sm-12 col-xs-12 sectionIntro">
                                         <div class="sublayout-column">
                                             <div class="mdpb-subrow sub-row-4211">
@@ -281,32 +302,32 @@
                                             <h4 data-scroll-reveal="enter left move 10px over 1s after 0.2s" style="    margin-top: 30px;">Equipo</h4>   
                                             <div class="row">
                                                 <div class="col-xs-4">
-                                                    <a class="thumbnail">
+                                                    <a href="#" class="thumbnail">
                                                         <img src="http://placehold.it/350x150" class="img-responsive">
                                                     </a>
                                                 </div>
                                                 <div class="col-xs-4">
-                                                    <a class="thumbnail">
+                                                    <a href="#" class="thumbnail">
                                                         <img src="http://placehold.it/350x150" class="img-responsive">
                                                     </a>
                                                 </div>
                                                 <div class="col-xs-4">
-                                                    <a class="thumbnail">
+                                                    <a href="#" class="thumbnail">
                                                         <img src="http://placehold.it/350x150" class="img-responsive">
                                                     </a>
                                                 </div>
                                                 <div class="col-xs-4">
-                                                    <a class="thumbnail">
+                                                    <a href="#" class="thumbnail">
                                                         <img src="http://placehold.it/350x150" class="img-responsive">
                                                     </a>
                                                 </div>
                                                 <div class="col-xs-4">
-                                                    <a class="thumbnail">
+                                                    <a href="#" class="thumbnail">
                                                         <img src="http://placehold.it/350x150" class="img-responsive">
                                                     </a>
                                                 </div>
                                                 <div class="col-xs-4">
-                                                    <a class="thumbnail">
+                                                    <a href="#" class="thumbnail">
                                                         <img src="http://placehold.it/350x150" class="img-responsive">
                                                     </a>
                                                 </div>
@@ -341,7 +362,7 @@
         </section>
         <style type="text/css">
             #copyright .bottomLine {                
-                background-color: #DF2A2F;
+                background-color: #1E4284;
                 color: white;
             }
             #DF2A2F
@@ -356,9 +377,13 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.0/mustache.min.js"></script>
     <script>
         $.backstretch('img/fondo.png');
-     //   $("#compromiso-banner").backstretch('./img/compromiso.png');
-     //   $("#profesionalismo-banner").backstretch('./img/profesionalismo.jpg');
-
+        $("#compromiso-banner").backstretch('./img/compromiso.png');
+        $("#profesionalismo-banner").backstretch('./img/profesionalismo.jpg');
+var items = [];
+var item = [];
+var i = 0;
+var max = 0;
+var template;
         $(document).ready(function () {
 
             $("#owl-demo").owlCarousel({
@@ -372,33 +397,77 @@
             
             
             
-var items = {items:[
-    {encabezado:"hola mundo ",imagen:"http://lorempixel.com/g/800/600/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:""},    
-    {encabezado:"hola mundo ",imagen:"http://lorempixel.com/g/800/600/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:""},
+ items = {items:[
+    {encabezado:"hola mundo 1",galery:"1",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
+    {encabezado:"hola mundo2 ",galery:"1",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
+    {encabezado:"hola mundo 3",galery:"1",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
+    {encabezado:"hola mundo 4",galery:"1",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
+    {encabezado:"hola mundo5 ",galery:"1",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
+    {encabezado:"hola mundo6 ",galery:"1",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
+    {encabezado:"hola mundo 7",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
+    {encabezado:"hola mundo8 ",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
+    {encabezado:"hola mundo9 ",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
+    {encabezado:"hola mundo0 ",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
+    {encabezado:"hola mundo1 ",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
+    {encabezado:"hola mundo2 ",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},        
+    {encabezado:"hola mundo 3",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},        
+    {encabezado:"hola mundo4 ",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},        
+    {encabezado:"hola mundo5 ",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},        
     ]};
 
-var template = '{{#items}}'
+ template = '{{#items}}'
 +'<div class="col-md-4 recuadro-servicio">'
 +''
 +'    <div class="hover-bg">'
-+'        '
-+'        <a >'
-+'           '
 +'            <div class="hover-text">'
 +'                <h4>{{encabezado_descripcion}}</h4>'
-+'                <small>{{descripcion}}</small>'
++'                <a  href="{{modelo_url}}" class="btn btn-default">mostrar</a>'
 +'                <div class="clearfix"></div>'
 +'            </div>'
 +'            <img src="{{imagen}}" class="img-responsive" alt="...">'
-+'        </a>'
++'         <h1>{{encabezado}} </h1>'
 +'    </div>   '
 +''
 +'</div> {{/items}}';
-var rendered = Mustache.render(template,items);
-$("#cards-equipo").html(rendered);
 
+ i = 1;
+render_gallery(i,items,template);
         });
+function render_gallery(i,items,template){
+    
+item= {items:items.items.slice((i*6),((i*6)+6))};
+max = Math.ceil(items.items.length/6);
+console.log("max",max);
+var rendered = Mustache.render(template,item);
+$("#cards-equipo").html(rendered);
+console.log(item);
+    return rendered;
+}
 
+ $(document).on("click","#carousel-control",function(e){
+   
+     if($(this).attr("data-slide") =="prev"){
+         if(i <= 0) {
+           i=0;  
+         }else{
+            i--; 
+         }  
+     }
+     console.log("validacion",i < max);
+      if($(this).attr("data-slide") =="next"){
+          
+           if(i < (max-1)) {
+              i++ 
+         }else{
+             i=i;
+         }
+         
+     }
+     console.log("i",i);
+     render_gallery(i,items,template);
+     
+      e.preventDefault();
+ });
 </script>
 
 <?php include_once '../odc/sources/footer.php'; ?>
