@@ -129,15 +129,143 @@
                                         <div class="sublayout-column">
                                             <div class="mdpb-subrow sub-row-4211">
                                                 <div class="spb-column spb-column-42111 col-xs-12 col-lg-8 col-md-8 col-sm-10 col-md-offset-2 text-center">
-                                                    <img src="img/icono_estrella.png" alt="Logo" />
-                                                    <h2>UNIDADES</h2>
-                                                    <div class="spb-custom-phoenix-paragraph">
-                                                        <div style="text-align: center;" class="">
-                                                            <p style="color:rgb(76, 76, 76)"  data-scroll-reveal="enter bottom move 10px over 1s after 0.2s" >
-                                                                Nuestra amplia flotilla de veh&iacute;culos lo llevar&aacute; a cualquier punto de nuestro pa&iacute;s cubriendo los requerimientos de viaje
-                                                                para hacer  del camino una experiencia segura y memorable.
-                                                            </p>
+                                                    <div class="container text-center container-contact">
+                                                        <fieldset>
+                                                        <h2 class="text-theme">CONTACTO</h2>
+                                                        <div class="col-md-6">
+                                                            <div class="">
+                                                                <label class="control-label col-md-5">Tema de interés:
+                                                                </label>
+                                                                <div class="col-md-7">
+                                                                    <select class="form-control select2me" name="options2">
+                                                                        <option value="">Seleccione...</option>
+                                                                        <option value="Option 1">Option 1</option>
+                                                                        <option value="Option 2">Option 2</option>
+                                                                        <option value="Option 3">Option 3</option>
+                                                                        <option value="Option 4">Option 4</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="">
+                                                                <label class="control-label col-md-5">Unidad de interés:
+                                                                </label>
+                                                                <div class="col-md-7">
+                                                                    <select class="form-control select2me" name="options2">
+                                                                        <option value="">Seleccione...</option>
+                                                                        <option value="Option 1">Option 1</option>
+                                                                        <option value="Option 2">Option 2</option>
+                                                                        <option value="Option 3">Option 3</option>
+                                                                        <option value="Option 4">Option 4</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <label class="control-label col-md-5" >Nombre:</label>
+                                                                <div class="col-md-7">
+                                                                    <input type="text" class="form-control" id="inputWarning" />
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <label class="control-label col-md-5" >Apellidos:</label>
+                                                                <div class="col-md-7">
+                                                                    <input type="text" class="form-control" id="inputWarning" />
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <label class="control-label col-md-5" >Empresa:</label>
+                                                                <div class="col-md-7">
+                                                                    <input type="text" class="form-control" id="inputWarning" placeholder="Empresa / Trabajo / Escuela / Particular" />
+                                                                </div>
+                                                            </div>
+
+                                                            <div>
+                                                                <label class="control-label col-md-5" >Teléfono:</label>
+                                                                <div class="col-md-7">
+                                                                    <input type="text" class="form-control" id="inputWarning"   />
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <label class="control-label col-md-5" >Celular:</label>
+                                                                <div class="col-md-7">
+                                                                    <input type="text" class="form-control" id="inputWarning"   />
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <label class="control-label col-md-5" >Correo Electrónico:</label>
+                                                                <div class="col-md-7">
+                                                                    <input type="text" class="form-control" id="inputWarning"   />
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <label class="control-label col-md-5">Estado:
+                                                                </label>
+                                                                <div class="col-md-7">
+                                                                    <select class="form-control select2me" name="options2">
+                                                                        <option value="">Seleccione...</option>
+                                                                        <option value="Option 1">Option 1</option>
+                                                                        <option value="Option 2">Option 2</option>
+                                                                        <option value="Option 3">Option 3</option>
+                                                                        <option value="Option 4">Option 4</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <label class="control-label col-md-5" >Ciudad:</label>
+                                                                <div class="col-md-7">
+                                                                    <input type="text" class="form-control" id="inputWarning"   />
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <label class="control-label col-md-5" >Calle y número:</label>
+                                                                <div class="col-md-7">
+                                                                    <input type="text" class="form-control" id="inputWarning"   />
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <label class="control-label col-md-5" >Colonia:</label>
+                                                                <div class="col-md-7">
+                                                                    <input type="text" class="form-control" id="inputWarning"   />
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <label class="control-label col-md-5" >CP:</label>
+                                                                <div class="col-md-7">
+                                                                    <input type="text" class="form-control" id="inputWarning"   />
+                                                                </div>
+                                                            </div>
                                                         </div>
+                                                        <div class="col-md-6">
+                                                            <div>
+                                                                <label class="control-label col-md-7" >Número de unidades de interés:</label>
+                                                                <div class="col-md-5">
+                                                                    <input type="text" class="form-control" id="inputWarning"   />
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <label class="control-label col-md-3">Sector:
+                                                                </label>
+                                                                <div class="col-md-9">
+                                                                    <select class="form-control select2me" name="options2">
+                                                                        <option value="">Seleccione...</option>
+                                                                        <option value="Option 1">Option 1</option>
+                                                                        <option value="Option 2">Option 2</option>
+                                                                        <option value="Option 3">Option 3</option>
+                                                                        <option value="Option 4">Option 4</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <label class="control-label col-md-12" >Déjanos tu comentario:</label>
+                                                                <div class="col-md-12">
+                                                                    <textarea class="form-control">
+                                                                    </textarea>
+                                                                </div>
+                                                                <div class="text-right">
+                                                                    <button class="btn btn-enviar">ENVIAR</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        </fieldset>
                                                     </div>
 
                                                 </div>
@@ -395,7 +523,7 @@ var template = '{{#items}}'
 +''
 +'</div> {{/items}}';
 var rendered = Mustache.render(template,items);
-$("#cards-equipo").html(rendered);
+//$("#cards-equipo").html(rendered);
 
         });
 

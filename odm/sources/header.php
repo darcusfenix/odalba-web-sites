@@ -114,3 +114,23 @@
         <link href='https://fonts.googleapis.com/css?family=Dosis:200' rel='stylesheet' type='text/css'>
     </head>
     <body class="html front not-logged-in no-sidebars page-node page-node- page-node-65 page-type-page-builder spb-enabled i18n-es"  id="bigWrapper" data-spy="scroll" data-target=".navbar-default" data-offset="100">
+
+<!--preloader-->
+<div class="ip-header">
+    <div class="ip-logo">
+        <img class="img-responsive preloaderLogo center-block" alt="Preloader" src="http://grupobecm.com/odalba/sites/default/files/bus.png">  </div>
+
+    <div class="ip-loader" >
+        <div class="text-center">
+            <img src="./img/blueloading.gif" width="50px" height="50px"/>
+        </div>
+        
+        
+        <svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80" style="display: none;">
+        <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+        <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+        </svg>
+        
+    </div>
+</div>
+<!--end preloader-->

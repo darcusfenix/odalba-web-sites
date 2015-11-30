@@ -3,19 +3,6 @@
 
 
 
-<!--preloader-->
-<div class="ip-header">
-    <div class="ip-logo">
-        <img class="img-responsive preloaderLogo center-block" alt="Preloader" src="http://grupobecm.com/odalba/sites/default/files/bus.png">  </div>
-
-    <div class="ip-loader">
-        <svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
-        <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
-        <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
-        </svg>
-    </div>
-</div>
-<!--end preloader-->
 
 <!--OVERLAY FOR THE PORTFOLIO MENU // DONT' DELETE IF YOU PLAN TO USE THIS OPTION-->
 <div class="container overlay overlay-slidedown">
@@ -201,11 +188,20 @@
                                                         <div class="row" id="cards-equipo">
 
                                                             <div class="col-md-5 col-sm-12 bg-blue" style="min-height: 753px">
+                                                                <div class="text-left ma-left-10">
                                                                 <div></div>
                                                                 <div><h2 class="color-red">hello</h2></div>
-                                                                <div class="color-white"><h4 ><i class="glyphicon glyphicon-phone"></i>  lorem ipsum</h4>hello</div>
-                                                                <div class="color-white"><h4 class="color-white"> <i class="glyphicon glyphicon-phone"></i> lorem ipsum</h4> <span>hello</span></div>
-                                                                <div class="color-white"><a class="btn btn-default btn-bg-white">show</a></div>
+                                                                <div class="color-white"><h4 ><i class="glyphicon glyphicon-phone"></i>  Velocidad</h4>hello</div>
+                                                                <div class="color-white"><h4 class="color-white"> <i class="glyphicon glyphicon-phone"></i> Transmicion</h4> <span>hello</span></div>
+                                                                <div class="color-white"><h4 class="color-white"> <i class="glyphicon glyphicon-phone"></i> Motor</h4> <span>hello</span></div>
+                                                                <div class="color-white"><h4 class="color-white"> <i class="glyphicon glyphicon-phone"></i> Combustible</h4> <span>hello</span></div>
+                                                                <div class="color-white"><h4 class="color-white"> <i class="glyphicon glyphicon-phone"></i> Capacidad</h4> <span>hello</span></div>
+                                                                
+                                                                
+                                                                <div class="color-white">Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt incorrupte definitionem, vis mutat affert percipit cu, eirmod consectetuer signiferumque eu per. In usu latine equidem dolores. Quo no falli viris intellegam, ut fugit veritus placerat per.</div>
+                                                                
+                                                                <div class="color-white"><a class="btn btn-default btn-bg-white">Ficha tecnica</a></div>
+                                                                </div>
                                                             </div>
                                                             <div class="col-md-7  col-sm-12"  style="min-height: 753px">
                                                                 <div class="row">
