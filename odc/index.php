@@ -113,7 +113,7 @@
                                                     font-size: 80pt;
                                                 }
                                                 .carousel-caption p {
-                                                    color: #050A30;
+                                                    color: #FFFFFF;
                                                    /* text-shadow: 2px 2px 7px #000; */
                                                     font-size: 25pt;
                                                     font-weight: 500;
@@ -125,7 +125,7 @@
                                             </style>
 
                                             <div class="item active">
-                                                <img src="img/1.jpg" width="100%">
+                                                <img src="img/2_1.png" width="100%">
                                                 <div class="carousel-caption">
                                                     <h3>Obnibus de Cancun</h3>
                                                     <p> La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.   </p>
@@ -133,7 +133,7 @@
                                             </div>
 
                                             <div class="item">
-                                                <img src="img/1.jpg" width="100%" >
+                                                <img src="img/3_1.png" width="100%" >
                                                 <div class="carousel-caption">
                                                     <h3>Obnibus de Cancun</h3>
                                                     <p> La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.   </p>
@@ -141,21 +141,13 @@
                                             </div>
 
                                             <div class="item">
-                                                <img src="img/1.jpg" width="100%" >
+                                                <img src="img/eeee.png" width="100%" >
                                                 <div class="carousel-caption">
                                                     <h3>Obnibus de Cancun</h3>
                                                     <p> La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.   </p>
                                                 </div>
                                             </div>
-
-                                            <div class="item">
-                                                <img src="img/1.jpg" width="100%">
-                                                <div class="carousel-caption">
-                                                    <h3>Obnibus de Cancun</h3>
-                                                    <p> La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.   </p>
-                                                </div>
-                                            </div>
-
+                                           
                                         </div>
 
                                         <!-- Left and right controls -->
@@ -227,9 +219,9 @@
                                                                     <img src="./img/compromiso.jpg" class="clip-circle" width="100px" height="100px"/>
                                                                     <h3 class="color-white">COMPROMISO</h3>
                                                                 </div>
-                                                                <div class="col-md-6 col-md-offset-3 text-center">
+                                                                <div class="col-md-10 col-md-offset-1 text-center">
                                                                     <p class="color-white">
-                                                                        La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.                
+                                                                        Nuestra meta es "superar las expectativas de nuestros clientes", comprometi&eacute;ndonos a ofrecer un servicio de calidad con altos est&aacute;ndares.                 
                                                                     </p>
                                                                 </div>
 
@@ -243,9 +235,9 @@
                                                                     <img src="img/especializacion.jpg" class="clip-circle" width="100px" height="100px"/>
                                                                     <h3 class="color-white">ESPECIALIZACIÓN</h3>
                                                                 </div>
-                                                                <div class="col-md-6 col-md-offset-3 text-center">
+                                                                <div class="col-md-10 col-md-offset-1 text-center">
                                                                     <p class="color-white">
-                                                                        La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.                
+                                                                        M&aacute;s de 45 a&ntilde;os "haciendo camino", nos han perfeccionado para poder  ofrecer un  servicio de autotransporte tur&iacute;stico m&aacute;s especializado y de vanguardia dentro de nuestro pa&iacute;s.              
                                                                     </p>
                                                                 </div>
 
@@ -259,9 +251,9 @@
                                                                     <img src="img/profesionalismo.jpg" class="clip-circle" width="100px" height="100px"/>
                                                                     <h3 class="color-white">PROFESIONALISMO</h3>
                                                                 </div>
-                                                                <div class="col-md-6 col-md-offset-3 text-center">
+                                                                <div class="col-md-10 col-md-offset-1 text-center">
                                                                     <p class="color-white">
-                                                                        La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.                
+                                                                        Nuestro equipo de operadores altamente calificado, brinda un trato eficiente, atento y cordial, grantizando el confort, la buena atenci&oacute;n y seguridad de nuestros pasajeros.            
                                                                     </p>
                                                                 </div>
 
