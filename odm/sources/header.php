@@ -61,6 +61,8 @@
             @import url("http://grupobecm.com/odalba/sites/all/themes/md_phoenix/css/front/responsive.css?nnfn1j");
             @import url("http://grupobecm.com/odalba/sites/all/themes/md_phoenix/css/front/custom-phoenix-overlay-css.css?nnfn1j");
         </style>
+        
+        
       
     
         <!--[if lte IE 7]>
@@ -112,6 +114,7 @@
         <![endif]-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link href='https://fonts.googleapis.com/css?family=Dosis:200' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="sources/style.css" />
     </head>
     <body class="html front not-logged-in no-sidebars page-node page-node- page-node-65 page-type-page-builder spb-enabled i18n-es"  id="bigWrapper" data-spy="scroll" data-target=".navbar-default" data-offset="100">
 

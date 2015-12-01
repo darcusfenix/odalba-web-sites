@@ -1,13 +1,7 @@
 var $ = jQuery.noConflict();
 $(document).ready(function () {
-							
-	"use strict";
-	
-	$(".navbar").affix({
-        offset: { 
-            top: 50 
-        }
-    });
+
+    "use strict";
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     /* Intro Height  */
@@ -15,7 +9,7 @@ $(document).ready(function () {
 
     function introHeight() {
         var wh = $(window).height();
-      $('.intro').css({height: wh});
+        $('#intro').css({height: wh});
     }
 
     introHeight();
@@ -74,31 +68,16 @@ $(document).ready(function () {
     /* Parallax init  */
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        $(function() {
-            $('.captionWrapper.valign').css({
-                top: '120px'
-            });
-
-            $('.parallaxLetter').css({
-                display: 'none'
-            });
-        });
-
-
-    }
-    else{
-        $(window).stellar({
+    if(!Modernizr.touch){
+        $.stellar({
             responsive: true,
             horizontalOffset: 0,
             horizontalScrolling:false
+
         });
     }
-
-    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-    /* fitvids */
-    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-    $('body').fitVids();
+    else{
+    }
 
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -121,65 +100,47 @@ $(document).ready(function () {
     });
 
 
-    //    masonry 3 columns
-    $( function() {
-        var $container2 = $('.blogPostsWrapper');
-        // initialize Masonry after all images have loaded
-        $container2.imagesLoaded(function () {
-            $container2.isotope({
-                itemSelector: '.blogPost',
-                masonry: {
-                    columnWidth: '.grid-sizer-blog-3'
-                }
-            });
-        });
-    });
-
-
-    //    masonry 2 columns
-    $( function() {
-        var $container3 = $('.blogPostsWrapper2');
-        // initialize Masonry after all images have loaded
-        $container3.imagesLoaded(function () {
-            $container3.isotope({
-                itemSelector: '.blogPost2',
-                masonry: {
-                    columnWidth: '.grid-sizer-blog-2'
-                }
-            });
-        });
-    });
-
-
-
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     /* overlay portfolio */
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     $("a.overlay-ajax").click(function(){
-        var url = $(this).attr("href").replace(/[#\!]/g, '' ).split("/")[1];
-        //$(".overlay-section").load(url + ' #transmitter');
-        portfolio_loadajax(url);
-		$( "body" ).addClass( "noscroll" );
-		$('.video').fitVids();
-		return false;
+        var url = $(this).attr("href");
+        $(".overlay-section").load(url + ' #transmitter');
+        $('.overlay-close img').tooltip();
+        return false;
     });
 
-	$('a.overlay-close img').click(function(){
-		$( ".overlay-section" ).empty();
-		$('.ajax-loader').show();
-		$( "body" ).removeClass( "noscroll" );
-	});
+
+
+    //    no scroll on body when overlay is up
+    $(function () {
+
+        $('a.overlay-ajax').click(function(){
+            $( "body" ).addClass( "noscroll" );
+        });
+
+        $('a.overlay-close').click(function(){
+            $( "body" ).removeClass( "noscroll" );
+        });
+    });
+
+
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     /* smoothscroll */
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     smoothScroll.init({
-        speed: 1000
+        speed: 1000,
+        offset: 200
     });
 
 
 
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    /* fitvids */
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    $('body').fitVids();
 
 
 
@@ -214,11 +175,7 @@ $(document).ready(function () {
 
     $("#owl-clients").owlCarousel({
         items:3,
-        navigation: false,
-        itemsDesktop : [1199,3],
-        itemsDesktopSmall : [980,2],
-        itemsTablet: [768,2],
-        itemsMobile : [479,1]
+        navigation: false
     });
 
 
@@ -228,48 +185,13 @@ $(document).ready(function () {
     });
 
 
-    $("#owl-featured").owlCarousel({
-        items:3,
-        itemsDesktop : [1199,3],
-        itemsDesktopSmall : [980,2],
-        itemsTablet: [768,2],
-        itemsMobile : [479,1],
-        navigation: true,
-        navigationText: [
-            "<i class='fa fa-angle-left fa-2x featuredNav'></i>",
-            "<i class='fa fa-angle-right fa-2x featuredNav'></i>"
-        ]
-    });
-
-    $("#owl-blog-single").owlCarousel({
-        singleItem:	true,
-        navigation: true,
-        navigationText: [
-            "<i class='fa fa-angle-left fa-2x blogNav'></i>",
-            "<i class='fa fa-angle-right fa-2x blogNav'></i>"
-        ]
-    });
-
-
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     /* timers */
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     $('#text-separator-timers').waypoint(function() {
         "use strict";
         // first timer
-        
-		$( "#text-separator-timers .timerWrapper" ).each(function( index ) {
-		  var timer = $(this).find('.timer');
-		  timer.countTo({
-				from: 0, // the number you want to start
-				to: timer.attr('data-value'), // the number you want to reach
-				speed: 4000,
-				refreshInterval: 100
-	
-			});
-		});
-		
-		$('.timer1').countTo({
+        $('.timer1').countTo({
 
             from: 0, // the number you want to start
             to: 8679, // the number you want to reach
@@ -313,39 +235,6 @@ $(document).ready(function () {
 
     }, { offset: 500 });
 
-	$(function() {
-		$('.navbar-nav a').bind('click', function(event) {
-			var $anchor = $(this);
-			$('html, body').stop().animate({
-				scrollTop: $($anchor.attr('href')).offset().top - 70
-			}, 1000);
-			event.preventDefault();
-		});
-	});
-	
-	$(function() {
-		$('.backToTop a').bind('click', function(event) {
-			var $anchor = $(this);
-			$('html, body').stop().animate({
-				scrollTop: $($anchor.attr('href')).offset().top - 70
-			}, 1000);
-			event.preventDefault();
-		});
-	});
 
-	function portfolio_loadajax(nodeid){
-	  $.ajax({
-			type : 'POST',
-			url : "portfolio",
-			dataType : 'html',
-			data: {
-				node_id : nodeid
-			},
-			success : function(data){
-			   $('.ajax-loader').fadeOut();
-			   $(".overlay-section").html(data);
-			   $('.overlay-close img').tooltip();
-			}
-	  });
-	}
+
 });

@@ -1,0 +1,277 @@
+body{
+    font-family: 'Dosis', sans-serif !important;
+    font-weight: 400 !important; 
+
+}
+.black-overlay{
+    background: none;
+}
+.black-overlay-logos{
+    text-align: center;
+    top: 100%;
+    padding-top: -100px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.logo-individual-home:hover, .black-overlay-logos:hover{
+
+}
+
+body.front .affix-top {
+    background: rgba(39, 95, 198, 0.55);
+}
+.affix {
+    background-color: #478CFF;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+#copyright .bottomLine {                
+    background-color: #1E4284;;
+    color: white;
+}
+.carousel-inner{
+
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 15%;
+    left: 15%;
+    z-index: 10;
+
+    
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+.carousel-caption h3{
+    font-size: 80pt;
+}
+.carousel-caption p {
+    color: #FFFFFF;
+    line-height: 30px;
+    font-size: 25pt;
+    font-weight: 500;
+}
+div#about {
+    background-color: rgba(240, 248, 255, 0);
+}
+
+
+#owl-demo .item{
+    margin: 3px;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.navbar-nav.navbar-right:last-child {
+    // margin-right: 30%;
+}
+.navbar-default .navbar-nav>li>a {
+    color: rgb(255, 255, 255);
+}
+.ip-header {
+    position: fixed;
+    top: 0;
+    z-index: 1050;
+    min-height: 480px;
+    width: 100%;
+    height: 100%;
+    background: #3A5077;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: rgb(113, 133, 166);
+    background-color: transparent;
+}
+
+.color-white{
+    color:white;
+}
+.clip-circle {
+    clip-path: circle(60px at center);
+}
+img.clip-circle {
+    border-radius: 50%;
+}
+.color-blue {
+    color: #1E4283;
+}
+.section_item {
+    margin-top: 10% !important; 
+}
+#copyright .bottomLine {                
+    background-color: #1E4284;;
+    color: white;
+}
+
+/*
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- RECUADROS SERVICIOS  -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+*/
+#servicios{
+    width: 80%;
+    margin: 0px auto;
+}
+.recuadro-servicio{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.recuadro-servicio .hover-bg{
+    /* height: 246px;
+     width:  279px; */
+    overflow: hidden;
+    position: relative;
+
+}
+
+.hover-bg .hover-text {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.66);
+    padding: 25% 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.hover-bg .hover-text>h4{
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    transition: all 0.3s;
+    letter-spacing: 3px;
+}
+.hover-bg:hover .hover-text>h4{
+    opacity: 1;
+    -webkit-backface-visibility:hidden;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+.hover-bg .hover-text>i{
+    opacity: 0;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    transition: all 0.3s;
+}
+.hover-bg:hover .hover-text>i{
+    opacity: 1;
+    -webkit-backface-visibility:hidden;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+}
+.hover-bg:hover .hover-text{
+    opacity: 1;
+}
+.intro-servicios{
+    background: rgba(0, 0, 0, 0.66);
+}
+.bt-25{
+    margin-bottom: 25px;
+}
+.navbar-default .navbar-nav>.active>a{
+    background: #084B8A !important;
+}
+.navbar-default .navbar-nav>.active>a, #fnowerkf li:hover a{
+    color: white !important;
+    background: #084B8A !important;
+}
+.p-about-us p{
+    color: rgb(76, 76, 76);
+    font-size: 18px;
+}
+.p-about-us h2, .title-valores{
+    color: #0404B4;
+    font-weight: 600 !important;
+}
+#owl-demo{
+    margin: 0px auto;
+}
+#owl-demo .owl-item{
+    height:  170px;
+    text-align: center;
+}
+#owl-demo .owl-item img{
+    height: 170px;
+    width: auto;
+    margin: 0px auto;
+}
+/*
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- SECTION CONTACTO  -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+*/
+.container-contact{
+    background-color: #FFFFFF;
+    min-height: 600px; 
+    margin-top: 170px;
+    margin-bottom: 170px;
+    padding-bottom: 50px;
+}
+.container-contact h2{
+    letter-spacing: 1px;
+}
+.form-control{
+    border: none;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.form-control input, .form-control label{
+    padding-top: 5px;
+    margin-top: 5px;
+}
+.form-control input, .form-control label{
+    vertical-align: middle;
+}
+.form-control input, .form-control textarea{
+    font-size: 18px;
+    -webkit-appearance: textfield;
+    padding: 1px;
+    background-color: white;
+    border: 1px inset;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+    margin: 0em;
+    font: 13.3333px Arial;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    height: 25px;
+}
+.form-control textarea{
+    height: 100px;
+}
+.form-control input:focus {
+    border: 1px inset;
+}
+.btn-enviar{
+   color: #FFFFFF;
+   background-color: #b53348;
+   width: 200px;
+}
+/*
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- SECTION CONTACTO  -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+*/

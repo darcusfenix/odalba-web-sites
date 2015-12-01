@@ -28,7 +28,7 @@
                         <!-- primera carta -->
                         <div id="header-banner" class="md-section spb-section-1">
                             <div class="container-fluid">
-                                <div class="row spb-row-11">
+                                <div class="row spb-row-11" style="position: relative;">
 
                                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
                                         <!-- Indicators -->
@@ -47,7 +47,7 @@
                                             <div class="item active">
                                                 <img src="img/1.jpg" width="100%">
                                                 <div class="carousel-caption">
-                                                    <h3>Obnibus de Merida</h3>
+                                                    <h3 style="margin-top: 500px;">Omnibus de Merida</h3>
                                                     <p> La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.   </p>
                                                 </div>
                                             </div>
@@ -55,7 +55,7 @@
                                             <div class="item">
                                                 <img src="img/1.jpg" width="100%" >
                                                 <div class="carousel-caption">
-                                                    <h3>Obnibus de Merida</h3>
+                                                    <h3>Omnibus de Merida</h3>
                                                     <p> La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.   </p>
                                                 </div>
                                             </div>
@@ -63,7 +63,7 @@
                                             <div class="item">
                                                 <img src="img/1.jpg" width="100%" >
                                                 <div class="carousel-caption">
-                                                    <h3>Obnibus de Merida</h3>
+                                                    <h3>Omnibus de Merida</h3>
                                                     <p> La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.   </p>
                                                 </div>
                                             </div>
@@ -71,7 +71,7 @@
                                             <div class="item">
                                                 <img src="img/1.jpg" width="100%">
                                                 <div class="carousel-caption">
-                                                    <h3>Obnibus de Merida</h3>
+                                                    <h3>Omnibus de Merida</h3>
                                                     <p> La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.   </p>
                                                 </div>
                                             </div>
@@ -94,24 +94,16 @@
                             </div>
                         </div>
                         <!-- fin primera carta-->                               
-                        <div id="about" class="md-section spb-section-4">
+                        <div id="about" class="md-section">
                             <div class="container">
-
-                                <div class="row spb-row-42">
-                                    <div class="spb-column spb-column-421 col-lg-12 col-md-12 col-sm-12 col-xs-12 sectionIntro">
-                                        <div class="sublayout-column">
-                                            <div class="mdpb-subrow sub-row-4211">
-                                                <div class="spb-column spb-column-42111 col-xs-12 col-lg-8 col-md-8 col-sm-10 col-md-offset-2 text-center">
-                                                    <img src="img/icono_estrella.png" alt="Logo" />
-                                                    <h2>Grupo obnibus de merida</h2>
-                                                    <div class="spb-custom-phoenix-paragraph">
-                                                        <div style="text-align: center;" class="">
-                                                            <p style="color:rgb(76, 76, 76)"  data-scroll-reveal="enter bottom move 10px over 1s after 0.2s" >Más de 45 años “haciendo camino”, nos han perfeccionado para poder ofrecer el servicio de autotransporte turístico más especializado y de vanguardia dentro de nuestro país.</p>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                            </div>
+                                <div class="row">
+                                    <div class="col-md-12 text-center p-about-us">
+                                        <img src="img/icono_estrella.png" alt="Logo" />
+                                        <h2>Grupo obnibus de merida</h2>
+                                        <div class="spb-custom-phoenix-paragraph">
+                                            <p data-scroll-reveal="enter bottom move 10px over 1s after 0.2s">
+                                                Fundados en 1968, somos prioneros en la transportación turística por lo que contamos con la trayectoria más amplia y con mayor prestigio en México.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>                                                                               
@@ -210,24 +202,19 @@
                         <div id="about" class="md-section spb-section-4">
                             <div class="container">
 
-                                <div class="row spb-row-42">
-                                    <div class="spb-column spb-column-421 col-lg-12 col-md-12 col-sm-12 col-xs-12 sectionIntro">
-                                        <div class="sublayout-column">
-                                            <div class="mdpb-subrow sub-row-4211">
-                                                <div class="spb-column spb-column-42111 col-xs-12 col-lg-10 col-md-8 col-sm-10 col-md-offset-2 text-center">
-                                                    <div id="owl-demo">
+                                <div class="row">
+                                    <div class="col-md-12 text-center sectionIntro">
+                                        <h2 class="title-valores"> Valores </h2>
+                                        <div id="owl-demo">
 
-                                                        <div class="item"><img src="img/2.png" alt="Owl Image"></div>
-                                                        <div class="item"><img src="img/3.png" alt="Owl Image"></div>
-                                                        <div class="item"><img src="img/4.png" alt="Owl Image"></div>
-                                                        <div class="item"><img src="img/5.png" alt="Owl Image"></div>
-                                                        <div class="item"><img src="img/6.png" alt="Owl Image"></div>
-                                                        <div class="item"><img src="img/7.png" alt="Owl Image"></div>
+                                            <div class="item"><img src="img/2.png" alt="Owl Image"></div>
+                                            <div class="item"><img src="img/3.png" alt="Owl Image"></div>
+                                            <div class="item"><img src="img/4.png" alt="Owl Image"></div>
+                                            <div class="item"><img src="img/5.png" alt="Owl Image"></div>
+                                            <div class="item"><img src="img/6.png" alt="Owl Image"></div>
+                                            <div class="item"><img src="img/7.png" alt="Owl Image"></div>
 
 
-                                                    </div>
-                                                </div>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>                                                                               
@@ -349,7 +336,6 @@
             items: 3,
             itemsDesktop: [1199, 3],
             itemsDesktopSmall: [979, 3]
-
         });
 
     });

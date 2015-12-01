@@ -69,18 +69,23 @@
 
 
                                                                 <div class="col-md-6 img-flota-ind">
-                                                                    <img src="http://lorempixel.com/400/500/">
+                                                                    <img src="img/flota/muestra/5.jpg">
                                                                 </div>
                                                                 <div class="col-md-6 info-flota-ind text-center" >
-                                                                    <h1>Viaggio <span class="text-theme">900</span></h1>
+                                                                    <h1>VOLVO  <span class="text-theme">7550</span></h1>
                                                                     <hr class="text-theme">
-                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                                    <p>
+                                                                        La calidad del Volvo 7550 proporciona confiabilidad, es la base de una buena inversion al igual que tecnologia, tambien tiene por objeto " "la creacion de espacios confortables, sobre todo para viajes prolongados. " Una importante ventaja de este autobus es la gran comodidad que tiene tanto para los pasajeros como para el conductor; el compartimiento del operador esta  "dise¤ado ergonomicamente, cuenta con istrumentos claramente visibles y distribuidos en un panel de facil acceso garantizando la eficiencia y seguridad en " el manejo.
+                                                                    </p>
                                                                     <h3 class="text-theme">Características</h3>
                                                                     <ul>
-                                                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
-                                                                        <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                                                        <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</li>
-                                                                        <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                                                                        <li>MOTOR VOLVO DE 425 HP, FRENO AUXILIAR VOITH, TRANSMISION</li>
+                                                                        <li>VOLVO 68- EGS MANUAL DE 8 VELOCIDADES Y REVERSA, DIRECCION HIDRAULICA,</li>
+                                                                        <li>SUSPENSION DELANTERA Y TRASERA NEUMATICA, TACOGRAFO, CALEFACCION, 2 FALLEBAS,</li>
+                                                                        <li>CAMAROTE OPERADOR, MAMPARA OPERADOR, CORTINAS, PERSIANAS, ASIENTO OPERADOR</li>
+                                                                        <li>EN TELA, 46 ASIENTOS RECLINABLES DE LUJO EN TELA/TELA, ASIENTO PARA GUIA EN TELA,</li>
+                                                                        <li>ESTRIBO AUXILIAR, AIRE ACONDICIONADO, BANO, EQUIPO DE SONIDO Y VIDEO CON 3 MONITORES,</li>
+                                                                        <li>RINES DE ALUMINIO (7), EQUIPO DE MONITOREO PRESION DE LLANTAS Y 1 PUERTA DE SERVICIO TIPO PARALELOGRAMO DE ACCIONAMIENTO NEUMATICO.</li>
                                                                     </ul>
                                                                 </div>
 
@@ -97,36 +102,21 @@
                                                     <div class="col-md-8 col-md-offset-2" style="margin-top: -70px;">
                                                         <div class="slider multiple-items text-center">
                                                             <div>
-                                                                <img data-lazy="http://lorempixel.com/200/200/"/>
+                                                                <img data-lazy="img/flota/muestra/1.jpg"/>
                                                             </div>
 
                                                             <div>
-                                                                <img data-lazy="http://lorempixel.com/200/201/"/>
+                                                                <img data-lazy="img/flota/muestra/2.jpg"/>
                                                             </div>
 
                                                             <div>
-                                                                <img data-lazy="http://lorempixel.com/200/202/"/>
+                                                                <img data-lazy="img/flota/muestra/3.jpg"/>
                                                             </div>
 
                                                             <div>
-                                                                <img data-lazy="http://lorempixel.com/200/203/"/>
+                                                                <img data-lazy="img/flota/muestra/4.jpg"/>
                                                             </div>
 
-                                                            <div>
-                                                                <img data-lazy="http://lorempixel.com/200/204/"/>
-                                                            </div>
-
-                                                            <div>
-                                                                <img data-lazy="http://lorempixel.com/202/200/"/>
-                                                            </div>
-
-                                                            <div>
-                                                                <img data-lazy="http://lorempixel.com/201/200/"/>
-                                                            </div>
-
-                                                            <div>
-                                                                <img data-lazy="http://lorempixel.com/204/200/"/>
-                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
