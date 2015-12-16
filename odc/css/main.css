@@ -87,7 +87,7 @@ and open the template in the editor.
     margin: 0 auto;
     color: #ffffff;
     background: rgba(0, 0, 0, 0.66);
-    padding: 25% 0;
+    padding: 10% 0;
     height: 100%;
     width: 100%;
     opacity: 0;
@@ -132,3 +132,20 @@ bt-25{
 <!-- END RECUADROS SERVICIOS  -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 */
+
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('../fonts/Dosis-Regular.otf'); /* IE9 Compat Modes */
+  src: url('../fonts/Dosis-Regular.otf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Dosis-Regular.otf')  format('truetype'); /* Safari, Android, iOS */
+ 
+}
+
+body {
+  font-family: 'MyWebFont', Fallback, sans-serif !important;
+  font-size: 18px;
+  font-weight: 800;
+}
+.interlineado-15{
+   letter-spacing: 15px;
+}

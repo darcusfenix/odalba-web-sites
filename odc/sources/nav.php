@@ -21,7 +21,7 @@
                     <li  class="leaf"><a href="index.php" title=""><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Inicio</a></li>                    
                     <li  class="leaf"><a href="servicios.php" title="">Servicios</a></li>
                     <li  class="leaf"><a href="equipo.php" title="equipo">Equipo</a></li>                    
-                    <li  class="leaf"><a href="#">Contacto</a></li>
+                    <li  class="leaf"><a href="contacto.php">Contacto</a></li>
 
                 </ul>      </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->

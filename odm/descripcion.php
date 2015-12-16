@@ -176,25 +176,41 @@
                                                     .bg-blue {
                                                         background: #1D3F84;
                                                     }
+                                                    .bg-blue:hover {
+                                                        background: #1D3F84 !important;
+                                                    }
+													
+                                                    .bg-white {
+                                                        background: #FFF;
+                                                    }
                                                     .color-red {
                                                         color: #CD182C;
                                                     }
                                                 </style>
                                                 <section sid="intro">
 
-                                                    <div class="container section_item" >
-                                                        <div class="row" id="cards-equipo">
+                                                    <div class="container-fluid section_item" >
+                                                        <div class="row bg-blue" id="cards-equipo  ">
 
-                                                            <div class="col-md-5 col-sm-12 bg-blue" style="min-height: 753px">
+                                                            <div class="col-md-5 col-sm-12" style="min-height: 753px">
+                                                                <div class="text-left ma-left-10">
                                                                 <div></div>
                                                                 <div><h2 class="color-red">hello</h2></div>
-                                                                <div class="color-white"><h4 ><i class="glyphicon glyphicon-phone"></i>  lorem ipsum</h4>hello</div>
-                                                                <div class="color-white"><h4 class="color-white"> <i class="glyphicon glyphicon-phone"></i> lorem ipsum</h4> <span>hello</span></div>
-                                                                <div class="color-white"><a class="btn btn-default btn-bg-white">show</a></div>
+                                                                <div class="color-white"><h4 ><i class="glyphicon glyphicon-phone"></i>  Velocidad</h4>hello</div>
+                                                                <div class="color-white"><h4 class="color-white"> <i class="glyphicon glyphicon-phone"></i> Transmicion</h4> <span>hello</span></div>
+                                                                <div class="color-white"><h4 class="color-white"> <i class="glyphicon glyphicon-phone"></i> Motor</h4> <span>hello</span></div>
+                                                                <div class="color-white"><h4 class="color-white"> <i class="glyphicon glyphicon-phone"></i> Combustible</h4> <span>hello</span></div>
+                                                                <div class="color-white"><h4 class="color-white"> <i class="glyphicon glyphicon-phone"></i> Capacidad</h4> <span>hello</span></div>
+                                                                
+                                                                
+                                                                <div class="color-white">Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt incorrupte definitionem, vis mutat affert percipit cu, eirmod consectetuer signiferumque eu per. In usu latine equidem dolores. Quo no falli viris intellegam, ut fugit veritus placerat per.</div>
+                                                                
+                                                                <div class="color-white"><a class="btn btn-default btn-bg-white">Ficha tecnica</a></div>
+                                                                </div>
                                                             </div>
-                                                            <div class="col-md-7  col-sm-12"  style="min-height: 753px">
+                                                            <div class="col-md-7  col-sm-12 bg-white"  style="min-height: 753px">
                                                                 <div class="row">
-                                                                    <img src="http://lorempixel.com/g/1200/1024/" class="img-responsive" id="image-bigger"/>
+                                                                    <img src="http://lorempixel.com/g/1920/1024/" class="img-responsive" id="image-bigger"/>
                                                                 </div>
                                                                 <div class="row">
                                                                     <div id="owl-demo">

@@ -274,6 +274,6 @@
 <?php include_once './sources/footer.php'; ?>
 <script>
     $.backstretch([
-        "../oda/img/bg-04.jpg"
+        "./img/fondo.png"
     ], {duration: 3000, fade: 750});
 </script>

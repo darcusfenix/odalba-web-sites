@@ -52,6 +52,7 @@
     .section_item {
         margin-top: 25% !important; 
     }
+    
 </style>
 <?php include_once '../odc/sources/nav.php'; ?>
 
@@ -100,7 +101,7 @@
                                                 .carousel-caption {
                                                     position: absolute;
                                                     right: 15%;
-                                                    bottom: 15%;
+                                                    bottom: 30%;
                                                     left: 15%;
                                                     z-index: 10;
                                                     padding-top: 57px;
@@ -114,7 +115,7 @@
                                                 }
                                                 .carousel-caption p {
                                                     color: #FFFFFF;
-                                                   /* text-shadow: 2px 2px 7px #000; */
+                                                    text-shadow: 2px 2px 7px #000; 
                                                     font-size: 25pt;
                                                     font-weight: 500;
                                                 }
@@ -127,24 +128,27 @@
                                             <div class="item active">
                                                 <img src="img/2_1.png" width="100%">
                                                 <div class="carousel-caption">
-                                                    <h3>Obnibus de Cancun</h3>
-                                                    <p> La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.   </p>
+                                                    <h3 class="interlineado-15">OBMNIBUS DE CANC&Uacute;N</h3>
+                                                    <br/>
+                                                    <p> La empresa de transportación tipo "charter" <br/> con mayor prestigio y trayectoria en México.   </p>
                                                 </div>
                                             </div>
 
                                             <div class="item">
                                                 <img src="img/3_1.png" width="100%" >
                                                 <div class="carousel-caption">
-                                                    <h3>Obnibus de Cancun</h3>
-                                                    <p> La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.   </p>
+                                                    <h3 class="interlineado-15">OBMNIBUS DE CANC&Uacute;N</h3>
+                                                    <br/>
+                                                    <p> La empresa de transportación tipo "charter" <br/> con mayor prestigio y trayectoria en México.   </p>
                                                 </div>
                                             </div>
 
                                             <div class="item">
                                                 <img src="img/eeee.png" width="100%" >
                                                 <div class="carousel-caption">
-                                                    <h3>Obnibus de Cancun</h3>
-                                                    <p> La empresa de transportación tipo "charter" con mayor prestigio y trayectoria en México.   </p>
+                                                    <h3  class="interlineado-15">OBMNIBUS DE CANC&Uacute;N</h3>
+                                                    <br/>
+                                                    <p> La empresa de transportación tipo "charter" <br/> con mayor prestigio y trayectoria en México.   </p>
                                                 </div>
                                             </div>
                                            
@@ -175,7 +179,7 @@
                                             <div class="mdpb-subrow sub-row-4211">
                                                 <div class="spb-column spb-column-42111 col-xs-12 col-lg-8 col-md-8 col-sm-10 col-md-offset-2 text-center">
                                                     <img src="img/icono_estrella.png" alt="Logo" />
-                                                    <h2>Grupo obnibus de cancun</h2>
+                                                    <h2>OBMNIBUS DE CANC&Uacute;N</h2>
                                                     <div class="spb-custom-phoenix-paragraph">
                                                         <div style="text-align: center;" class="">
                                                             <p style="color:rgb(76, 76, 76)"  data-scroll-reveal="enter bottom move 10px over 1s after 0.2s" >Más de 45 años “haciendo camino”, nos han perfeccionado para poder ofrecer el servicio de autotransporte turístico más especializado y de vanguardia dentro de nuestro país.</p>
@@ -426,7 +430,7 @@
         </section>
     </div></div>    <script>
         $.backstretch('img/fondo.png');
-        $("#compromiso-banner").backstretch('./img/compromiso.png');
+        $("#compromiso-banner").backstretch('./img/prueba.jpg');
         $("#profesionalismo-banner").backstretch('./img/profesionalismo.jpg');
 
         $(document).ready(function () {

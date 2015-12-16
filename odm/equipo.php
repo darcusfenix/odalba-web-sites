@@ -395,8 +395,7 @@ var template;
 
             });
             
-            
-            
+          
  items = {items:[
     {encabezado:"hola mundo 1",galery:"1",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
     {encabezado:"hola mundo2 ",galery:"1",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},

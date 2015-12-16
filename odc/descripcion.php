@@ -178,56 +178,23 @@
                                                     .bg-blue {
                                                         background: #1D3F84;
                                                     }
+													
+                                                    .bg-blue:hover {
+                                                        background: #1D3F84 !important;
+                                                    }
+													
+                                                    .bg-white {
+                                                        background: #FFF;
+                                                    }
                                                     .color-red {
                                                         color: #CD182C;
                                                     }
                                                 </style>
                                                 <section sid="intro">
 
-                                                    <div class="container section_item" >
-                                                        <div class="row" id="cards-equipo">
-
-                                                            <div class="col-md-5 col-sm-12 bg-blue" style="min-height: 753px">
-                                                                <div class="text-left ma-left-10">
-                                                                <div></div>
-                                                                <div><h2 class="color-red">hello</h2></div>
-                                                                <div class="color-white"><h4 ><i class="glyphicon glyphicon-phone"></i>  Velocidad</h4>hello</div>
-                                                                <div class="color-white"><h4 class="color-white"> <i class="glyphicon glyphicon-phone"></i> Transmicion</h4> <span>hello</span></div>
-                                                                <div class="color-white"><h4 class="color-white"> <i class="glyphicon glyphicon-phone"></i> Motor</h4> <span>hello</span></div>
-                                                                <div class="color-white"><h4 class="color-white"> <i class="glyphicon glyphicon-phone"></i> Combustible</h4> <span>hello</span></div>
-                                                                <div class="color-white"><h4 class="color-white"> <i class="glyphicon glyphicon-phone"></i> Capacidad</h4> <span>hello</span></div>
-                                                                
-                                                                
-                                                                <div class="color-white">Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt incorrupte definitionem, vis mutat affert percipit cu, eirmod consectetuer signiferumque eu per. In usu latine equidem dolores. Quo no falli viris intellegam, ut fugit veritus placerat per.</div>
-                                                                
-                                                                <div class="color-white"><a class="btn btn-default btn-bg-white">Ficha tecnica</a></div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-7  col-sm-12"  style="min-height: 753px">
-                                                                <div class="row">
-                                                                    <img src="http://lorempixel.com/g/1200/1024/" class="img-responsive" id="image-bigger"/>
-                                                                </div>
-                                                                <div class="row">
-                                                                    <div id="owl-demo">
-
-                                                                        <div class="item" src="http://lorempixel.com/g/400/400/"><img src="http://lorempixel.com/g/400/400/" alt="Owl Image"></div>
-                                                                        <div class="item" src="http://lorempixel.com/g/500/400/"><img src="http://lorempixel.com/g/500/500/" alt="Owl Image"></div>
-                                                                        <div class="item" src="http://lorempixel.com/g/600/400/"><img src="http://lorempixel.com/g/600/600/" alt="Owl Image"></div>
-                                                                        <div class="item" src="http://lorempixel.com/g/700/400/"><img src="http://lorempixel.com/g/700/700/" alt="Owl Image"></div>
-                                                                        <div class="item" src="http://lorempixel.com/g/1200/1024/"><img src="http://lorempixel.com/g/1200/1024/" alt="Owl Image"></div>
-                                                                        <div class="item" src="http://lorempixel.com/g/1024/800/"><img src="http://lorempixel.com/g/1024/800/" alt="Owl Image"></div>
-                                                                        <div class="item" src="http://lorempixel.com/g/800/600/"><img src="http://lorempixel.com/g/800/600/" alt="Owl Image"></div>
-                                                                        
-                                                                        
-
-                                                                    </div>
-                                                                </div>
-
-
-
-                                                            </div>
-
-
+                                                    <div class="container-fluid section_item" >
+                                                        <div class="row bg-blue" id="cards-equipo">
+                                                            <!-- template -->
                                                         </div>
                                                         <div style="height: 70pt;"></div>
                                                 </section>
@@ -383,7 +350,17 @@
                 background-color: #DF2A2F;
                 color: white;
             }
-            #DF2A2F
+
+            img#icon-description {
+                height: 15px;
+            }
+            .ma-left-10{
+                margin-left: 15%;
+            }
+            img#icon-servicio {
+                width: 10%;
+                //padding: 5%;
+            }
         </style>
         <section id="copyright" class="dark">
 
@@ -397,52 +374,125 @@
     $.backstretch('img/fondo.png');
     //  $("#compromiso-banner").backstretch('./img/compromiso.png');
     // $("#profesionalismo-banner").backstretch('./img/profesionalismo.jpg');
-
+ var items = {items: [
+                                {
+				imagen_principal: "./img/servicios/1/movil.png",
+				detalles: ["./img/servicios/1/detalle_1.png","./img/servicios/1/detalle_2.png","./img/servicios/1/detalle_3.png","./img/servicios/1/detalle_4.png"],
+				descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				velocidad: "200 km/hr",
+				transmision: "Automatica",
+				motor: "1000km",
+				combustible: "Diesel",
+				capacidad: "40 personas",
+				ficha_tecnica: "servicios.php?1",				
+				encabezado:"IRIZAR ",
+				modelo:"mod. 138",
+				galery:"1",
+				imagen:"./img/bus.png",
+				encabezado_descripcion:"Grupos Turísticos",
+				modelo_url:"descripcion.php?item=0"
+				},
+                                {
+				imagen_principal: "./img/servicios/1/movil.png",
+				detalles: ["./img/servicios/1/detalle_1.png","./img/servicios/1/detalle_2.png","./img/servicios/1/detalle_3.png","./img/servicios/1/detalle_4.png"],
+				descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				velocidad: "200 km/hr",
+				transmision: "Automatica",
+				motor: "1000km",
+				combustible: "Diesel",
+				capacidad: "40 personas",
+				ficha_tecnica: "servicios.php?1",				
+				encabezado:"IRIZAR ",
+				modelo:"mod. 138",
+				galery:"1",
+				imagen:"./img/bus.png",
+				encabezado_descripcion:"Grupos Turísticos",
+				modelo_url:"descripcion.php?item=0"
+				},
+                                {
+				imagen_principal: "./img/servicios/1/movil.png",
+				detalles: ["./img/servicios/1/detalle_1.png","./img/servicios/1/detalle_2.png","./img/servicios/1/detalle_3.png","./img/servicios/1/detalle_4.png"],
+				descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				velocidad: "200 km/hr",
+				transmision: "Automatica",
+				motor: "1000km",
+				combustible: "Diesel",
+				capacidad: "40 personas",
+				ficha_tecnica: "servicios.php?1",				
+				encabezado:"IRIZAR ",
+				modelo:"mod. 138",
+				galery:"1",
+				imagen:"./img/bus.png",
+				encabezado_descripcion:"Grupos Turísticos",
+				modelo_url:"descripcion.php?item=0"
+				}	
+        ]};
+		
+		items.items = items.items[<?php echo $_GET["item"]; ?>];
     $(document).ready(function () {
 
-        $("#owl-demo").owlCarousel({
+       
+        var template = '{{#items}}'
+	+'<div class="col-md-5 col-sm-12" style="min-height: 753px">'
+    +'    <div class="text-left">'
+    +'      <div class="row ma-left-10" >'   
+    +'    <div><h1 class="color-red text-center"><b>{{modelo}}</b></h1><h1 class="color-white text-center"><b>{{encabezado}} </b></h1></div>'
+    +'    <div class="color-white"><h4 ><img src="./img/servicios/velocidad.png" id="icon-description" />  Velocidad {{velocidad}}</h4></div>'
+    +'    <div class="color-white"><h4 class="color-white"><img src="./img/servicios/transmision.png" id="icon-description" /> Transmición:  <span>{{transmision}}</span></h4></div>'
+    +'    <div class="color-white"><h4 class="color-white"><img src="./img/servicios/motor.png" id="icon-description" /> Motor <span>{{motor}}</span></h4> </div>'
+    +'    <div class="color-white"><h4 class="color-white"><img src="./img/servicios/combustible.png" id="icon-description" /> Combustible <span>{{combustible}}</span></h4> </div>'
+    +'    <div class="color-white"><h4 class="color-white"><img src="./img/servicios/capacidad.png" id="icon-description" /> Capacidad <span>{{capacidad}}</span></h4> </div>'
+    +'    </div>'
+    +'    <div class="row ma-left-10" >    '
+    +'    <div class="color-white text-justify">{{descripcion}}</div>'
+    +'    </div>'
+    +'    <div class="row ma-left-10" >  '
+    +'    <img src="./img/servicios/servicio_1.png" id="icon-servicio" />'
+    +'    <img src="./img/servicios/servicio_2.png" id="icon-servicio" />'
+    +'    <img src="./img/servicios/servicio_3.png" id="icon-servicio" />'
+    +'    <img src="./img/servicios/servicio_4.png" id="icon-servicio" />'
+    +'    </div>'
+    +'    <div class="row ma-left-10" >  '
+    +'    <div class="color-white"><a class="btn btn-default btn-bg-white" href="{{ficha_tecnica}}">FICHA TÉCNICA</a>'
+    +'    <a class="btn btn-default btn-bg-white" href="{{ficha_tecnica}}">FICHA TÉCNICA</a> </div>'
+    +'    </div>'
+    +'    </div>'
+    +'</div>'
+    +'<div class="col-md-7  col-sm-12 bg-white"  style="min-height: 753px">'
+    +'    <div class="row">'
+    +'        <img src="{{imagen_principal}}" class="img-responsive" id="image-bigger"/>'
+    +'    </div>'
+    +'    <div class="row">'
+    +'        <div id="owl-demo">'
+    +'{{#detalles}}'
+    +'            <div class="item" src="{{.}}"><img src="{{.}}" alt=""></div>'                                                                       
+	+'{{/detalles}}'
+    +'        </div>'
+    +'    </div>'
+    +'</div>'
+    + '</div> {{/items}}';
+        var rendered = Mustache.render(template, items);
+		$("#cards-equipo").html(rendered);
+
+		
+		 $("#owl-demo").owlCarousel({
             autoPlay: 3000, //Set AutoPlay to 3 seconds
             responsive: true,
             items: 4,
+            lazyLoad : true,
             itemsDesktop: [1199, 3],
             itemsDesktopSmall: [979, 3]
 
         });
-
-
-
-        var items = {items: [
-                {encabezado: "hola mundo ", imagen: "http://lorempixel.com/g/400/400/", descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", encabezado_descripcion: "Grupos Turísticos", modelo_url: "servicios.php?1"},               
-                {encabezado: "hola mundo ", imagen: "http://lorempixel.com/g/400/400/", descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", encabezado_descripcion: "Grupos Turísticos", modelo_url: "servicios.php?1"},               
-                {encabezado: "hola mundo ", imagen: "http://lorempixel.com/g/400/400/", descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", encabezado_descripcion: "Grupos Turísticos", modelo_url: "servicios.php?1"},               
-                {encabezado: "hola mundo ", imagen: "http://lorempixel.com/g/400/400/", descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", encabezado_descripcion: "Grupos Turísticos", modelo_url: "servicios.php?1"},               
-                {encabezado: "hola mundo ", imagen: "http://lorempixel.com/g/400/400/", descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", encabezado_descripcion: "Grupos Turísticos", modelo_url: "servicios.php?1"},               
-        ]};
-        var template = '{{#items}}'
-                + '<div class="col-md-4 recuadro-servicio">'
-                + ''
-                + '    <div class="hover-bg">'
-                + '            <div class="hover-text">'
-                + '                <h4>{{encabezado_descripcion}}</h4>'
-                + '                <a  attr="{{modelo_url}}" href="{{modelo_url}}" class="btn btn-default">mostrar</a>'
-                + '                <div class="clearfix"></div>'
-                + '            </div>'
-                + '            <img src="{{imagen}}" class="img-responsive" alt="...">'
-                + '         <h1>{{encabezado}} </h1>'
-                + '    </div>   '
-                + ''
-                + '</div> {{/items}}';
-      //  var rendered = Mustache.render(template, items);
-//$("#cards-equipo").html(rendered);
-
+		
     });
-    
+    /*
     $(document).on("click",".item",function(e){
         console.log($(this).attr("src"));
         
         $("#image-bigger").attr("src",$(this).attr("src"));
     });
-
+*/
 </script>
 
 <?php include_once '../odc/sources/footer.php'; ?>

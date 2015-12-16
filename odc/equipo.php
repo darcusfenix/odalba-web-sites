@@ -170,16 +170,29 @@
                                                     .hover-bg > h1 {
                                                         position: absolute;
                                                         color: white;
-                                                          margin-top: -75px; 
-                                                         text-align: left;
-                                                         background: rgba(0, 187, 172, 0.31);
+                                                        margin-top: -80px;
+                                                       // text-align: left;
+                                                        letter-spacing: 3px;
+                                                        min-height: 80px;    
+                                                        min-width: 100%;
+                                                    }
+                                                    .banner-star-icon {
+                                                        background-image: url(./img/star.png);
+                                                        background-color: rgba(0, 187, 172, 0.31);
+                                                        background-repeat: no-repeat;
+                                                        background-size: 36px;
+                                                        padding-left: 55px;
+                                                       
+                                                    }
+                                                    .margin-top-100{
+                                                        margin-top: 150pt;
                                                     }
                                                     .z-max{
                                                             z-index: 9999;
                                                     }
                                                 </style>
                                                 <section sid="intro">
-
+                                                   <div></div>
                                                     <div class="container section_item" >
                                                        
                                                         <a class="left carousel-control z-max" id="carousel-control" role="button" data-slide="prev">
@@ -190,24 +203,10 @@
                                                             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                                                             <span class="sr-only">Next</span>
                                                         </a>
-                                                        <div class="row" id="cards-equipo">
-<!--
-                                                            <div class="col-md-4 recuadro-servicio">
-
-                                                                <div class="hover-bg">
-                                                                    
-                                                                    <a href="#">
-                                                                       
-                                                                        <div class="hover-text">
-                                                                            <h4>Grupos Turísticos</h4>
-                                                                            <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small>
-                                                                            <div class="clearfix"></div>
-                                                                        </div>
-                                                                        <img src="http://lorempixel.com/g/400/400/" class="img-responsive" alt="...">
-                                                                    </a>
-                                                                     <h1>hola mundo </h1>
-                                                                </div>   
- -->
+                                                        <div class="row" >
+                                                            
+                                                            <div id="cards-equipo"><!--el contenido de los autobuses se muestra aqui--></div>
+                                                            
                                                             </div>
 
                                                             
@@ -398,22 +397,213 @@ var template;
             
             
             
+          
  items = {items:[
-    {encabezado:"hola mundo 1",galery:"1",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
-    {encabezado:"hola mundo2 ",galery:"1",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
-    {encabezado:"hola mundo 3",galery:"1",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
-    {encabezado:"hola mundo 4",galery:"1",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
-    {encabezado:"hola mundo5 ",galery:"1",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
-    {encabezado:"hola mundo6 ",galery:"1",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
-    {encabezado:"hola mundo 7",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
-    {encabezado:"hola mundo8 ",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
-    {encabezado:"hola mundo9 ",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
-    {encabezado:"hola mundo0 ",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
-    {encabezado:"hola mundo1 ",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},
-    {encabezado:"hola mundo2 ",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},        
-    {encabezado:"hola mundo 3",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},        
-    {encabezado:"hola mundo4 ",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},        
-    {encabezado:"hola mundo5 ",galery:"2",imagen:"http://lorempixel.com/g/400/400/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:"descripcion.php?0"},        
+         
+                                {
+				imagen_principal: "./img/servicios/1/movil.png",
+				detalles: ["./img/servicios/1/detalle_1.png","./img/servicios/1/detalle_2.png","./img/servicios/1/detalle_3.png","./img/servicios/1/detalle_4.png"],
+				descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				velocidad: "200 km/hr",
+				transmision: "Automatica",
+				motor: "1000km",
+				combustible: "Diesel",
+				capacidad: "40 personas",
+				ficha_tecnica: "servicios.php?1",				
+				encabezado:"IRIZAR ",
+				modelo:"mod. 138",
+				galery:"1",
+				imagen:"./img/bus.png",
+				encabezado_descripcion:"Grupos Turísticos",
+				modelo_url:"descripcion.php?item=0"
+				},      
+                                {
+				imagen_principal: "./img/servicios/1/movil.png",
+				detalles: ["./img/servicios/1/detalle_1.png","./img/servicios/1/detalle_2.png","./img/servicios/1/detalle_3.png","./img/servicios/1/detalle_4.png"],
+				descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				velocidad: "200 km/hr",
+				transmision: "Automatica",
+				motor: "1000km",
+				combustible: "Diesel",
+				capacidad: "40 personas",
+				ficha_tecnica: "servicios.php?1",				
+				encabezado:"IRIZAR ",
+				modelo:"mod. 138",
+				galery:"1",
+				imagen:"./img/bus.png",
+				encabezado_descripcion:"Grupos Turísticos",
+				modelo_url:"descripcion.php?item=0"
+				},      
+                                {
+				imagen_principal: "./img/servicios/1/movil.png",
+				detalles: ["./img/servicios/1/detalle_1.png","./img/servicios/1/detalle_2.png","./img/servicios/1/detalle_3.png","./img/servicios/1/detalle_4.png"],
+				descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				velocidad: "200 km/hr",
+				transmision: "Automatica",
+				motor: "1000km",
+				combustible: "Diesel",
+				capacidad: "40 personas",
+				ficha_tecnica: "servicios.php?1",				
+				encabezado:"IRIZAR ",
+				modelo:"mod. 138",
+				galery:"1",
+				imagen:"./img/bus.png",
+				encabezado_descripcion:"Grupos Turísticos",
+				modelo_url:"descripcion.php?item=0"
+				},      
+                                {
+				imagen_principal: "./img/servicios/1/movil.png",
+				detalles: ["./img/servicios/1/detalle_1.png","./img/servicios/1/detalle_2.png","./img/servicios/1/detalle_3.png","./img/servicios/1/detalle_4.png"],
+				descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				velocidad: "200 km/hr",
+				transmision: "Automatica",
+				motor: "1000km",
+				combustible: "Diesel",
+				capacidad: "40 personas",
+				ficha_tecnica: "servicios.php?1",				
+				encabezado:"IRIZAR ",
+				modelo:"mod. 138",
+				galery:"1",
+				imagen:"./img/bus.png",
+				encabezado_descripcion:"Grupos Turísticos",
+				modelo_url:"descripcion.php?item=0"
+				},      
+                                {
+				imagen_principal: "./img/servicios/1/movil.png",
+				detalles: ["./img/servicios/1/detalle_1.png","./img/servicios/1/detalle_2.png","./img/servicios/1/detalle_3.png","./img/servicios/1/detalle_4.png"],
+				descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				velocidad: "200 km/hr",
+				transmision: "Automatica",
+				motor: "1000km",
+				combustible: "Diesel",
+				capacidad: "40 personas",
+				ficha_tecnica: "servicios.php?1",				
+				encabezado:"IRIZAR ",
+				modelo:"mod. 138",
+				galery:"1",
+				imagen:"./img/bus.png",
+				encabezado_descripcion:"Grupos Turísticos",
+				modelo_url:"descripcion.php?item=0"
+				},      
+                                {
+				imagen_principal: "./img/servicios/1/movil.png",
+				detalles: ["./img/servicios/1/detalle_1.png","./img/servicios/1/detalle_2.png","./img/servicios/1/detalle_3.png","./img/servicios/1/detalle_4.png"],
+				descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				velocidad: "200 km/hr",
+				transmision: "Automatica",
+				motor: "1000km",
+				combustible: "Diesel",
+				capacidad: "40 personas",
+				ficha_tecnica: "servicios.php?1",				
+				encabezado:"IRIZAR ",
+				modelo:"mod. 138",
+				galery:"1",
+				imagen:"./img/bus.png",
+				encabezado_descripcion:"Grupos Turísticos",
+				modelo_url:"descripcion.php?item=0"
+				},      
+                                {
+				imagen_principal: "./img/servicios/1/movil.png",
+				detalles: ["./img/servicios/1/detalle_1.png","./img/servicios/1/detalle_2.png","./img/servicios/1/detalle_3.png","./img/servicios/1/detalle_4.png"],
+				descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				velocidad: "200 km/hr",
+				transmision: "Automatica",
+				motor: "1000km",
+				combustible: "Diesel",
+				capacidad: "40 personas",
+				ficha_tecnica: "servicios.php?1",				
+				encabezado:"IRIZAR ",
+				modelo:"mod. 138",
+				galery:"1",
+				imagen:"./img/bus.png",
+				encabezado_descripcion:"Grupos Turísticos",
+				modelo_url:"descripcion.php?item=0"
+				},      
+                                {
+				imagen_principal: "./img/servicios/1/movil.png",
+				detalles: ["./img/servicios/1/detalle_1.png","./img/servicios/1/detalle_2.png","./img/servicios/1/detalle_3.png","./img/servicios/1/detalle_4.png"],
+				descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				velocidad: "200 km/hr",
+				transmision: "Automatica",
+				motor: "1000km",
+				combustible: "Diesel",
+				capacidad: "40 personas",
+				ficha_tecnica: "servicios.php?1",				
+				encabezado:"IRIZAR ",
+				modelo:"mod. 138",
+				galery:"1",
+				imagen:"./img/bus.png",
+				encabezado_descripcion:"Grupos Turísticos",
+				modelo_url:"descripcion.php?item=0"
+				},      
+                                {
+				imagen_principal: "./img/servicios/1/movil.png",
+				detalles: ["./img/servicios/1/detalle_1.png","./img/servicios/1/detalle_2.png","./img/servicios/1/detalle_3.png","./img/servicios/1/detalle_4.png"],
+				descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				velocidad: "200 km/hr",
+				transmision: "Automatica",
+				motor: "1000km",
+				combustible: "Diesel",
+				capacidad: "40 personas",
+				ficha_tecnica: "servicios.php?1",				
+				encabezado:"IRIZAR ",
+				modelo:"mod. 138",
+				galery:"1",
+				imagen:"./img/bus.png",
+				encabezado_descripcion:"Grupos Turísticos",
+				modelo_url:"descripcion.php?item=0"
+				},      
+                                {
+				imagen_principal: "./img/servicios/1/movil.png",
+				detalles: ["./img/servicios/1/detalle_1.png","./img/servicios/1/detalle_2.png","./img/servicios/1/detalle_3.png","./img/servicios/1/detalle_4.png"],
+				descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				velocidad: "200 km/hr",
+				transmision: "Automatica",
+				motor: "1000km",
+				combustible: "Diesel",
+				capacidad: "40 personas",
+				ficha_tecnica: "servicios.php?1",				
+				encabezado:"IRIZAR ",
+				modelo:"mod. 138",
+				galery:"1",
+				imagen:"./img/bus.png",
+				encabezado_descripcion:"Grupos Turísticos",
+				modelo_url:"descripcion.php?item=0"
+				},      
+                                {
+				imagen_principal: "./img/servicios/1/movil.png",
+				detalles: ["./img/servicios/1/detalle_1.png","./img/servicios/1/detalle_2.png","./img/servicios/1/detalle_3.png","./img/servicios/1/detalle_4.png"],
+				descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				velocidad: "200 km/hr",
+				transmision: "Automatica",
+				motor: "1000km",
+				combustible: "Diesel",
+				capacidad: "40 personas",
+				ficha_tecnica: "servicios.php?1",				
+				encabezado:"IRIZAR ",
+				modelo:"mod. 138",
+				galery:"1",
+				imagen:"./img/bus.png",
+				encabezado_descripcion:"Grupos Turísticos",
+				modelo_url:"descripcion.php?item=0"
+				},      
+                                {
+				imagen_principal: "./img/servicios/1/movil.png",
+				detalles: ["./img/servicios/1/detalle_1.png","./img/servicios/1/detalle_2.png","./img/servicios/1/detalle_3.png","./img/servicios/1/detalle_4.png"],
+				descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				velocidad: "200 km/hr",
+				transmision: "Automatica",
+				motor: "1000km",
+				combustible: "Diesel",
+				capacidad: "40 personas",
+				ficha_tecnica: "servicios.php?1",				
+				encabezado:"IRIZAR ",
+				modelo:"mod. 138",
+				galery:"1",
+				imagen:"./img/bus.png",
+				encabezado_descripcion:"Grupos Turísticos",
+				modelo_url:"descripcion.php?item=0"
+				},      
     ]};
 
  template = '{{#items}}'
@@ -426,12 +616,12 @@ var template;
 +'                <div class="clearfix"></div>'
 +'            </div>'
 +'            <img src="{{imagen}}" class="img-responsive" alt="...">'
-+'         <h1>{{encabezado}} </h1>'
++'         <h1 class="banner-star-icon text-left">{{encabezado}} </h1><h1 class="text-right">{{modelo}}</h1>'
 +'    </div>   '
 +''
 +'</div> {{/items}}';
 
- i = 1;
+ i = 0;
 render_gallery(i,items,template);
         });
 function render_gallery(i,items,template){

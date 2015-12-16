@@ -129,8 +129,8 @@
                                         <div class="sublayout-column">
                                             <div class="mdpb-subrow sub-row-4211">
                                                 <div class="spb-column spb-column-42111 col-xs-12 col-lg-8 col-md-8 col-sm-10 col-md-offset-2 text-center">
-                                                    <img src="img/icono_estrella.png" alt="Logo" />
-                                                    <h2>UNIDADES</h2>
+                                                    <img src="img/servicios.png" alt="Logo" />
+                                                    <h2>SERVICIOS</h2>
                                                     <div class="spb-custom-phoenix-paragraph">
                                                         <div style="text-align: center;" class="">
                                                             <p style="color:rgb(76, 76, 76)"  data-scroll-reveal="enter bottom move 10px over 1s after 0.2s" >
@@ -371,10 +371,13 @@
             });
             
             
-            
-var items = {items:[
-    {encabezado:"hola mundo ",imagen:"http://lorempixel.com/g/800/600/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:""},    
-    {encabezado:"hola mundo ",imagen:"http://lorempixel.com/g/800/600/",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:""},
+ var items = {items:[
+    {encabezado:"hola mundo ",imagen:"./img/rrecorridos_especiales.png",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:""},    
+    {encabezado:"hola mundo ",imagen:"./img/grupos_turisticos.png",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:""},    
+    {encabezado:"hola mundo ",imagen:"./img/circuitos.png",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:""},    
+    {encabezado:"hola mundo ",imagen:"./img/excursiones.png",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:""},    
+    {encabezado:"hola mundo ",imagen:"./img/grupo_de_incentivo.png",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:""},    
+    {encabezado:"hola mundo ",imagen:"./img/convenciones.png",descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",encabezado_descripcion:"Grupos Turísticos",modelo_url:""},
     ]};
 
 var template = '{{#items}}'
@@ -384,8 +387,10 @@ var template = '{{#items}}'
 +'        '
 +'        <a >'
 +'           '
-+'            <div class="hover-text">'
++'            <div class="hover-text text-center">'
++'            <img src="./img/icono_servicios.png" class="img-responsive" alt="..." style="margin: auto;">'
 +'                <h4>{{encabezado_descripcion}}</h4>'
++'            <img src="./img/pleca.png" class="img-responsive" alt="..." style="margin: auto;">'
 +'                <small>{{descripcion}}</small>'
 +'                <div class="clearfix"></div>'
 +'            </div>'
