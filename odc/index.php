@@ -118,6 +118,7 @@
                                                     text-shadow: 2px 2px 7px #000; 
                                                     font-size: 25pt;
                                                     font-weight: 500;
+                                                    line-height: 40px;
                                                 }
                                                 div#about {
                                                     background-color: rgba(240, 248, 255, 0);
@@ -126,7 +127,7 @@
                                             </style>
 
                                             <div class="item active">
-                                                <img src="img/2_1.png" width="100%">
+                                                <img data-original="img/2_1.png" class="lazy" width="100%">
                                                 <div class="carousel-caption">
                                                     <h3 class="interlineado-15">OBMNIBUS DE CANC&Uacute;N</h3>
                                                     <br/>
@@ -135,7 +136,7 @@
                                             </div>
 
                                             <div class="item">
-                                                <img src="img/3_1.png" width="100%" >
+                                                <img  data-original="img/3_1.png" class="lazy" width="100%" >
                                                 <div class="carousel-caption">
                                                     <h3 class="interlineado-15">OBMNIBUS DE CANC&Uacute;N</h3>
                                                     <br/>
@@ -144,7 +145,7 @@
                                             </div>
 
                                             <div class="item">
-                                                <img src="img/eeee.png" width="100%" >
+                                                <img data-original="img/eeee.png" class="lazy" width="100%" >
                                                 <div class="carousel-caption">
                                                     <h3  class="interlineado-15">OBMNIBUS DE CANC&Uacute;N</h3>
                                                     <br/>

@@ -40,7 +40,7 @@
     <div class="row">
 
         <div class="container text-center container-contact top-150 ancho">
-            <form id="contacto_form">
+            <form method="post" action="sendbymail2.php">
                 <fieldset>
                     <h2 class="text-theme">CONTACTO</h2>
                     <div class="col-md-6">
@@ -48,7 +48,7 @@
                             <label class="control-label col-md-5">Tema de interés:
                             </label>
                             <div class="col-md-7">
-                                <select class="form-control select2me" name="options2">
+                                <select class="form-control select2me" name="tema" id="tema">
                                     <option value="">Seleccione...</option>
                                     <option value="Option 1">Option 1</option>
                                     <option value="Option 2">Option 2</option>
@@ -61,7 +61,7 @@
                             <label class="control-label col-md-5">Unidad de interés:
                             </label>
                             <div class="col-md-7">
-                                <select class="form-control select2me" name="options2">
+                                <select class="form-control select2me" name="unidad" id="unidad">
                                     <option value="">Seleccione...</option>
                                     <option value="Option 1">Option 1</option>
                                     <option value="Option 2">Option 2</option>
@@ -73,45 +73,45 @@
                         <div>
                             <label class="control-label col-md-5" >Nombre:</label>
                             <div class="col-md-7">
-                                <input type="text" class="form-control" id="inputWarning" required />
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Nombre*" required />
                             </div>
                         </div>
                         <div>
                             <label class="control-label col-md-5" >Apellidos:</label>
                             <div class="col-md-7">
-                                <input type="text" class="form-control" id="inputWarning" required/>
+                                <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Apellido" required/>
                             </div>
                         </div>
                         <div>
                             <label class="control-label col-md-5" >Empresa:</label>
                             <div class="col-md-7">
-                                <input type="text" class="form-control" id="inputWarning" placeholder="Empresa / Trabajo / Escuela / Particular"  />
+                                <input type="text" class="form-control" id="company" name="company" placeholder="Empresa / Trabajo / Escuela / Particular"  />
                             </div>
                         </div>
 
                         <div>
                             <label class="control-label col-md-5" >Teléfono:</label>
                             <div class="col-md-7">
-                                <input type="text" class="form-control" id="inputWarning"  required />
+                                <input type="text" class="form-control" id="phone" name="phone" placeholder="Telefono* " required/>
                             </div>
                         </div>
                         <div>
                             <label class="control-label col-md-5" >Celular:</label>
                             <div class="col-md-7">
-                                <input type="text" class="form-control" id="inputWarning"   />
+                                <input type="text" class="form-control" id="cellphone" name="cellphone"    />
                             </div>
                         </div>
                         <div>
                             <label class="control-label col-md-5" >Correo Electrónico:</label>
                             <div class="col-md-7">
-                                <input type="email" class="form-control" id="inputWarning" required  />
+                                <input type="email" class="form-control" id="email" name="email"  placeholder="Email*"  required  />
                             </div>
                         </div>
                         <div>
                             <label class="control-label col-md-5">Estado:
                             </label>
                             <div class="col-md-7">
-                                <select class="form-control select2me" name="options2">
+                                <select class="form-control select2me" name="estado" id="estado">
                                     <option value="">Seleccione...</option>
                                     <option value="Option 1">Option 1</option>
                                     <option value="Option 2">Option 2</option>
@@ -123,25 +123,25 @@
                         <div>
                             <label class="control-label col-md-5" >Ciudad:</label>
                             <div class="col-md-7">
-                                <input type="text" class="form-control" id="inputWarning"   />
+                                <input type="text" class="form-control" id="city" name="city"  />
                             </div>
                         </div>
                         <div>
                             <label class="control-label col-md-5" >Calle y número:</label>
                             <div class="col-md-7">
-                                <input type="text" class="form-control" id="inputWarning"   />
+                                <input type="text" class="form-control" id="street"  name="street"  />
                             </div>
                         </div>
                         <div>
                             <label class="control-label col-md-5" >Colonia:</label>
                             <div class="col-md-7">
-                                <input type="text" class="form-control" id="inputWarning"   />
+                                <input type="text" class="form-control" id="colonia" name="colonia"  />
                             </div>
                         </div>
                         <div>
                             <label class="control-label col-md-5" >CP:</label>
                             <div class="col-md-7">
-                                <input type="text" class="form-control" id="inputWarning"   />
+                                <input type="text" class="form-control" id="cp"   name="cp"   />
                             </div>
                         </div>
                     </div>
@@ -149,14 +149,14 @@
                         <div>
                             <label class="control-label col-md-7" >Número de unidades de interés:</label>
                             <div class="col-md-5">
-                                <input type="text" class="form-control" id="inputWarning"   />
+                                <input type="text" class="form-control" id="un_int"  name="un_int"    />
                             </div>
                         </div>
                         <div>
                             <label class="control-label col-md-3">Sector:
                             </label>
                             <div class="col-md-9">
-                                <select class="form-control select2me" name="options2">
+                                <select class="form-control select2me" name="sector" id="sector">
                                     <option value="">Seleccione...</option>
                                     <option value="Option 1">Option 1</option>
                                     <option value="Option 2">Option 2</option>
@@ -168,7 +168,7 @@
                         <div>
                             <label class="control-label col-md-12" >Déjanos tu comentario:</label>
                             <div class="col-md-12">
-                                <textarea class="form-control">
+                                <textarea class="form-control" id="comments" name="comments" >
                                 </textarea>
                             </div>
                             <div class="text-right">

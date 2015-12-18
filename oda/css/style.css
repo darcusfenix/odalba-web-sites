@@ -23,8 +23,54 @@
     src: url('../fonts/FuturaBT_Book_OpenType.otf');
 }
 @font-face {
-    font-family: Futura-condensed;
+    font-family: Futura-condensed-medium;
     src: url('../fonts/ufonts.com_futura-condensed-medium.ttf');
+}
+@font-face {
+    font-family: Futura-medium;
+    src: url('../fonts/Futura_Oblique.ttf');
+}
+@font-face{
+    font-family: Built_titling_bd_it;
+    src: url('../fonts/built_titling_bd_it.ttf');
+}
+@font-face{
+    font-family: Built_titling_bd;
+    src: url('../fonts/built_titling_bd.ttf');
+}
+@font-face{
+    font-family: Built_titling_el_it;
+    src: url('../fonts/built_titling_el_it.ttf');
+}
+@font-face{
+    font-family: Built_titling_el;
+    src: url('../fonts/built_titling_el.ttf');
+}
+@font-face{
+    font-family: Built_titling_lt_it;
+    src: url('../fonts/built_titling_lt_it.ttf');
+}
+
+@font-face{
+    font-family: Built_titling_lt;
+    src: url('../fonts/built_titling_lt.ttf');
+}
+@font-face{
+    font-family: Built_titling_rg_it;
+    src: url('../fonts/built_titling_rg_it.tff');
+}
+@font-face{
+    font-family: Built_titling_rg;
+    src: url('../fonts/built_titling_rg.ttf');
+}
+
+@font-face{
+    font-family: Built_titling_sb;
+    src: url('../fonts/built_titling_sb.ttf');
+}
+@font-face{
+    font-family: Built_titling_sb_it;
+    src: url('../fonts/built_titling_sb_it.ttf');
 }
 
 .text-theme{
@@ -35,6 +81,8 @@
 }
 .navbar-default .navbar-nav>li>a {
     color: #FFFFFF;
+    font-size: 16pt;
+    font-family: "Built_titling_rg";
 }
 body.front .affix-top{
     width: 100% !important;
@@ -43,8 +91,9 @@ body.front .affix-top{
     padding-left: 0px;
     padding-right: 0px;
 }
+
 body.front .affix-top .container-fluid{
-    margin-top: 60px;
+    margin-top: 3%;
     background-color: rgba(10,10,88,.5);
 }
 body.front .affix-top .bg-text-theme{
@@ -54,7 +103,6 @@ body.front .affix-top .bg-text-theme{
     border-bottom: 1px solid rgba(148,148,250,1);
 }
 .navbar-brand img{
-    margin-top: -100px;
     opacity: 1;
 }
 .text-white{
@@ -96,11 +144,16 @@ body.front .affix-top .bg-text-theme{
 
 .spb-custom-phoenix-section-header h2{
     letter-spacing: 1px;
-    font-size: 45px;
+    font-size: 60pt;
+    font-family: "Futura-condensed-medium";
 }
 .spb-custom-phoenix-paragraph hr{
     border: 1px solid #b42a47;
     width: 200px;
+}
+.spb-custom-phoenix-paragraph p{
+    font-size: 18pt;
+    font-family: "Futura_Oblique";
 }
 #text-separator{
     background-color: #FFFFFF;
@@ -114,18 +167,21 @@ body.front .affix-top .bg-text-theme{
     height: 100%;
 }
 .history-text h2, .history-text p{
-    font-size: 14px;
+    font-size: 25pt;
     letter-spacing: 1px;
     color: #000000 !important;
+    font-family: "Futura-condensed-medium";
 }
 .history-text p{
-    text-align: justify;
+    text-align: center;
+    font-size: 12pt;
+    font-family: "Futura_Oblique"
 }
 .affix .navbar-nav > li > a.text-black{
     color: white;
 }
 .parallax-window{
-    height: 500px;
+    height: 445pt;
     background-color: transparent;
     width: 100%;
     padding-right: 0px;
@@ -133,22 +189,44 @@ body.front .affix-top .bg-text-theme{
     margin-right: auto;
     margin-left: auto;
 }
-.parallax-window h2{
-    font-size: 38px;
+.parallax-window h2{ /*SOMOS UNA EMPRESA*/
+    font-size: 500%;
     color: white;
     text-align: center;
     text-transform: uppercase;
     margin: 0px auto;
-    width: 570px;
+    width: 60%;
     letter-spacing: 1px;
-    margin-top: 190px;
+    margin-top: 10%;
+    font-family: "Futura-medium" ;
+    text-shadow: 1px 1px #696969;
 }
+@media (min-width: 200px) and (max-width: 600px) {
+    .parallax-window h2{ /*SOMOS UNA EMPRESA*/
+        font-size: 300%;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0px auto;
+        width: 60%;
+        letter-spacing: 1px;
+        margin-top: 10%;
+        font-family: "Futura-medium" ;
+        text-shadow: 1px 1px #696969;
+    }
+}
+
 .btn-info-parallax{
     background-color: #b53348;
+    font-family: "Built_titling_rg";
     padding: 5px;
+    padding-left: 18px;
+    padding-right: 18px;
     font-size: 26px;
     color: #FFFFFF;
     text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
     font-weight: 200;
     -webkit-box-shadow: 3px 3px 13px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    3px 3px 13px 0px rgba(50, 50, 50, 0.75);
@@ -168,6 +246,10 @@ body.front .affix-top .bg-text-theme{
 .container  i{
     display: block;
 }
+
+#about1{
+    /*margin-top: 20%;*/
+}
 .infoContact li{
     list-style: none;
 }
@@ -175,8 +257,30 @@ body.front .affix-top .bg-text-theme{
     display: inline-block;
 }
 .navbar-brand img{
-    width: 250px;
+    width: 38%;
     height: auto;
+}
+.capa1{ 
+    position:absolute;
+    z-index:1;
+    width: 37%;
+    height: 37%;
+    left: 32%;
+    top: 22%;
+}
+.capa2{
+    position:absolute;
+    z-index:22;
+    left: 15%;
+    top: 8%;
+    width: auto;
+}
+.capa3{
+    position:absolute;
+    z-index:33;
+    left: 35%;
+    top: 8%;
+    width: auto;
 }
 /*
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -185,7 +289,10 @@ body.front .affix-top .bg-text-theme{
 */
 #servicios{
     width: 80%;
-    margin: 0px auto;
+    margin-top: -20%;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin: 0px auto;*/
 }
 .recuadro-servicio{
     margin-bottom: 15px;
@@ -208,8 +315,8 @@ body.front .affix-top .bg-text-theme{
     top: 100%;
     margin-top: -28px;
     opacity:1;
-
     transition: all 0.5s;
+    padding: 1px;
 }
 .hover-bg:hover  .hover-text {
     -webkit-backface-visibility:hidden;
@@ -223,12 +330,12 @@ body.front .affix-top .bg-text-theme{
     opacity: 1;
     text-transform: none;
     margin-top: 0px;
-    background: gray;
+    /*background: gray;*/
     padding: 3px;
     text-align: left;
     padding-left: 10px;
-    background: rgba(0, 0, 0, 0.60);
-    font-family: Futura-condensed;
+    background: rgba(0, 0, 0, 0.20);
+    font-family: "Futura-condensed-medium";
     font-weight: normal;
     /*
     -webkit-transform: translateY(100%);
@@ -242,7 +349,7 @@ body.front .affix-top .bg-text-theme{
 }
 .hover-bg:hover .hover-text>small{
     top: 20px;
-    font-family: Futura_Oblique;
+    font-family: "Futura_Oblique";
     padding-left: 3px;
     padding-right: 3px;
     line-height: 4px;
@@ -369,6 +476,8 @@ body.front .affix-top .bg-text-theme{
     text-align: left;
     list-style: circle;
 }
+
+/*CHECAR IMAGENES SLIDE*/
 .slick-prev{
     background-image: url('../img/arrow-prev.jpg');
 }
@@ -503,4 +612,14 @@ body.front .affix-top .bg-text-theme{
 .flex-next:before, .flex-prev:before{
     content: none !important;
     width: 30px !important;
+}
+
+/*
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- SECTION FOOTER  -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+*/
+
+.textFooter{
+    font-family: "Futura-condensed-medium";
 }

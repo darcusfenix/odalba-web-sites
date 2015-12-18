@@ -352,14 +352,28 @@
             }
 
             img#icon-description {
-                height: 15px;
+                height: 20px;
             }
             .ma-left-10{
                 margin-left: 15%;
             }
             img#icon-servicio {
                 width: 10%;
-                //padding: 5%;
+                margin-left: 15pt;
+            }
+            .reset-text{
+                    letter-spacing: 0px; 
+            }
+            .ma-bottom-10{
+                margin-bottom: 50pt;
+            }
+            .padding-right-10{
+               
+                //min-width: 150pt;
+                display: inline-block; width: 140px; text-align: left; 
+            }
+            .padding-left-10{
+                padding-left: 15pt;
             }
         </style>
         <section id="copyright" class="dark">
@@ -433,28 +447,28 @@
 
        
         var template = '{{#items}}'
-	+'<div class="col-md-5 col-sm-12" style="min-height: 753px">'
+	+'<div class="col-md-5 col-sm-12 reset-text" style="min-height: 753px">'
     +'    <div class="text-left">'
-    +'      <div class="row ma-left-10" >'   
-    +'    <div><h1 class="color-red text-center"><b>{{modelo}}</b></h1><h1 class="color-white text-center"><b>{{encabezado}} </b></h1></div>'
-    +'    <div class="color-white"><h4 ><img src="./img/servicios/velocidad.png" id="icon-description" />  Velocidad {{velocidad}}</h4></div>'
-    +'    <div class="color-white"><h4 class="color-white"><img src="./img/servicios/transmision.png" id="icon-description" /> Transmición:  <span>{{transmision}}</span></h4></div>'
-    +'    <div class="color-white"><h4 class="color-white"><img src="./img/servicios/motor.png" id="icon-description" /> Motor <span>{{motor}}</span></h4> </div>'
-    +'    <div class="color-white"><h4 class="color-white"><img src="./img/servicios/combustible.png" id="icon-description" /> Combustible <span>{{combustible}}</span></h4> </div>'
-    +'    <div class="color-white"><h4 class="color-white"><img src="./img/servicios/capacidad.png" id="icon-description" /> Capacidad <span>{{capacidad}}</span></h4> </div>'
+    +'      <div class="row ma-left-10 ma-bottom-10" >'   
+    +'    <div><h1 class="color-red padding-left-10"><b>{{modelo}}</b></h1><h1 class="color-white padding-left-10"><b>{{encabezado}} </b></h1></div>'
+    +'    <div class="color-white"><h4 class="reset-text"> <img src="./img/servicios/velocidad.png" id="icon-description" /> &nbsp; <b class="color-red padding-right-10"> Velocidad: </b> {{velocidad}}</h4></div>'
+    +'    <div class="color-white"><h4 class="color-white reset-text "><img src="./img/servicios/transmision.png" id="icon-description" /> &nbsp; <b class="color-red padding-right-10"> Transmición: </b> {{transmision}}</h4></div>'
+    +'    <div class="color-white"><h4 class="color-white reset-text"><img src="./img/servicios/motor.png" id="icon-description" /> &nbsp; <b class="color-red padding-right-10"> Motor: </b> {{motor}}</h4> </div>'
+    +'    <div class="color-white"><h4 class="color-white reset-text "><img src="./img/servicios/combustible.png" id="icon-description" /> &nbsp; <b class="color-red padding-right-10">Combustible: </b> <span>{{combustible}}</span></h4> </div>'
+    +'    <div class="color-white"><h4 class="color-white reset-text"><img src="./img/servicios/capacidad.png" id="icon-description" /> &nbsp; <b class="color-red padding-right-10">Capacidad: </b> {{capacidad}}</h4> </div>'
     +'    </div>'
-    +'    <div class="row ma-left-10" >    '
+    +'    <div class="row ma-left-10 ma-bottom-10" >    '
     +'    <div class="color-white text-justify">{{descripcion}}</div>'
     +'    </div>'
-    +'    <div class="row ma-left-10" >  '
+    +'    <div class="row ma-left-10 ma-bottom-10" >  '
     +'    <img src="./img/servicios/servicio_1.png" id="icon-servicio" />'
     +'    <img src="./img/servicios/servicio_2.png" id="icon-servicio" />'
     +'    <img src="./img/servicios/servicio_3.png" id="icon-servicio" />'
     +'    <img src="./img/servicios/servicio_4.png" id="icon-servicio" />'
     +'    </div>'
-    +'    <div class="row ma-left-10" >  '
+    +'    <div class="row ma-left-10 ma-bottom-10" >  '
     +'    <div class="color-white"><a class="btn btn-default btn-bg-white" href="{{ficha_tecnica}}">FICHA TÉCNICA</a>'
-    +'    <a class="btn btn-default btn-bg-white" href="{{ficha_tecnica}}">FICHA TÉCNICA</a> </div>'
+    +'    <a class="btn btn-default btn-bg-white" href="{{ficha_tecnica}}">COTIZAR</a> </div>'
     +'    </div>'
     +'    </div>'
     +'</div>'

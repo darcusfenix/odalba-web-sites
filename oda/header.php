@@ -1,13 +1,13 @@
 <header>
     <div class="row text-center header-info-contacto">
-        <div class="col-md-4 text-right text-white ma-top-10">
+        <!--<div class="col-md-4 text-right text-white ma-top-10">
             <i class="fa fa-phone"></i> Tel. +52 (55) 55 26 54 90
         </div>
         <div class="col-md-8 text-left text-white ma-top-10">
             <i class="fa fa-envelope"></i> E-mail. info@adealba.com
-        </div>
+        </div>-->
     </div>
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="0">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="1">
 
         <div class="container-fluid">
 
@@ -20,14 +20,18 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">
-                    <img src="../img/logos-index/oda.png" alt="Logo" style="margin-top: -29px; width: 150px; height: auto;"/>
+                <a class="navbar-brand" href="http://grupobecm.com/odalba/oda/index.php">
+                    <!-- tamaño de logo-->
+                    <img src="img/ODA_logosolito.jpg" alt="Logo" style="width: 50%; height:auto%; margin-top:-16.5%;"/> <!--style="margin-top: -29px;"-->
                 </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
                 <ul class="nav navbar-nav">
+                    <li>
+                        <a href="../index.html"><i class="fa fa-share" style="color:#B42A47;"></i> &nbsp; Principal</a>
+                    </li>
                     <li class="first ">
                         <a href="index.php" title="" class="<?php echo($lugar_actual = "index" ? 'active' : '' ); ?>"><i class="fa fa-home"></i></a>
                     </li>
@@ -58,7 +62,7 @@
               d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
         </svg>
         
-        <img class="ip-inner ip-loader-circle" src="img/loader.gif" />
+        <img class="ip-inner ip-loader-circle" src="img/loader.gif" style="visibility:hidden;" />
     </div>
 </div>
 <!--end preloader-->

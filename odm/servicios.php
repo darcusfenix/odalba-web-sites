@@ -320,7 +320,7 @@
                                             <p>
                                             </p>
                                             <p>
-                                                <img src="img/logo_blanco.png"/>    
+                                                <img src="img/odm_blanco.png"/>    
                                             </p>
                                             <p>
                                                 fundados en 1968, somos pioneros en la transportaci&oacute;n

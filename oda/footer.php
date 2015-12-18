@@ -9,7 +9,7 @@
 
                             <div class="col-md-4  text-white">
 
-                                <h4 data-scroll-reveal="enter left move 10px over 1s after 0.2s" style="    margin-top: 30px;">Contacto</h4>   
+                                <h4 class="textFooter" data-scroll-reveal="enter left move 10px over 1s after 0.2s" style="    margin-top: 30px;">Contacto</h4>   
                                 <ul class="infoContact">
                                     <li><i class="fa fa-phone"></i> <span>Telefono : +52-00-00-00-00</span></li>
                                     <li><i class="fa fa-envelope-o"></i> <span>email : odalba@mail.com</span></li>
@@ -21,7 +21,7 @@
                             <div class="col-md-4">
 
                                 <div class="contact-icon">
-                                    <h4 data-scroll-reveal="enter left move 10px over 1s after 0.2s" style="    margin-top: 30px;">Equipo</h4>   
+                                    <h4 class="textFooter" data-scroll-reveal="enter left move 10px over 1s after 0.2s" style="  margin-top: 30px;">Equipo</h4>   
                                     <div class="row">
                                         <div class="col-xs-4">
                                             <a href="#" class="thumbnail">

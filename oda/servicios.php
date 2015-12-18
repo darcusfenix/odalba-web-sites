@@ -52,6 +52,13 @@
 
 
                                                                 </div>
+                                                                <div class="col-md-4 text-right text-white ma-top-10">
+                                                                    <i class="fa fa-phone"></i> Tel. +52 (55) 55 26 54 90
+                                                                </div>
+                                                                <div class="col-md-8 text-left text-white ma-top-10">
+                                                                    <i class="fa fa-envelope"></i> E-mail. info@adealba.com
+                                                                </div>
+                                                
 
                                                                 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
                                                                 <!--/* Intro  */-->

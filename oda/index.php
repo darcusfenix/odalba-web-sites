@@ -36,13 +36,40 @@
                                                                     <div class="flexslider">
                                                                         <ul class="slides"  id="slider-home">
                                                                             <li style="position: relative">
-                                                                                <img alt="" src="img/slider-index/1.jpg">      
+                                                                                <div class="capa1"> 
+                                                                                    <img src="img/carrus/PruebaCamion1.png" />
+                                                                                </div>
+                                                                                <div class="capa2">
+                                                                                    <img src="img/ODA_contactotelefono.png" />
+                                                                                </div>
+                                                                                <div class="capa3">
+                                                                                    <img src="img/ODA_contactomail.png" />
+                                                                                </div>
+                                                                                <img alt="" src="img/carrus/ODA_Inicio_Carrusel1.jpg">      
                                                                             </li>
                                                                             <li style="position: relative">
-                                                                                <img alt="" src="img/slider-index/2.jpg">
+                                                                                <div class="capa1"> 
+                                                                                    <img src="img/carrus/PruebaCamion2.png" />
+                                                                                </div>
+                                                                                <div class="capa2">
+                                                                                    <img src="img/ODA_contactotelefono.png" />
+                                                                                </div>
+                                                                                <div class="capa3">
+                                                                                    <img src="img/ODA_contactomail.png" />
+                                                                                </div>
+                                                                                <img alt="" src="img/carrus/ODA_Inicio_Carrusel2.jpg">
                                                                             </li>
                                                                             <li style="position: relative">
-                                                                                <img alt="" src="img/slider-index/3.jpg">
+                                                                                <div class="capa1"> 
+                                                                                    <img src="img/carrus/PruebaCamion3.png" />
+                                                                                </div>
+                                                                                <div class="capa2">
+                                                                                    <img src="img/ODA_contactotelefono.png" />
+                                                                                </div>
+                                                                                <div class="capa3">
+                                                                                    <img src="img/ODA_contactomail.png" />
+                                                                                </div>
+                                                                                <img alt="" src="img/carrus/ODA_Inicio_Carrusel3.jpg">
                                                                             </li>
                                                                         </ul>
                                                                     </div>
@@ -54,7 +81,7 @@
                                             </div>
                                         </div>
 
-                                        <div id="about" class="md-section spb-section-4">
+                                        <div id="about" class="md-section spb-section-4" style="margin-top:-10%;">
                                             <div class="container">
                                                 
                                                
@@ -84,8 +111,8 @@
                                                 <div class="col-md-10 col-md-offset-1 contenedor-recuadros">
                                                     <div class="col-md-4" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
                                                         <div class="row">
-                                                            <div class="col-md-12 text-center">
-                                                                <img src="img/history-01.jpg">
+                                                            <div class="col-md-12 text-center" >
+                                                                <img src="img/value/valor_compromiso.jpg">
                                                             </div>
                                                             <div class="col-md-12 text-center history-text">
                                                                 <h2>COMPROMISO</h2>
@@ -98,7 +125,7 @@
                                                     <div class="col-md-4" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
                                                         <div class="row">
                                                             <div class="col-md-12 text-center">
-                                                                <img src="img/history-02.jpg">
+                                                                <img src="img/value/valor_especializacion.jpg">
                                                             </div>
                                                             <div class="col-md-12 text-center history-text">
                                                                 <h2>ESPECIALIZACIÓN</h2>
@@ -111,7 +138,7 @@
                                                     <div class="col-md-4" data-scroll-reveal="enter right move 10px over 1s after 0.2s">
                                                         <div class="row">
                                                             <div class="col-md-12 text-center">
-                                                                <img src="img/history-03.jpg">
+                                                                <img src="img/value/valor_profesionalismo.jpg">
                                                             </div>
                                                             <div class="col-md-12 text-center history-text">
                                                                 <h2>PROFESIONALISMO</h2>
@@ -124,9 +151,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div id="parallax" style="height: 700px;">
-                                            <div  style="height: 700px;" class="row parallax-window text-center" data-parallax="scroll" data-image-src="img/parallax.jpg" >
-                                                <h2 class="text-white" data-scroll-reveal="enter up move 10px over 1s after 0.2s">Somos una empresa definida en valores</h2>
+                                        <div id="parallax" style="height: 445px;">
+                                            <div  style="height: 445px;" class="row parallax-window text-center" data-parallax="scroll" data-image-src="img/ODA_Inicio_Valores.jpg" >
+                                                <h2 class="text-white" data-scroll-reveal="enter up move 10px over 1s after 0.2s">Somos una empresa <br> definida en valores</h2>
                                                 <br><br>
                                                 <a href="#" class="btn-info-parallax" ><b>Servicios</b></a>
                                             </div>

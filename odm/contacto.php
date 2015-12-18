@@ -24,152 +24,154 @@
 
 <!-- fin primera carta-->                               
 <div id="page" class="md-section spb-section-4">
+    <div class="row">        
+        <div class="container text-center container-contact" id="contact-form">
+            <form method="post" action="sendbymail2.php">
+                <fieldset>
+                    <h2 class="text-theme">CONTACTO</h2>
+                    <div class="col-md-6">
+                        <div >
+                            <label class="control-label col-md-5">Tema de interés:
+                            </label>
+                            <div class="col-md-7">
+                                <select class="form-control select2me" name="tema" id="tema">
+                                    <option value="">Seleccione...</option>
+                                    <option value="Option 1">Option 1</option>
+                                    <option value="Option 2">Option 2</option>
+                                    <option value="Option 3">Option 3</option>
+                                    <option value="Option 4">Option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div >
+                            <label class="control-label col-md-5">Unidad de interés:
+                            </label>
+                            <div class="col-md-7">
+                                <select class="form-control select2me" name="unidad" id="unidad">
+                                    <option value="">Seleccione...</option>
+                                    <option value="Option 1">Option 1</option>
+                                    <option value="Option 2">Option 2</option>
+                                    <option value="Option 3">Option 3</option>
+                                    <option value="Option 4">Option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="">
+                            <label class="control-label col-md-5" >Nombre:</label>
+                            <div class="col-md-7">
+                                <input type="text" class="form-control bg-none" id="name" name="name" placeholder="Nombre*" required />
+                            </div>
+                        </div>
+                        <div class="">
+                            <label class="control-label col-md-5" >Apellidos:</label>
+                            <div class="col-md-7">
+                                <input type="text" class="form-control bg-none" id="last_name" name="last_name" placeholder="Apellido" required/>
+                            </div>
+                        </div>
+                        <div class="">
+                            <label class="control-label col-md-5" >Empresa:</label>
+                            <div class="col-md-7">
+                                <input type="text" class="form-control bg-none" id="company" name="company" placeholder="Empresa / Trabajo / Escuela / Particular" />
+                            </div>
+                        </div>
 
-    <div class="row">
-
-        <div class="container text-center container-contact">
-            <fieldset>
-                <h2 class="text-theme">CONTACTO</h2>
-                <div class="col-md-6">
-                    <div class="">
-                        <label class="control-label col-md-5">Tema de interés:
-                        </label>
-                        <div class="col-md-7">
-                            <select class="form-control select2me" name="options2">
-                                <option value="">Seleccione...</option>
-                                <option value="Option 1">Option 1</option>
-                                <option value="Option 2">Option 2</option>
-                                <option value="Option 3">Option 3</option>
-                                <option value="Option 4">Option 4</option>
-                            </select>
+                        <div class="">
+                            <label class="control-label col-md-5" >Teléfono:</label>
+                            <div class="col-md-7">
+                                <input type="text" class="form-control bg-none" id="phone" name="phone" placeholder="Telefono* " required />
+                            </div>
+                        </div>
+                        <div class="">
+                            <label class="control-label col-md-5" >Celular:</label>
+                            <div class="col-md-7">
+                                <input type="text" class="form-control bg-none" id="cellphone" name="cellphone"   />
+                            </div>
+                        </div>
+                        <div class="">
+                            <label class="control-label col-md-5" >Correo Electrónico:</label>
+                            <div class="col-md-7">
+                                <input type="text" class="form-control bg-none" id="email" name="email"  placeholder="Email*"  required />
+                            </div>
+                        </div>  
+                        <div class="">
+                            <label class="control-label col-md-5">Estado:
+                            </label>
+                            <div class="col-md-7">
+                                <select class="form-control select2me" name="estado" id="estado">
+                                    <option value="">Seleccione...</option>
+                                    <option value="Option 1">Option 1</option>
+                                    <option value="Option 2">Option 2</option>
+                                    <option value="Option 3">Option 3</option>
+                                    <option value="Option 4">Option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="">
+                            <label class="control-label col-md-5" >Ciudad:</label>
+                            <div class="col-md-7">
+                                <input type="text" class="form-control bg-none" id="city" name="city"   />
+                            </div>
+                        </div>
+                        <div class="">
+                            <label class="control-label col-md-5" >Calle y número:</label>
+                            <div class="col-md-7">
+                                <input type="text" class="form-control bg-none" id="street"  name="street"  />
+                            </div>
+                        </div>
+                        <div class="">
+                            <label class="control-label col-md-5" >Colonia:</label>
+                            <div class="col-md-7">
+                                <input type="text" class="form-control bg-none" id="colonia" name="colonia"   />
+                            </div>
+                        </div>
+                        <div class="">
+                            <label class="control-label col-md-5" >CP:</label>
+                            <div class="col-md-7">
+                                <input type="text" class="form-control bg-none" id="cp"   name="cp"/>
+                            </div>
                         </div>
                     </div>
-                    <div class="">
-                        <label class="control-label col-md-5">Unidad de interés:
-                        </label>
-                        <div class="col-md-7">
-                            <select class="form-control select2me" name="options2">
-                                <option value="">Seleccione...</option>
-                                <option value="Option 1">Option 1</option>
-                                <option value="Option 2">Option 2</option>
-                                <option value="Option 3">Option 3</option>
-                                <option value="Option 4">Option 4</option>
-                            </select>
+                    <div class="col-md-6">
+                        <div class="">
+                            <label class="control-label col-md-7" >Número de unidades de interés:</label>
+                            <div class="col-md-5">
+                                <input type="text" class="form-control bg-none" id="un_int"  name="un_int"  />
+                            </div>
+                        </div>
+                        <div class="">
+                            <label class="control-label col-md-3">Sector:
+                            </label>
+                            <div class="col-md-9">
+                                <select class="form-control select2me" name="sector" id="sector">
+                                    <option value="">Seleccione...</option>
+                                    <option value="Option 1">Option 1</option>
+                                    <option value="Option 2">Option 2</option>
+                                    <option value="Option 3">Option 3</option>
+                                    <option value="Option 4">Option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div >
+                            <label class="control-label col-md-12" >Déjanos tu comentario:</label>
+                            <div class="col-md-12">
+                                <textarea class="form-control bg-none " id="comments" name="comments" >
+                                </textarea>
+                            </div>
+                            <div class="text-right">
+                                <button id="submit" class="submit btn btn-enviar" value="Submit" >ENVIAR</button>
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <label class="control-label col-md-5" >Nombre:</label>
-                        <div class="col-md-7">
-                            <input type="text" class="form-control" id="inputWarning" />
-                        </div>
-                    </div>
-                    <div>
-                        <label class="control-label col-md-5" >Apellidos:</label>
-                        <div class="col-md-7">
-                            <input type="text" class="form-control" id="inputWarning" />
-                        </div>
-                    </div>
-                    <div>
-                        <label class="control-label col-md-5" >Empresa:</label>
-                        <div class="col-md-7">
-                            <input type="text" class="form-control" id="inputWarning" placeholder="Empresa / Trabajo / Escuela / Particular" />
-                        </div>
-                    </div>
-
-                    <div>
-                        <label class="control-label col-md-5" >Teléfono:</label>
-                        <div class="col-md-7">
-                            <input type="text" class="form-control" id="inputWarning"   />
-                        </div>
-                    </div>
-                    <div>
-                        <label class="control-label col-md-5" >Celular:</label>
-                        <div class="col-md-7">
-                            <input type="text" class="form-control" id="inputWarning"   />
-                        </div>
-                    </div>
-                    <div>
-                        <label class="control-label col-md-5" >Correo Electrónico:</label>
-                        <div class="col-md-7">
-                            <input type="text" class="form-control" id="inputWarning"   />
-                        </div>
-                    </div>
-                    <div>
-                        <label class="control-label col-md-5">Estado:
-                        </label>
-                        <div class="col-md-7">
-                            <select class="form-control select2me" name="options2">
-                                <option value="">Seleccione...</option>
-                                <option value="Option 1">Option 1</option>
-                                <option value="Option 2">Option 2</option>
-                                <option value="Option 3">Option 3</option>
-                                <option value="Option 4">Option 4</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div>
-                        <label class="control-label col-md-5" >Ciudad:</label>
-                        <div class="col-md-7">
-                            <input type="text" class="form-control" id="inputWarning"   />
-                        </div>
-                    </div>
-                    <div>
-                        <label class="control-label col-md-5" >Calle y número:</label>
-                        <div class="col-md-7">
-                            <input type="text" class="form-control" id="inputWarning"   />
-                        </div>
-                    </div>
-                    <div>
-                        <label class="control-label col-md-5" >Colonia:</label>
-                        <div class="col-md-7">
-                            <input type="text" class="form-control" id="inputWarning"   />
-                        </div>
-                    </div>
-                    <div>
-                        <label class="control-label col-md-5" >CP:</label>
-                        <div class="col-md-7">
-                            <input type="text" class="form-control" id="inputWarning"   />
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div>
-                        <label class="control-label col-md-7" >Número de unidades de interés:</label>
-                        <div class="col-md-5">
-                            <input type="text" class="form-control" id="inputWarning"   />
-                        </div>
-                    </div>
-                    <div>
-                        <label class="control-label col-md-3">Sector:
-                        </label>
-                        <div class="col-md-9">
-                            <select class="form-control select2me" name="options2">
-                                <option value="">Seleccione...</option>
-                                <option value="Option 1">Option 1</option>
-                                <option value="Option 2">Option 2</option>
-                                <option value="Option 3">Option 3</option>
-                                <option value="Option 4">Option 4</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div>
-                        <label class="control-label col-md-12" >Déjanos tu comentario:</label>
-                        <div class="col-md-12">
-                            <textarea class="form-control">
-                            </textarea>
-                        </div>
-                        <div class="text-right">
-                            <button class="btn btn-enviar">ENVIAR</button>
-                        </div>
-                    </div>
-                </div>
-            </fieldset>
-        </div>
-
-
-
+                
+                </fieldset>
+            </form>
+            
+        </div>         
     </div>
 </div>
+
+           
+
 
 <!-- fin segunda seccion -->
 
@@ -237,7 +239,7 @@
                                     <p>
                                     </p>
                                     <p>
-                                        <img src="img/logo_blanco.png"/>    
+                                        <img src="img/odm_blanco.png"/>    
                                     </p>
                                     <p>
                                         fundados en 1968, somos pioneros en la transportaci&oacute;n
@@ -258,7 +260,7 @@
 </section>
 <style type="text/css">
     #copyright .bottomLine {                
-        background-color: #DF2A2F;
+        background-color: #0C67FF;
         color: white;
     }
     #DF2A2F

@@ -49,9 +49,14 @@
                                                                  class="block block-phoenix-config">
 
                                                                 <div class="container  animaper anim ">
-
-
+                                                                    
                                                                 </div>
+                                                                <div class="col-md-4 text-right text-white ma-top-10">
+                                                                        <i class="fa fa-phone"></i> Tel. +52 (55) 55 26 54 90
+                                                                    </div>
+                                                                    <div class="col-md-8 text-left text-white ma-top-10">
+                                                                        <i class="fa fa-envelope"></i> E-mail. info@adealba.com
+                                                                    </div>
                                                                 <div>
                                                                     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
                                                                     <!--/* Intro  */-->
@@ -60,7 +65,7 @@
                                                                         <div class="container valign">
                                                                             <div class="row intro-container text-center">
                                                                                 <div class="col-md-12 text-center">
-                                                                                    <h2>TECNOLOGÍA <span class="text-theme">ATENCIÓN</span> COMODIDAD</h2>
+                                                                                    <h1>TECNOLOGÍA <span class="text-theme">ATENCIÓN</span> COMODIDAD</h1>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -97,7 +102,7 @@
                                                                     </div>
                                                                     <div class="spb-custom-phoenix-paragraph">
                                                                         <p>
-                                                                            Tecnología notable y amigable con el medio ambiente. Opciones ideales para viajes de mediana y larga distancia con máxima capacidad 
+                                                                            Tecnología rentable y amigable con el medio ambiente. Opciones ideales para viajes de medianas y largas distancias con máxima capacidad.
                                                                         </p>
                                                                     </div>
                                                                 </div>
@@ -119,7 +124,7 @@
                                                                         <p>Rentable, durable, económico y excelente desenpeño.</p>
                                                                         <div class="clearfix"></div>
                                                                     </div>
-                                                                    <img src="http://lorempixel.com/250/250/transport/Dummy-Text/" class="img-responsive" alt="...">
+                                                                    <img src="img/flota/muestra/5.jpg" class="img-responsive" alt="...">
                                                                 </a>
                                                             </div>
                                                         </div>
@@ -131,7 +136,7 @@
                                                                         <p>Rentable, durable, económico y excelente desenpeño.</p>
                                                                         <div class="clearfix"></div>
                                                                     </div>
-                                                                    <img src="http://lorempixel.com/250/251/transport/Dummy-Text/" class="img-responsive" alt="...">
+                                                                    <img src="img/flota/muestra/5.jpg" class="img-responsive" alt="...">
                                                                 </a>
                                                             </div>
                                                         </div>
@@ -143,7 +148,7 @@
                                                                         <p>Rentable, durable, económico y excelente desenpeño.</p>
                                                                         <div class="clearfix"></div>
                                                                     </div>
-                                                                    <img src="http://lorempixel.com/250/252/transport/Dummy-Text/" class="img-responsive" alt="...">
+                                                                    <img src="img/flota/muestra/5.jpg" class="img-responsive" alt="...">
                                                                 </a>
                                                             </div>
                                                         </div>
@@ -155,7 +160,7 @@
                                                                         <p>Rentable, durable, económico y excelente desenpeño.</p>
                                                                         <div class="clearfix"></div>
                                                                     </div>
-                                                                    <img src="http://lorempixel.com/251/250/transport/Dummy-Text/" class="img-responsive" alt="...">
+                                                                    <img src="img/flota/muestra/5.jpg" class="img-responsive" alt="...">
                                                                 </a>
                                                             </div>
                                                         </div>
@@ -171,7 +176,7 @@
                                                                         <p>Rentable, durable, económico y excelente desenpeño.</p>
                                                                         <div class="clearfix"></div>
                                                                     </div>
-                                                                    <img src="http://lorempixel.com/252/250/transport/Dummy-Text/" class="img-responsive" alt="...">
+                                                                    <img src="img/flota/muestra/5.jpg" class="img-responsive" alt="...">
                                                                 </a>
                                                             </div>
                                                         </div>
@@ -184,7 +189,7 @@
                                                                         <p>Rentable, durable, económico y excelente desenpeño.</p>
                                                                         <div class="clearfix"></div>
                                                                     </div>
-                                                                    <img src="http://lorempixel.com/250/250/transport/Dummy-Text/" class="img-responsive" alt="...">
+                                                                    <img src="img/flota/muestra/5.jpg" class="img-responsive" alt="...">
                                                                 </a>
                                                             </div>
                                                         </div>
@@ -197,7 +202,7 @@
                                                                         <p>Rentable, durable, económico y excelente desenpeño.</p>
                                                                         <div class="clearfix"></div>
                                                                     </div>
-                                                                    <img src="http://lorempixel.com/250/250/transport/Dummy-Text/" class="img-responsive" alt="...">
+                                                                    <img src="img/flota/muestra/5.jpg" class="img-responsive" alt="...">
                                                                 </a>
                                                             </div>
                                                         </div>
@@ -210,7 +215,7 @@
                                                                         <p>Rentable, durable, económico y excelente desenpeño.</p>
                                                                         <div class="clearfix"></div>
                                                                     </div>
-                                                                    <img src="http://lorempixel.com/250/250/transport/Dummy-Text/" class="img-responsive" alt="...">
+                                                                    <img src="img/flota/muestra/5.jpg" class="img-responsive" alt="...">
                                                                 </a>
                                                             </div>
                                                         </div>
